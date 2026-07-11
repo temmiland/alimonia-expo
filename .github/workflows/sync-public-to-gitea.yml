@@ -2,7 +2,7 @@ name: Sync public to Gitea
 
 # Other half of the bidirectional mirror for the `public` branch, pulling
 # translator contributions merged here on GitHub back into the private
-# Gitea repo (temmiland/alimonia-app) that `main` lives on.
+# Gitea repo (temmiland/alimonia-expo) that `main` lives on.
 #
 # The other half lives on Gitea: .gitea/workflows/sync-public-to-github.yml
 #
@@ -19,7 +19,7 @@ name: Sync public to Gitea
 #   GITEA_HOST  — host[:port] of the Gitea instance, e.g. "203.0.113.5:3000"
 #                 (no scheme, no path)
 #   GITEA_TOKEN — a Gitea personal access token with write access to
-#                 temmiland/alimonia-app
+#                 temmiland/alimonia-expo
 
 on:
   push:
@@ -44,4 +44,4 @@ jobs:
         env:
           GITEA_HOST: ${{ secrets.GITEA_HOST }}
           GITEA_TOKEN: ${{ secrets.GITEA_TOKEN }}
-        run: git push "https://${GITEA_TOKEN}@${GITEA_HOST}/temmiland/alimonia-app.git" public:public
+        run: git push "https://${GITEA_TOKEN}@${GITEA_HOST}/temmiland/alimonia-expo.git" public:public
