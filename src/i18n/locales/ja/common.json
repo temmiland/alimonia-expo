@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "カップ",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "大さじ",
+    "tsp": "小さじ",
+    "piece_one": "個",
+    "piece_other": "個",
+    "bunch_one": "束",
+    "bunch_other": "束",
+    "pinch_one": "ひとつまみ",
+    "pinch_other": "ひとつまみ",
+    "can_one": "缶",
+    "can_other": "缶",
+    "pack_one": "パック",
+    "pack_other": "パック",
+    "bag_one": "袋",
+    "bag_other": "袋",
+    "clove_one": "片",
+    "clove_other": "片",
+    "slice_one": "枚",
+    "slice_other": "枚"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "野菜・果物",
+      "meat": "肉・肉加工品",
+      "fish": "魚・海産物",
+      "legumes": "豆類・豆腐",
+      "dairy": "乳製品・卵",
+      "fats": "油脂",
+      "bakery": "パン",
+      "grains": "パスタ・米・穀物",
+      "pantry": "保存食・缶詰",
+      "spices": "香辛料・香草",
+      "frozen": "冷凍食品",
+      "drinks": "飲み物",
+      "other": "その他"
+    },
+    "recipe": {
+      "meat": "肉料理",
+      "seafood": "海鮮料理",
+      "vegetarian": "ベジタリアン",
+      "vegan": "ヴィーガン"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "朝食",
+    "lunch": "昼食",
+    "snack": "おやつ",
+    "dinner": "夕食",
+    "snack2": "おやつ2"
+  },
+  "time": {
+    "minutesShort": "{{count}}分",
+    "hoursShort": "{{count}}時間",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "ちょうど今",
+      "minutesAgo": "{{count}}分前",
+      "hoursAgo": "{{count}}時間前",
+      "daysAgo_one": "{{count}}日前",
+      "daysAgo_other": "{{count}}日前",
+      "weeksAgo": "{{count}}週間前"
+    }
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "done": "完了",
+    "back": "戻る",
+    "next": "次へ",
+    "ok": "OK",
+    "retry": "再試行",
+    "edit": "編集",
+    "add": "追加",
+    "remove": "削除",
+    "close": "閉じる",
+    "search": "検索",
+    "loading": "読み込み中 …",
+    "error": "エラー",
+    "errorGeneric": "問題が発生しました。"
+  },
+  "nav": {
+    "recipes": "レシピ",
+    "planner": "献立",
+    "activity": "アクティビティ",
+    "profile": "プロフィール"
+  },
+  "licenses": {
+    "intro": "alimoniaは以下のオープンソースパッケージを使用しています。開発者の皆様に感謝します。"
+  },
+  "social": {
+    "unavailable": "利用できません"
+  },
+  "profile": {
+    "followers": "フォロワー",
+    "following": "フォロー中",
+    "sharedRecipes": "共有したレシピ",
+    "searchUsers": "ユーザーを検索",
+    "noShared": "まだレシピを共有していません。レシピで「共有」をオンにしてみましょう。",
+    "signedOut": {
+      "title": "あなたのレシピを、どこでも",
+      "description": "アカウントを作成すると、レシピのバックアップやデバイス間の同期、共同での計画ができます。",
+      "register": "登録する"
+    },
+    "comingSoon": {
+      "title": "近日公開",
+      "description": "アカウントと複数デバイスの同期、レシピ共有機能は現在準備中です。"
+    }
+  },
+  "household": {
+    "accountRequired": "アカウントが必要です",
+    "accountRequiredDesc": "世帯機能にはアカウントが必要です。",
+    "createTitle": "世帯を作成",
+    "createFailed": "世帯を作成できませんでした。",
+    "namePlaceholder": "世帯の名前",
+    "joinWithCode": "コードで参加",
+    "join": "参加する",
+    "joinFailed": "参加できませんでした",
+    "inviteCode": "招待コード",
+    "inviteMessage": "alimoniaの世帯に参加しませんか？コード: {{code}}",
+    "inviteAction": "招待する",
+    "inviteMember": "メンバーを招待",
+    "members": "メンバー",
+    "membersLoadError": "メンバーを読み込めませんでした。",
+    "noMembers": "メンバーが見つかりません。",
+    "owner": "オーナー",
+    "you": "あなた",
+    "member": "メンバー",
+    "renameSection": "世帯名を変更",
+    "switchSection": "アクティブな世帯を切り替え",
+    "activeTag": "使用中",
+    "joinAnotherSection": "別の世帯に参加",
+    "joinWithInviteCode": "招待コードで参加",
+    "leaveAction": "世帯を抜ける",
+    "leaveTitle": "世帯を抜けますか？",
+    "leaveBody": "これまでの世帯レシピは引き続き閲覧できます。",
+    "leave": "抜ける",
+    "transferOwner": "オーナー権限を譲渡",
+    "transferFailed": "譲渡に失敗しました。",
+    "removeMember": "世帯から削除",
+    "removeConfirmTitle": "本当に削除しますか？",
+    "removeConfirmBody": "{{name}}さんが世帯から削除されます。",
+    "removeFailed": "削除に失敗しました。"
+  },
+  "profileEdit": {
+    "changeAvatar": "プロフィール画像を変更",
+    "fromLibrary": "ライブラリから選択",
+    "handleRule": "@handle：英数字のみ使用できます。",
+    "bioTooLong": "自己紹介は150文字以内で入力してください。",
+    "saveFailed": "保存に失敗しました（ハンドルが使用済みの可能性があります）。",
+    "handleHint": "変更すると、以前のハンドルは7日間予約されます。",
+    "bio": "自己紹介",
+    "privateProfile": "非公開プロフィール",
+    "privateProfileHint": "フォロワーは承認制になります。"
+  },
+  "followList": {
+    "unfollow": "フォロー解除",
+    "empty": "まだ誰もいません。"
+  },
+  "userSearch": {
+    "placeholder": "@ハンドルまたは名前",
+    "noResults": "見つかりませんでした。"
+  },
+  "foreignProfile": {
+    "notFound": "プロフィールが見つかりません",
+    "following": "フォロー中",
+    "requested": "リクエスト送信済み",
+    "follow": "フォロー",
+    "more": "もっと見る",
+    "private": "このプロフィールは非公開です",
+    "noShared": "共有レシピはまだありません",
+    "block": "ブロック",
+    "report": "報告",
+    "reportReason": "報告理由",
+    "reportSpam": "スパム",
+    "reportInappropriate": "不適切なコンテンツ",
+    "reportFake": "なりすまし・偽プロフィール",
+    "thanks": "ありがとうございます",
+    "reportReceived": "報告を受け付けました。確認のうえ対応します。"
+  },
+  "notifications": {
+    "follow": "@{{handle}}さんがあなたをフォローしました",
+    "followRequest": "@{{handle}}さんがフォローをリクエストしました",
+    "like": "@{{handle}}さんがレシピ «{{title}}» にいいねしました",
+    "remix": "@{{handle}}さんが «{{title}}» をリミックスしました",
+    "signInTitle": "サインイン",
+    "signInDescription": "アカウントを作成すると、フォロー・いいね・リミックスの通知を受け取れます。",
+    "markAllRead": "すべて既読にする",
+    "requests": "リクエスト",
+    "accept": "承認",
+    "reject": "拒否",
+    "emptyTitle": "通知はありません",
+    "emptyDescription": "あなたのレシピに関する出来事がここに表示されます。"
+  },
+  "settings": {
+    "title": "設定",
+    "section": {
+      "account": "アカウント",
+      "household": "世帯",
+      "languageRegion": "言語と地域",
+      "appearance": "見た目",
+      "dataSync": "データと同期",
+      "help": "ヘルプ",
+      "about": "アプリについて",
+      "accountActions": "アカウント",
+      "dangerZone": "危険な操作"
+    },
+    "editProfile": "プロフィールを編集",
+    "household": {
+      "owner": "あなたがオーナーです",
+      "member": "メンバー",
+      "createOrJoin": "世帯を作成・参加する"
+    },
+    "language": {
+      "title": "言語",
+      "system": "システム",
+      "restartTitle": "再起動が必要です",
+      "restartBody": "レイアウトの表示方向を完全に反映するには、アプリを再起動してください。"
+    },
+    "measurement": {
+      "title": "単位",
+      "system": "システム",
+      "metric": "メートル法",
+      "imperial": "ヤード・ポンド法"
+    },
+    "appIcon": {
+      "title": "アプリアイコン",
+      "subtitle": "ホーム画面でのalimoniaの見え方を選択してください。",
+      "icon": "デフォルト",
+      "pride": "プライド"
+    },
+    "theme": {
+      "title": "テーマ",
+      "system": "システム",
+      "light": "ライト",
+      "dark": "ダーク"
+    },
+    "mealSlots": {
+      "title": "食事",
+      "description": "毎日計画する食事を選んで、好きな名前を付けましょう。",
+      "rename": "名前を変更",
+      "renameTitle": "食事名を変更"
+    },
+    "sync": {
+      "status": "同期状態",
+      "errors": "エラー{{count}}件",
+      "pending": "保留中{{count}}件",
+      "synced": "同期済み",
+      "retry": "同期を再試行",
+      "discard": "失敗分を破棄"
+    },
+    "trash": "ゴミ箱",
+    "showOnboarding": "イントロを再表示",
+    "version": "バージョン",
+    "licenses": "オープンソースライセンス",
+    "logout": {
+      "title": "ログアウトしますか？",
+      "body": "ローカルデータはこの端末に残ります。",
+      "action": "ログアウト"
+    },
+    "wipe": {
+      "action": "すべてのデータを削除",
+      "subtitle": "ローカルデータを完全に削除します",
+      "confirm1Title": "すべてのデータを削除しますか？",
+      "confirm1Body": "すべてのレシピ、献立、買い物リスト、設定がこの端末から完全に削除されます。未同期の変更は失われ、ログアウトも行われます。",
+      "confirm2Title": "本当にすべて削除しますか？",
+      "confirm2Body": "この操作は取り消せません。",
+      "confirmFinal": "完全に削除する",
+      "failed": "データを完全に削除できませんでした。"
+    },
+    "discardSync": {
+      "title": "失敗した変更を破棄しますか？",
+      "body": "これらの変更は端末には残りますが、クラウドには同期されなくなります。",
+      "action": "破棄"
+    }
+  },
+  "shopping": {
+    "title": "買い物リスト",
+    "week": "第{{n}}週",
+    "composition": "内訳",
+    "fromRecipes_one": "{{count}}件のレシピから",
+    "fromRecipes_other": "{{count}}件のレシピから",
+    "manual": "手入力",
+    "addManual": "手入力で追加",
+    "changeCategory": "カテゴリーを変更",
+    "empty": {
+      "title": "まだ買うものがありません",
+      "description": "今週のレシピを計画すると、材料が自動でここに表示されます。"
+    }
+  },
+  "a11y": {
+    "decrease": "減らす",
+    "increase": "増やす"
+  },
+  "manualItem": {
+    "title": "アイテムを追加",
+    "name": "名前",
+    "namePlaceholder": "例: オリーブオイル",
+    "quantity": "数量",
+    "optional": "任意",
+    "unit": "単位",
+    "unitPlaceholder": "例: ml",
+    "category": "カテゴリー"
+  },
+  "addToPlan": {
+    "title": "献立に追加",
+    "day": "日",
+    "meal": "食事"
+  },
+  "recipePicker": {
+    "titleFor": "{{meal}}のレシピ",
+    "schedule": "予定に追加",
+    "copyToHousehold": "世帯にコピー",
+    "noRecipes": "レシピが見つかりません。"
+  },
+  "visibility": {
+    "title": "公開範囲",
+    "message": "このレシピを誰に見せますか？",
+    "private": "非公開（自分のみ）",
+    "followers": "フォロワーのみ",
+    "public": "全体に公開"
+  },
+  "folder": {
+    "newTitle": "新しいフォルダ",
+    "namePlaceholderLabel": "フォルダ名",
+    "namePlaceholder": "例: お気に入り",
+    "color": "カラー",
+    "icon": "アイコン",
+    "create": "作成",
+    "inFolder": "フォルダに追加",
+    "none": "フォルダはまだありません。",
+    "createNew": "新しいフォルダを作成"
+  },
+  "recipe": {
+    "servings": "人数分",
+    "ingredients": "材料",
+    "steps": "作り方"
+  },
+  "onboarding": {
+    "skip": "スキップ",
+    "start": "はじめる",
+    "slides": {
+      "flow": {
+        "title": "買い物リストを書く代わりに献立を計画しよう",
+        "description": "レシピを保存して1週間の計画を立てれば、買い物リストが自動で作られます。",
+        "v1": "レシピ",
+        "v2": "献立",
+        "v3": "買い物リスト"
+      },
+      "import": {
+        "title": "レシピを数秒で取り込み",
+        "description": "レシピのリンクを貼るだけ。タイトル、画像、材料、作り方が自動で取り込まれます。"
+      },
+      "plan": {
+        "title": "1週間を計画しよう",
+        "description": "レシピを曜日ごとに振り分けて、これからの食事を把握できます。",
+        "v1": "月 – パスタ",
+        "v2": "火 – カレー",
+        "v3": "水 – スープ"
+      },
+      "shop": {
+        "title": "買い物リストを自動作成",
+        "description": "買い物リストは献立から直接作られます。重複する材料は自動でまとめられます。",
+        "v1": "牛乳",
+        "v2": "トマト",
+        "v3": "パスタ"
+      }
+    }
+  },
+  "auth": {
+    "login": "ログイン",
+    "createAccount": "アカウントを作成",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "displayName": "表示名",
+    "displayNamePlaceholder": "呼んでほしい名前",
+    "handlePlaceholder": "一意の英数字ハンドル",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccountRegister": "アカウントをお持ちでないですか？登録する",
+    "haveAccountLogin": "すでにアカウントをお持ちですか？ログイン",
+    "loginFailed": "ログインに失敗しました。",
+    "registerFailed": "登録に失敗しました。",
+    "enterEmailFirst": "まずメールアドレスを入力してください。",
+    "enterDisplayName": "表示名を入力してください。",
+    "handleRule": "@handle：英数字のみ（3〜20文字）。",
+    "emailSentTitle": "メールを送信しました",
+    "emailSentBody": "受信ボックスでリセット用リンクを確認してください。",
+    "sendError": "メール送信時にエラーが発生しました。",
+    "almostDoneTitle": "もう少しです",
+    "almostDoneBody": "確認メールを送信しました。ログインするにはメールを確認してください。",
+    "profileVisibility": "プロフィールの公開範囲",
+    "publicDesc": "共有レシピは全員に表示されます",
+    "privateDesc": "承認済みのフォロワーのみ"
+  },
+  "planner": {
+    "today": "今日",
+    "personal": "個人",
+    "addRecipe": "レシピを追加",
+    "servingsCount_one": "{{count}}人分",
+    "servingsCount_other": "{{count}}人分",
+    "viewRecipe": "レシピを見る",
+    "changeServings": "人数分を変更",
+    "removeFromPlan": "献立から削除",
+    "firstRun": {
+      "title": "1週間を計画しよう",
+      "description": "枠をタップしてレシピを追加しましょう。",
+      "action": "献立を開く"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "マイレシピ",
+      "household": "世帯",
+      "saved": "保存済み"
+    },
+    "sort": {
+      "recent": "新しい順",
+      "alpha": "A–Z",
+      "category": "カテゴリー"
+    },
+    "sortTitle": "並べ替え",
+    "addRecipe": "レシピを追加",
+    "importUrl": "URLから取り込み",
+    "createManual": "手動で作成",
+    "scanImage": "写真またはPDFからスキャン",
+    "view": "表示",
+    "allFolders": "すべて",
+    "householdEmpty": {
+      "title": "一緒に作って計画しよう",
+      "description": "世帯レシピや共有の献立、共有の買い物リストには世帯が必要です。",
+      "create": "世帯を作成",
+      "createAccount": "アカウントを作成",
+      "enterCode": "招待コードを入力"
+    },
+    "empty": {
+      "title": "レシピはまだありません",
+      "description": "リンクから取り込むか、手動で作成しましょう。",
+      "savedTitle": "保存したレシピはまだありません",
+      "savedDescription": "ハートマークをつけたレシピがここに表示されます。"
+    },
+    "folderMenu": {
+      "open": "開く",
+      "assign": "レシピを割り当て",
+      "rename": "名前を変更",
+      "renameTitle": "フォルダ名を変更"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "レシピが見つかりません",
+    "notFoundDescription": "このレシピは削除された可能性があります。",
+    "deleteTitle": "レシピを削除しますか？",
+    "deleteBody": "ゴミ箱に移動します。",
+    "remixCreatedTitle": "リミックスを作成しました",
+    "remixCreatedBody": "あなたのライブラリにコピーが追加されました。",
+    "byAuthor": "@{{handle}}さんのレシピ",
+    "base": "基準: {{count}}",
+    "noIngredients": "材料が登録されていません。",
+    "remixOf": "他のレシピのリミックス",
+    "addToPlan": "献立に追加",
+    "shareLabel": "共有設定: {{visibility}}",
+    "remix": "リミックス"
+  },
+  "recipeForm": {
+    "titleRequired": "タイトルを入力してください。",
+    "gallery": "ギャラリー",
+    "camera": "カメラ",
+    "titleField": "タイトル",
+    "titlePlaceholder": "例: パスタ・アル・フォルノ",
+    "description": "説明",
+    "descriptionPlaceholder": "簡単な説明（任意）",
+    "prepMin": "準備時間（分）",
+    "cookMin": "調理時間（分）",
+    "ingredientPlaceholder": "例: 小麦粉 200g",
+    "stepPlaceholder": "次のステップ…",
+    "saveIn": "保存先",
+    "private": "非公開",
+    "household": "世帯",
+    "moveToSteps": "作り方に移動",
+    "moveToIngredients": "材料に移動",
+    "headingPlaceholder": "例: ソース用",
+    "toggleHeading": "見出しにする"
+  },
+  "recipeNew": {
+    "title": "新しいレシピ",
+    "submit": "レシピを保存"
+  },
+  "recipeEdit": {
+    "title": "レシピを編集",
+    "submit": "変更を保存"
+  },
+  "folderScreen": {
+    "fallbackName": "フォルダ",
+    "editRecipes": "レシピを編集",
+    "noRecipesTitle": "レシピがありません",
+    "noRecipesDescription": "まずレシピを作成してください。",
+    "emptyTitle": "フォルダは空です",
+    "emptyDescription": "右上の鉛筆アイコンをタップしてレシピを追加しましょう。"
+  },
+  "recipeImport": {
+    "title": "レシピを取り込む",
+    "import": "取り込む",
+    "noneDetected": "材料・作り方を自動で検出できませんでした — 手動で追加してください。",
+    "failed": "取り込みに失敗しました。",
+    "failedManual": "レシピは手動で作成できます。",
+    "urlLabel": "レシピのURL",
+    "hint": "レシピページのリンクを貼り付けるか、Instagramの投稿をアプリから直接共有してください。タイトル、画像、材料、作り方が自動で取り込まれます。",
+    "loading": "レシピを読み込んでいます…",
+    "save": "レシピを保存"
+  },
+  "recipeScan": {
+    "title": "写真またはPDFからレシピを作成",
+    "hint": "同じレシピのスクリーンショットを1枚以上、またはPDFを選んでください。テキストはデバイス上で直接認識されます — アップロードは行われません。",
+    "addFromGallery": "ギャラリーから選択",
+    "takePhoto": "写真を撮る",
+    "addFromPdf": "PDFを選択",
+    "preparingPdf": "PDFを準備しています…",
+    "pdfFailed": "このPDFを読み取れませんでした。レシピは手動で作成できます。",
+    "pdfTruncated": "最初の{{count}}ページのみ処理されました。",
+    "scan": "レシピを認識",
+    "removeImage": "画像を削除",
+    "loading": "テキストを認識しています…",
+    "noneDetected": "材料・手順を自動で検出できませんでした — 手動で入力してください。",
+    "failed": "テキスト認識に失敗しました。",
+    "failedManual": "レシピは手動で作成できます。",
+    "save": "レシピを保存"
+  },
+  "trash": {
+    "title": "ゴミ箱",
+    "emptyAll": "ゴミ箱を空にする",
+    "tabPrivate": "個人",
+    "tabHousehold": "世帯",
+    "emptyTitle": "ゴミ箱は空です",
+    "emptyDescription": "削除したレシピがここに表示されます。",
+    "restore": "復元",
+    "deletedOn": "削除日: {{date}}",
+    "deleteForever": "完全に削除",
+    "deleteOneTitle": "完全に削除しますか？",
+    "deleteOneBody": "このレシピは完全に削除されます。",
+    "emptyAllTitle": "ゴミ箱を空にしますか？",
+    "emptyAllBody": "すべてのレシピが完全に削除されます。"
+  }
+}

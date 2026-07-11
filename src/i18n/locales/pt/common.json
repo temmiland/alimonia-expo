@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "xícara",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "c. de sopa",
+    "tsp": "c. de chá",
+    "piece_one": "un.",
+    "piece_other": "un.",
+    "bunch_one": "molho",
+    "bunch_other": "molhos",
+    "pinch_one": "pitada",
+    "pinch_other": "pitadas",
+    "can_one": "lata",
+    "can_other": "latas",
+    "pack_one": "pct.",
+    "pack_other": "pct.",
+    "bag_one": "saco",
+    "bag_other": "sacos",
+    "clove_one": "dente",
+    "clove_other": "dentes",
+    "slice_one": "fatia",
+    "slice_other": "fatias"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Frutas & vegetais",
+      "meat": "Carnes & charcutaria",
+      "fish": "Peixe & frutos do mar",
+      "legumes": "Leguminosas & tofu",
+      "dairy": "Lacticínios & ovos",
+      "fats": "Gorduras & óleos",
+      "bakery": "Pão & padaria",
+      "grains": "Massas, arroz & cereais",
+      "pantry": "Despensa & conservas",
+      "spices": "Especiarias & ervas",
+      "frozen": "Congelados",
+      "drinks": "Bebidas",
+      "other": "Outros"
+    },
+    "recipe": {
+      "meat": "Carne",
+      "seafood": "Frutos do mar",
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Café da manhã",
+    "lunch": "Almoço",
+    "snack": "Lanche",
+    "dinner": "Jantar",
+    "snack2": "Lanche 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} min",
+    "hoursShort": "{{count}} h",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "agora mesmo",
+      "minutesAgo": "há {{count}} min",
+      "hoursAgo": "há {{count}} h",
+      "daysAgo_one": "há {{count}} dia",
+      "daysAgo_other": "há {{count}} dias",
+      "weeksAgo": "há {{count}} sem."
+    }
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "done": "Concluído",
+    "back": "Voltar",
+    "next": "Avançar",
+    "ok": "OK",
+    "retry": "Tentar novamente",
+    "edit": "Editar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "close": "Fechar",
+    "search": "Pesquisar",
+    "loading": "Carregando …",
+    "error": "Erro",
+    "errorGeneric": "Algo deu errado."
+  },
+  "nav": {
+    "recipes": "Receitas",
+    "planner": "Planejamento",
+    "activity": "Atividade",
+    "profile": "Perfil"
+  },
+  "licenses": {
+    "intro": "O alimonia utiliza os seguintes pacotes de código aberto. Muito obrigado aos seus autores."
+  },
+  "social": {
+    "unavailable": "Já não está disponível"
+  },
+  "profile": {
+    "followers": "Seguidores",
+    "following": "A seguir",
+    "sharedRecipes": "Receitas partilhadas",
+    "searchUsers": "Pesquisar utilizadores",
+    "noShared": "Ainda não partilhaste nenhuma receita. Ativa «Partilhar» numa receita.",
+    "signedOut": {
+      "title": "A tua conta, as tuas receitas em qualquer lugar",
+      "description": "Cria uma conta para fazer backup das tuas receitas, sincronizá-las entre dispositivos e planear em conjunto.",
+      "register": "Registar"
+    },
+    "comingSoon": {
+      "title": "Brevemente",
+      "description": "As funcionalidades opcionais de conta e sincronização entre dispositivos, além da partilha de receitas, estão atualmente em desenvolvimento."
+    }
+  },
+  "household": {
+    "accountRequired": "Conta necessária",
+    "accountRequiredDesc": "As casas precisam de uma conta.",
+    "createTitle": "Criar casa",
+    "createFailed": "Não foi possível criar a casa.",
+    "namePlaceholder": "Nome da casa",
+    "joinWithCode": "Entrar com código",
+    "join": "Entrar",
+    "joinFailed": "Falha ao entrar",
+    "inviteCode": "Código de convite",
+    "inviteMessage": "Junta-te à minha casa no alimonia! Código: {{code}}",
+    "inviteAction": "Convidar",
+    "inviteMember": "Convidar membro",
+    "members": "MEMBROS",
+    "membersLoadError": "Não foi possível carregar os membros.",
+    "noMembers": "Nenhum membro encontrado.",
+    "owner": "Proprietário",
+    "you": "Tu",
+    "member": "Membro",
+    "renameSection": "RENOMEAR CASA",
+    "switchSection": "MUDAR CASA ATIVA",
+    "activeTag": "ativa",
+    "joinAnotherSection": "ENTRAR EM OUTRA CASA",
+    "joinWithInviteCode": "Entrar com código de convite",
+    "leaveAction": "Saír da casa",
+    "leaveTitle": "Saír da casa?",
+    "leaveBody": "Manterás acesso de leitura às receitas existentes da casa.",
+    "leave": "Saír",
+    "transferOwner": "Transferir propriedade",
+    "transferFailed": "A transferência falhou.",
+    "removeMember": "Remover da casa",
+    "removeConfirmTitle": "Remover mesmo?",
+    "removeConfirmBody": "{{name}} será removido da casa.",
+    "removeFailed": "A remoção falhou."
+  },
+  "profileEdit": {
+    "changeAvatar": "Alterar foto de perfil",
+    "fromLibrary": "Escolher da galeria",
+    "handleRule": "@handle: apenas letras e números.",
+    "bioTooLong": "A bio pode ter no máximo 150 caracteres.",
+    "saveFailed": "Falha ao salvar (o handle já pode estar em uso).",
+    "handleHint": "Ao alterá-lo, o handle antigo fica reservado por 7 dias.",
+    "bio": "Bio",
+    "privateProfile": "Perfil privado",
+    "privateProfileHint": "Os seguidores precisam de ser aprovados."
+  },
+  "followList": {
+    "unfollow": "Deixar de seguir",
+    "empty": "Ainda ninguém aqui."
+  },
+  "userSearch": {
+    "placeholder": "@handle ou nome",
+    "noResults": "Sem resultados."
+  },
+  "foreignProfile": {
+    "notFound": "Nenhum perfil encontrado",
+    "following": "A seguir",
+    "requested": "Pedido enviado",
+    "follow": "Seguir",
+    "more": "Mais",
+    "private": "Este perfil é privado",
+    "noShared": "Ainda sem receitas partilhadas",
+    "block": "Bloquear",
+    "report": "Denunciar",
+    "reportReason": "Motivo da denúncia",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Conteúdo inadequado",
+    "reportFake": "Perfil falso",
+    "thanks": "Obrigado",
+    "reportReceived": "A tua denúncia foi registada e será analisada."
+  },
+  "notifications": {
+    "follow": "@{{handle}} agora segue-te",
+    "followRequest": "@{{handle}} quer seguir-te",
+    "like": "@{{handle}} gostou da tua receita «{{title}}»",
+    "remix": "@{{handle}} remisturou «{{title}}»",
+    "signInTitle": "Entrar",
+    "signInDescription": "Com uma conta vais receber notificações de novos seguidores, gostos e remisturas.",
+    "markAllRead": "Marcar tudo como lido",
+    "requests": "PEDIDOS",
+    "accept": "Aceitar",
+    "reject": "Rejeitar",
+    "emptyTitle": "Sem notificações",
+    "emptyDescription": "Aqui vais ver o que acontece à volta das tuas receitas."
+  },
+  "settings": {
+    "title": "Configurações",
+    "section": {
+      "account": "Conta",
+      "household": "Casa",
+      "languageRegion": "Idioma e região",
+      "appearance": "Aparência",
+      "dataSync": "Dados e sincronização",
+      "help": "Ajuda",
+      "about": "Sobre",
+      "accountActions": "Conta",
+      "dangerZone": "Zona de risco"
+    },
+    "editProfile": "Editar perfil",
+    "household": {
+      "owner": "És o proprietário",
+      "member": "Membro",
+      "createOrJoin": "Criar ou entrar numa casa"
+    },
+    "language": {
+      "title": "Idioma",
+      "system": "Sistema",
+      "restartTitle": "Reinício necessário",
+      "restartBody": "Reinicia a app para que a direção do texto seja aplicada por completo."
+    },
+    "measurement": {
+      "title": "Unidades",
+      "system": "Sistema",
+      "metric": "Métrico",
+      "imperial": "Imperial"
+    },
+    "appIcon": {
+      "title": "Ícone do app",
+      "subtitle": "Escolha a aparência do ícone do alimonia na tela inicial.",
+      "icon": "Padrão",
+      "pride": "Orgulho"
+    },
+    "theme": {
+      "title": "Tema",
+      "system": "Sistema",
+      "light": "Claro",
+      "dark": "Escuro"
+    },
+    "mealSlots": {
+      "title": "Refeições",
+      "description": "Escolhe que refeições planeias todos os dias e dá-lhes um nome próprio.",
+      "rename": "Renomear",
+      "renameTitle": "Renomear refeição"
+    },
+    "sync": {
+      "status": "Estado da sincronização",
+      "errors": "{{count}} erros",
+      "pending": "{{count}} pendentes",
+      "synced": "Sincronizado",
+      "retry": "Tentar sincronizar novamente",
+      "discard": "Descartar falhas"
+    },
+    "trash": "Lixo",
+    "showOnboarding": "Ver introdução novamente",
+    "version": "Versão",
+    "licenses": "Licenças de código aberto",
+    "logout": {
+      "title": "Encerrar sessão?",
+      "body": "Os dados locais permanecem neste dispositivo.",
+      "action": "Encerrar sessão"
+    },
+    "wipe": {
+      "action": "Apagar todo o armazenamento",
+      "subtitle": "Remove permanentemente todos os dados locais",
+      "confirm1Title": "Apagar todo o armazenamento?",
+      "confirm1Body": "Todas as receitas, planos, listas de compras e configurações serão permanentemente removidos deste dispositivo. As alterações não sincronizadas serão perdidas. Também terás a sessão encerrada.",
+      "confirm2Title": "Apagar mesmo tudo?",
+      "confirm2Body": "Este passo não pode ser desfeito.",
+      "confirmFinal": "Apagar permanentemente",
+      "failed": "Não foi possível apagar completamente o armazenamento."
+    },
+    "discardSync": {
+      "title": "Descartar alterações com falha?",
+      "body": "Estas alterações permanecem no dispositivo, mas deixarão de sincronizar com a nuvem.",
+      "action": "Descartar"
+    }
+  },
+  "shopping": {
+    "title": "Lista de compras",
+    "week": "Sem. {{n}}",
+    "composition": "Detalhe",
+    "fromRecipes_one": "de {{count}} receita",
+    "fromRecipes_other": "de {{count}} receitas",
+    "manual": "manual",
+    "addManual": "Adicionar manualmente",
+    "changeCategory": "Alterar categoria",
+    "empty": {
+      "title": "Ainda nada para comprar",
+      "description": "Planeia receitas para esta semana — os ingredientes aparecerão aqui automaticamente."
+    }
+  },
+  "a11y": {
+    "decrease": "Diminuir",
+    "increase": "Aumentar"
+  },
+  "manualItem": {
+    "title": "Adicionar item",
+    "name": "Nome",
+    "namePlaceholder": "ex. azeite",
+    "quantity": "Quantidade",
+    "optional": "opcional",
+    "unit": "Unidade",
+    "unitPlaceholder": "ex. ml",
+    "category": "Categoria"
+  },
+  "addToPlan": {
+    "title": "Adicionar ao planejamento",
+    "day": "Dia",
+    "meal": "Refeição"
+  },
+  "recipePicker": {
+    "titleFor": "Receita para {{meal}}",
+    "schedule": "Agendar",
+    "copyToHousehold": "Copiar para a casa",
+    "noRecipes": "Nenhuma receita encontrada."
+  },
+  "visibility": {
+    "title": "Visibilidade",
+    "message": "Quem pode ver esta receita?",
+    "private": "Privada (só eu)",
+    "followers": "Só seguidores",
+    "public": "Pública"
+  },
+  "folder": {
+    "newTitle": "Nova pasta",
+    "namePlaceholderLabel": "Nome da pasta",
+    "namePlaceholder": "ex. Favoritas",
+    "color": "Cor",
+    "icon": "Ícone",
+    "create": "Criar",
+    "inFolder": "Adicionar à pasta",
+    "none": "Ainda sem pastas.",
+    "createNew": "Criar nova pasta"
+  },
+  "recipe": {
+    "servings": "Porções",
+    "ingredients": "Ingredientes",
+    "steps": "Preparo"
+  },
+  "onboarding": {
+    "skip": "Pular",
+    "start": "Vamos lá",
+    "slides": {
+      "flow": {
+        "title": "Planeia refeições em vez de escrever listas de compras",
+        "description": "Guarda receitas, planeia a tua semana e recebe automaticamente a lista de compras correspondente.",
+        "v1": "Receita",
+        "v2": "Planejamento",
+        "v3": "Lista de compras"
+      },
+      "import": {
+        "title": "Importa receitas em segundos",
+        "description": "Basta colar um link de receita. Título, imagem, ingredientes e passos são importados automaticamente."
+      },
+      "plan": {
+        "title": "Planeia a tua semana",
+        "description": "Distribui receitas pelos diferentes dias e mantém-te a par das próximas refeições.",
+        "v1": "Seg – Massa",
+        "v2": "Ter – Caril",
+        "v3": "Qua – Sopa"
+      },
+      "shop": {
+        "title": "Lista de compras automática",
+        "description": "A lista de compras é criada diretamente a partir do teu planejamento. Ingredientes duplicados são combinados automaticamente.",
+        "v1": "Leite",
+        "v2": "Tomates",
+        "v3": "Massa"
+      }
+    }
+  },
+  "auth": {
+    "login": "Entrar",
+    "createAccount": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "displayName": "Nome de exibição",
+    "displayNamePlaceholder": "Como gostarias de ser chamado",
+    "handlePlaceholder": "único, apenas letras e números",
+    "forgotPassword": "Esqueceste a senha?",
+    "noAccountRegister": "Ainda não tens conta? Regista-te",
+    "haveAccountLogin": "Já tens conta? Entrar",
+    "loginFailed": "Falha ao entrar.",
+    "registerFailed": "Falha no registo.",
+    "enterEmailFirst": "Indica primeiro o teu e-mail.",
+    "enterDisplayName": "Indica um nome de exibição.",
+    "handleRule": "@handle: apenas letras e números (3–20 caracteres).",
+    "emailSentTitle": "E-mail enviado",
+    "emailSentBody": "Verifica a tua caixa de entrada para o link de redefinição.",
+    "sendError": "Erro ao enviar o e-mail.",
+    "almostDoneTitle": "Quase lá",
+    "almostDoneBody": "Enviámos-te um e-mail de confirmação. Confirma-o para entrar.",
+    "profileVisibility": "Visibilidade do perfil",
+    "publicDesc": "Receitas partilhadas visíveis para todos",
+    "privateDesc": "Só seguidores confirmados"
+  },
+  "planner": {
+    "today": "Hoje",
+    "personal": "Pessoal",
+    "addRecipe": "Adicionar receita",
+    "servingsCount_one": "{{count}} porção",
+    "servingsCount_other": "{{count}} porções",
+    "viewRecipe": "Ver receita",
+    "changeServings": "Alterar porções",
+    "removeFromPlan": "Remover do planejamento",
+    "firstRun": {
+      "title": "Planeia a tua semana",
+      "description": "Toca num espaço para adicionar uma receita.",
+      "action": "Abrir planejamento"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Minhas",
+      "household": "Casa",
+      "saved": "Guardadas"
+    },
+    "sort": {
+      "recent": "Mais recentes",
+      "alpha": "A–Z",
+      "category": "Categoria"
+    },
+    "sortTitle": "Ordenar",
+    "addRecipe": "Adicionar receita",
+    "importUrl": "Importar URL",
+    "createManual": "Criar manualmente",
+    "scanImage": "Digitalizar foto ou PDF",
+    "view": "Ver",
+    "allFolders": "Todas",
+    "householdEmpty": {
+      "title": "Cozinhem e planeiem juntos",
+      "description": "Receitas da casa, planejamento partilhado e lista de compras partilhada — para isso precisas de uma casa.",
+      "create": "Criar casa",
+      "createAccount": "Criar conta",
+      "enterCode": "Inserir código de convite"
+    },
+    "empty": {
+      "title": "Ainda sem receitas",
+      "description": "Importa receitas por link ou cria-as manualmente.",
+      "savedTitle": "Ainda nada guardado",
+      "savedDescription": "As receitas que marcares com o coração aparecem aqui."
+    },
+    "folderMenu": {
+      "open": "Abrir",
+      "assign": "Atribuir receitas",
+      "rename": "Renomear",
+      "renameTitle": "Renomear pasta"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Receita não encontrada",
+    "notFoundDescription": "Esta receita pode ter sido eliminada.",
+    "deleteTitle": "Eliminar receita?",
+    "deleteBody": "Vai ser movida para o lixo.",
+    "remixCreatedTitle": "Remistura criada",
+    "remixCreatedBody": "Uma cópia foi adicionada à tua biblioteca.",
+    "byAuthor": "por @{{handle}}",
+    "base": "Base: {{count}}",
+    "noIngredients": "Sem ingredientes registados.",
+    "remixOf": "Remistura de outra receita",
+    "addToPlan": "Adicionar ao planejamento",
+    "shareLabel": "Partilha: {{visibility}}",
+    "remix": "Remisturar"
+  },
+  "recipeForm": {
+    "titleRequired": "Indica um título.",
+    "gallery": "Galeria",
+    "camera": "Câmara",
+    "titleField": "Título",
+    "titlePlaceholder": "ex. Pasta al Forno",
+    "description": "Descrição",
+    "descriptionPlaceholder": "Descrição curta (opcional)",
+    "prepMin": "Preparo (min)",
+    "cookMin": "Cozedura (min)",
+    "ingredientPlaceholder": "ex. 200 g de farinha",
+    "stepPlaceholder": "Próximo passo…",
+    "saveIn": "Guardar em",
+    "private": "Privada",
+    "household": "Casa",
+    "moveToSteps": "Mover para o preparo",
+    "moveToIngredients": "Mover para os ingredientes",
+    "headingPlaceholder": "ex. Para o molho",
+    "toggleHeading": "Transformar em título"
+  },
+  "recipeNew": {
+    "title": "Nova receita",
+    "submit": "Guardar receita"
+  },
+  "recipeEdit": {
+    "title": "Editar receita",
+    "submit": "Guardar alterações"
+  },
+  "folderScreen": {
+    "fallbackName": "Pasta",
+    "editRecipes": "Editar receitas",
+    "noRecipesTitle": "Sem receitas",
+    "noRecipesDescription": "Cria primeiro algumas receitas.",
+    "emptyTitle": "A pasta está vazia",
+    "emptyDescription": "Toca no lápis no canto superior direito para adicionar receitas."
+  },
+  "recipeImport": {
+    "title": "Importar receita",
+    "import": "Importar",
+    "noneDetected": "Não foi possível detetar ingredientes/passos automaticamente — adiciona-os manualmente.",
+    "failed": "Falha na importação.",
+    "failedManual": "Podes criar a receita manualmente.",
+    "urlLabel": "URL da receita",
+    "hint": "Cola um link de uma página de receitas, ou partilha uma publicação do Instagram diretamente a partir da app. Título, imagem, ingredientes e passos são importados automaticamente.",
+    "loading": "A carregar receita…",
+    "save": "Guardar receita"
+  },
+  "recipeScan": {
+    "title": "Receita a partir de uma foto ou PDF",
+    "hint": "Escolhe uma ou várias capturas de ecrã da mesma receita, ou um PDF. O texto é reconhecido diretamente no teu dispositivo — nada é enviado.",
+    "addFromGallery": "Escolher da galeria",
+    "takePhoto": "Tirar foto",
+    "addFromPdf": "Escolher PDF",
+    "preparingPdf": "A preparar PDF…",
+    "pdfFailed": "Não foi possível ler este PDF. Podes completar a receita manualmente.",
+    "pdfTruncated": "Só foram processadas as primeiras {{count}} páginas.",
+    "scan": "Reconhecer receita",
+    "removeImage": "Remover imagem",
+    "loading": "A reconhecer texto…",
+    "noneDetected": "Não foi possível detetar ingredientes/passos automaticamente — completa manualmente.",
+    "failed": "O reconhecimento de texto falhou.",
+    "failedManual": "Podes criar a receita manualmente.",
+    "save": "Guardar receita"
+  },
+  "trash": {
+    "title": "Lixo",
+    "emptyAll": "Esvaziar lixo",
+    "tabPrivate": "Privadas",
+    "tabHousehold": "Casa",
+    "emptyTitle": "O lixo está vazio",
+    "emptyDescription": "As receitas eliminadas aparecem aqui.",
+    "restore": "Restaurar",
+    "deletedOn": "Eliminada em: {{date}}",
+    "deleteForever": "Eliminar definitivamente",
+    "deleteOneTitle": "Eliminar definitivamente?",
+    "deleteOneBody": "Esta receita será removida permanentemente.",
+    "emptyAllTitle": "Esvaziar o lixo?",
+    "emptyAllBody": "Todas as receitas serão eliminadas permanentemente."
+  }
+}

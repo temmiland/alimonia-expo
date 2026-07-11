@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "میلی‌گرم",
+    "g": "گرم",
+    "kg": "کیلوگرم",
+    "oz": "اونس",
+    "lb": "پوند",
+    "ml": "میلی‌لیتر",
+    "cl": "سی‌لیتر",
+    "l": "لیتر",
+    "floz": "اونس مایع",
+    "cup": "پیمانه",
+    "pint": "پاینت",
+    "quart": "کوارت",
+    "gallon": "گالن",
+    "tbsp": "ق.غ",
+    "tsp": "ق.چ",
+    "piece_one": "عدد",
+    "piece_other": "عدد",
+    "bunch_one": "دسته",
+    "bunch_other": "دسته",
+    "pinch_one": "یک‌چیمه",
+    "pinch_other": "یک‌چیمه",
+    "can_one": "قوطی",
+    "can_other": "قوطی",
+    "pack_one": "بسته",
+    "pack_other": "بسته",
+    "bag_one": "کیسه",
+    "bag_other": "کیسه",
+    "clove_one": "حبه",
+    "clove_other": "حبه",
+    "slice_one": "تکه",
+    "slice_other": "تکه"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "میوه و سبزیجات",
+      "meat": "گوشت و فرآورده‌ها",
+      "fish": "ماهی و غذای دریایی",
+      "legumes": "حبوبات و توفو",
+      "dairy": "لبنیات و تخم‌مرغ",
+      "fats": "چربی و روغن",
+      "bakery": "نان و شیرینی",
+      "grains": "پاستا، برنج و غلات",
+      "pantry": "مواد انباری و کنسروی",
+      "spices": "ادویه و سبزی خشک",
+      "frozen": "منجمد",
+      "drinks": "نوشیدنی‌ها",
+      "other": "سایر"
+    },
+    "recipe": {
+      "meat": "گوشتی",
+      "seafood": "غذای دریایی",
+      "vegetarian": "گیاهی",
+      "vegan": "وگان"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "صبحانه",
+    "lunch": "ناهار",
+    "snack": "میان‌وعده",
+    "dinner": "شام",
+    "snack2": "میان‌وعده 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} د",
+    "hoursShort": "{{count}} س",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "همین الان",
+      "minutesAgo": "{{count}} دقیقه پیش",
+      "hoursAgo": "{{count}} ساعت پیش",
+      "daysAgo_one": "{{count}} روز پیش",
+      "daysAgo_other": "{{count}} روز پیش",
+      "weeksAgo": "{{count}} هفته پیش"
+    }
+  },
+  "common": {
+    "cancel": "انصراف",
+    "save": "ذخیره",
+    "delete": "حذف",
+    "done": "تمام",
+    "back": "بازگشت",
+    "next": "بعدی",
+    "ok": "تأیید",
+    "retry": "تلاش دوباره",
+    "edit": "ویرایش",
+    "add": "افزودن",
+    "remove": "حذف",
+    "close": "بستن",
+    "search": "جستجو",
+    "loading": "در حال بارگذاری …",
+    "error": "خطا",
+    "errorGeneric": "مشکلی پیش آمد."
+  },
+  "nav": {
+    "recipes": "دستورپزها",
+    "planner": "برنامه غذایی",
+    "activity": "فعالیت",
+    "profile": "پروفایل"
+  },
+  "licenses": {
+    "intro": "alimonia از بسته‌های متن‌باز زیر استفاده می‌کند. سپاس از سازندگان آن‌ها."
+  },
+  "social": {
+    "unavailable": "دیگر در دسترس نیست"
+  },
+  "profile": {
+    "followers": "دنبال‌کننده‌ها",
+    "following": "دنبال‌شده‌ها",
+    "sharedRecipes": "دستورپزهای اشتراکی",
+    "searchUsers": "جستجوی کاربران",
+    "noShared": "هنوز هیچ دستورپزی به اشتراک نگذاشته‌ای. «اشتراک‌گذاری» را روی یک دستورپز فعال کن.",
+    "signedOut": {
+      "title": "حساب تو، دستورپزهای تو همه‌جا",
+      "description": "یک حساب بساز تا از دستورپزهایت نسخه پشتیبان بگیری، بین دستگاه‌ها همگام‌سازی کنی و با هم برنامه‌ریزی کنی.",
+      "register": "ثبت‌نام"
+    },
+    "comingSoon": {
+      "title": "به‌زودی",
+      "description": "امکانات اختیاری حساب کاربری و همگام‌سازی چند دستگاهی، همراه با اشتراک‌گذاری دستورپز، در حال ساخت هستند."
+    }
+  },
+  "household": {
+    "accountRequired": "حساب کاربری لازم است",
+    "accountRequiredDesc": "خانوارها به یک حساب کاربری نیاز دارند.",
+    "createTitle": "ساخت خانوار",
+    "createFailed": "ساخت خانوار ممکن نشد.",
+    "namePlaceholder": "نام خانوار",
+    "joinWithCode": "پیوستن با کد",
+    "join": "پیوستن",
+    "joinFailed": "پیوستن ناموفق بود",
+    "inviteCode": "کد دعوت",
+    "inviteMessage": "به خانوار من در alimonia بپیوند! کد: {{code}}",
+    "inviteAction": "دعوت",
+    "inviteMember": "دعوت عضو",
+    "members": "اعضا",
+    "membersLoadError": "بارگذاری اعضا ممکن نشد.",
+    "noMembers": "هیچ عضوی پیدا نشد.",
+    "owner": "مالک",
+    "you": "تو",
+    "member": "عضو",
+    "renameSection": "تغییر نام خانوار",
+    "switchSection": "تغییر خانوار فعال",
+    "activeTag": "فعال",
+    "joinAnotherSection": "پیوستن به خانوار دیگر",
+    "joinWithInviteCode": "پیوستن با کد دعوت",
+    "leaveAction": "ترک خانوار",
+    "leaveTitle": "خانوار را ترک کنی؟",
+    "leaveBody": "دسترسی فقط‌خواندنی به دستورپزهای فعلی خانوار را حفظ می‌کنی.",
+    "leave": "ترک کردن",
+    "transferOwner": "انتقال مالکیت",
+    "transferFailed": "انتقال ناموفق بود.",
+    "removeMember": "حذف از خانوار",
+    "removeConfirmTitle": "واقعاً حذف شود؟",
+    "removeConfirmBody": "{{name}} از خانوار حذف خواهد شد.",
+    "removeFailed": "حذف ناموفق بود."
+  },
+  "profileEdit": {
+    "changeAvatar": "تغییر عکس پروفایل",
+    "fromLibrary": "انتخاب از گالری",
+    "handleRule": "@handle: فقط حروف و عدد.",
+    "bioTooLong": "بیوگرافی حداکثر می‌تواند ۱۵۰ نویسه باشد.",
+    "saveFailed": "ذخیره ناموفق بود (شاید نام کاربری گرفته شده باشد).",
+    "handleHint": "تغییر آن، نام کاربری قبلی را به مدت ۷ روز رزرو می‌کند.",
+    "bio": "بیوگرافی",
+    "privateProfile": "پروفایل خصوصی",
+    "privateProfileHint": "دنبال‌کننده‌ها باید تأیید شوند."
+  },
+  "followList": {
+    "unfollow": "لغو دنبال کردن",
+    "empty": "هنوز کسی اینجا نیست."
+  },
+  "userSearch": {
+    "placeholder": "@handle یا نام",
+    "noResults": "نتیجه‌ای پیدا نشد."
+  },
+  "foreignProfile": {
+    "notFound": "پروفایلی پیدا نشد",
+    "following": "دنبال می‌کنی",
+    "requested": "درخواست ارسال شد",
+    "follow": "دنبال کردن",
+    "more": "بیشتر",
+    "private": "این پروفایل خصوصی است",
+    "noShared": "هنوز دستورپز اشتراکی‌ای نیست",
+    "block": "مسدود کردن",
+    "report": "گزارش",
+    "reportReason": "دلیل گزارش",
+    "reportSpam": "هرزنامه",
+    "reportInappropriate": "محتوای نامناسب",
+    "reportFake": "پروفایل جعلی",
+    "thanks": "ممنون",
+    "reportReceived": "گزارش تو ثبت شد و بررسی خواهد شد."
+  },
+  "notifications": {
+    "follow": "@{{handle}} حالا تو را دنبال می‌کند",
+    "followRequest": "@{{handle}} می‌خواهد تو را دنبال کند",
+    "like": "@{{handle}} دستورپز «{{title}}» تو را پسندید",
+    "remix": "@{{handle}} «{{title}}» را بازآفرینی کرد",
+    "signInTitle": "وارد شو",
+    "signInDescription": "با داشتن حساب، اعلان‌های دنبال‌کردن، پسندیدن و بازآفرینی را دریافت می‌کنی.",
+    "markAllRead": "علامت‌گذاری همه به‌عنوان خوانده‌شده",
+    "requests": "درخواست‌ها",
+    "accept": "پذیرفتن",
+    "reject": "رد کردن",
+    "emptyTitle": "اعلانی نیست",
+    "emptyDescription": "اینجا چیزهایی که دور و بر دستورپزهایت اتفاق می‌افتد نمایش داده می‌شود."
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "section": {
+      "account": "حساب کاربری",
+      "household": "خانوار",
+      "languageRegion": "زبان و منطقه",
+      "appearance": "ظاهر",
+      "dataSync": "داده‌ها و همگام‌سازی",
+      "help": "راهنما",
+      "about": "درباره",
+      "accountActions": "حساب کاربری",
+      "dangerZone": "منطقه خطر"
+    },
+    "editProfile": "ویرایش پروفایل",
+    "household": {
+      "owner": "تو مالک هستی",
+      "member": "عضو",
+      "createOrJoin": "ساخت یا پیوستن به خانوار"
+    },
+    "language": {
+      "title": "زبان",
+      "system": "سیستم",
+      "restartTitle": "نیاز به راه‌اندازی دوباره",
+      "restartBody": "لطفاً برنامه را دوباره راه‌اندازی کن تا جهت چیدمان به‌طور کامل اعمال شود."
+    },
+    "measurement": {
+      "title": "واحدها",
+      "system": "سیستم",
+      "metric": "متریک",
+      "imperial": "امپریال"
+    },
+    "appIcon": {
+      "title": "آیکون برنامه",
+      "subtitle": "نحوه نمایش آیکون alimonia در صفحه اصلی را انتخاب کنید.",
+      "icon": "پیش‌فرض",
+      "pride": "افتخار"
+    },
+    "theme": {
+      "title": "تم",
+      "system": "سیستم",
+      "light": "روشن",
+      "dark": "تیره"
+    },
+    "mealSlots": {
+      "title": "وعده‌های غذایی",
+      "description": "انتخاب کن کدام وعده‌های غذایی را هر روز برنامه‌ریزی می‌کنی و برای آن‌ها اسم دلخواه بگذار.",
+      "rename": "تغییر نام",
+      "renameTitle": "تغییر نام وعده غذایی"
+    },
+    "sync": {
+      "status": "وضعیت همگام‌سازی",
+      "errors": "{{count}} خطا",
+      "pending": "{{count}} در انتظار",
+      "synced": "همگام",
+      "retry": "تلاش دوباره برای همگام‌سازی",
+      "discard": "نادیده‌گرفتن موارد ناموفق"
+    },
+    "trash": "سطل زباله",
+    "showOnboarding": "نمایش دوباره معرفی",
+    "version": "نسخه",
+    "licenses": "مجوزهای متن‌باز",
+    "logout": {
+      "title": "خروج از حساب؟",
+      "body": "داده‌های محلی روی این دستگاه باقی می‌مانند.",
+      "action": "خروج از حساب"
+    },
+    "wipe": {
+      "action": "حذف کامل حافظه",
+      "subtitle": "همه داده‌های محلی را برای همیشه حذف می‌کند",
+      "confirm1Title": "حافظه به‌طور کامل حذف شود؟",
+      "confirm1Body": "همه دستورپزها، برنامه‌ها، لیست‌های خرید و تنظیمات برای همیشه از این دستگاه حذف می‌شوند. تغییرات همگام‌نشده از بین می‌روند. همچنین از حساب خارج می‌شوی.",
+      "confirm2Title": "واقعاً همه‌چیز حذف شود؟",
+      "confirm2Body": "این مرحله قابل بازگشت نیست.",
+      "confirmFinal": "حذف برای همیشه",
+      "failed": "حذف کامل حافظه ممکن نشد."
+    },
+    "discardSync": {
+      "title": "تغییرات ناموفق نادیده گرفته شوند؟",
+      "body": "این تغییرات روی دستگاه باقی می‌مانند اما دیگر با فضای ابری همگام نمی‌شوند.",
+      "action": "نادیده گرفتن"
+    }
+  },
+  "shopping": {
+    "title": "لیست خرید",
+    "week": "هفته {{n}}",
+    "composition": "جزئیات",
+    "fromRecipes_one": "از {{count}} دستورپز",
+    "fromRecipes_other": "از {{count}} دستورپز",
+    "manual": "دستی",
+    "addManual": "افزودن دستی",
+    "changeCategory": "تغییر دسته",
+    "empty": {
+      "title": "هنوز چیزی برای خرید نیست",
+      "description": "برای این هفته دستورپز برنامه‌ریزی کن — مواد لازم به‌طور خودکار اینجا نمایش داده می‌شوند."
+    }
+  },
+  "a11y": {
+    "decrease": "کاهش",
+    "increase": "افزایش"
+  },
+  "manualItem": {
+    "title": "افزودن مورد",
+    "name": "نام",
+    "namePlaceholder": "مثلاً روغن زیتون",
+    "quantity": "مقدار",
+    "optional": "اختیاری",
+    "unit": "واحد",
+    "unitPlaceholder": "مثلاً میلی‌لیتر",
+    "category": "دسته"
+  },
+  "addToPlan": {
+    "title": "افزودن به برنامه غذایی",
+    "day": "روز",
+    "meal": "وعده غذایی"
+  },
+  "recipePicker": {
+    "titleFor": "دستورپز برای {{meal}}",
+    "schedule": "زمان‌بندی",
+    "copyToHousehold": "کپی به خانوار",
+    "noRecipes": "دستورپزی پیدا نشد."
+  },
+  "visibility": {
+    "title": "نمایش",
+    "message": "چه کسی می‌تواند این دستورپز را ببیند؟",
+    "private": "خصوصی (فقط من)",
+    "followers": "فقط دنبال‌کننده‌ها",
+    "public": "عمومی"
+  },
+  "folder": {
+    "newTitle": "پوشه جدید",
+    "namePlaceholderLabel": "نام پوشه",
+    "namePlaceholder": "مثلاً موردعلاقه‌ها",
+    "color": "رنگ",
+    "icon": "آیکون",
+    "create": "ساخت",
+    "inFolder": "افزودن به پوشه",
+    "none": "هنوز پوشه‌ای نیست.",
+    "createNew": "ساخت پوشه جدید"
+  },
+  "recipe": {
+    "servings": "تعداد نفرات",
+    "ingredients": "مواد لازم",
+    "steps": "طرز تهیه"
+  },
+  "onboarding": {
+    "skip": "رد کردن",
+    "start": "بزن برویم",
+    "slides": {
+      "flow": {
+        "title": "به‌جای نوشتن لیست خرید، وعده‌ها را برنامه‌ریزی کن",
+        "description": "دستورپزها را ذخیره کن، هفته‌ات را برنامه‌ریزی کن و لیست خرید متناسب را به‌طور خودکار بگیر.",
+        "v1": "دستورپز",
+        "v2": "برنامه غذایی",
+        "v3": "لیست خرید"
+      },
+      "import": {
+        "title": "دستورپزها را در چند ثانیه وارد کن",
+        "description": "فقط یک لینک دستورپز را بچسبان. عنوان، تصویر، مواد لازم و مراحل به‌طور خودکار وارد می‌شوند."
+      },
+      "plan": {
+        "title": "هفته‌ات را برنامه‌ریزی کن",
+        "description": "دستورپزها را بین روزهای مختلف پخش کن و وعده‌های پیش‌رو را دنبال کن.",
+        "v1": "دوشنبه – پاستا",
+        "v2": "سه‌شنبه – کاری",
+        "v3": "چهارشنبه – سوپ"
+      },
+      "shop": {
+        "title": "لیست خرید خودکار",
+        "description": "لیست خرید مستقیماً از برنامه غذایی‌ات ساخته می‌شود. مواد تکراری به‌طور خودکار با هم ترکیب می‌شوند.",
+        "v1": "شیر",
+        "v2": "گوجه‌فرنگی",
+        "v3": "پاستا"
+      }
+    }
+  },
+  "auth": {
+    "login": "ورود",
+    "createAccount": "ساخت حساب",
+    "email": "ایمیل",
+    "password": "رمز عبور",
+    "displayName": "نام نمایشی",
+    "displayNamePlaceholder": "دوست داری چه‌طور صدایت کنند",
+    "handlePlaceholder": "منحصربه‌فرد، فقط حروف و عدد",
+    "forgotPassword": "رمز عبور را فراموش کردی؟",
+    "noAccountRegister": "هنوز حساب نداری؟ ثبت‌نام کن",
+    "haveAccountLogin": "از قبل حساب داری؟ وارد شو",
+    "loginFailed": "ورود ناموفق بود.",
+    "registerFailed": "ثبت‌نام ناموفق بود.",
+    "enterEmailFirst": "لطفاً اول ایمیلت را وارد کن.",
+    "enterDisplayName": "لطفاً یک نام نمایشی وارد کن.",
+    "handleRule": "@handle: فقط حروف و عدد (۳ تا ۲۰ نویسه).",
+    "emailSentTitle": "ایمیل ارسال شد",
+    "emailSentBody": "صندوق ورودی‌ات را برای لینک بازنشانی بررسی کن.",
+    "sendError": "خطا در ارسال ایمیل.",
+    "almostDoneTitle": "تقریباً تمام شد",
+    "almostDoneBody": "یک ایمیل تأیید برایت فرستادیم. برای ورود، آن را تأیید کن.",
+    "profileVisibility": "نمایش پروفایل",
+    "publicDesc": "دستورپزهای اشتراکی برای همه قابل مشاهده است",
+    "privateDesc": "فقط دنبال‌کننده‌های تأییدشده"
+  },
+  "planner": {
+    "today": "امروز",
+    "personal": "شخصی",
+    "addRecipe": "افزودن دستورپز",
+    "servingsCount_one": "{{count}} نفر",
+    "servingsCount_other": "{{count}} نفر",
+    "viewRecipe": "نمایش دستورپز",
+    "changeServings": "تغییر تعداد نفرات",
+    "removeFromPlan": "حذف از برنامه",
+    "firstRun": {
+      "title": "هفته‌ات را برنامه‌ریزی کن",
+      "description": "برای افزودن دستورپز، روی یک جای خالی ضربه بزن.",
+      "action": "باز کردن برنامه غذایی"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "دستورپزهای من",
+      "household": "خانوار",
+      "saved": "ذخیره‌شده"
+    },
+    "sort": {
+      "recent": "جدیدترین",
+      "alpha": "الف–ی",
+      "category": "دسته"
+    },
+    "sortTitle": "مرتب‌سازی",
+    "addRecipe": "افزودن دستورپز",
+    "importUrl": "وارد کردن لینک",
+    "createManual": "ساخت دستی",
+    "scanImage": "اسکن از عکس یا PDF",
+    "view": "نمایش",
+    "allFolders": "همه",
+    "householdEmpty": {
+      "title": "با هم آشپزی و برنامه‌ریزی کن",
+      "description": "دستورپزهای خانوار، برنامه غذایی مشترک و لیست خرید مشترک — برای این کار به یک خانوار نیاز داری.",
+      "create": "ساخت خانوار",
+      "createAccount": "ساخت حساب",
+      "enterCode": "وارد کردن کد دعوت"
+    },
+    "empty": {
+      "title": "هنوز دستورپزی نیست",
+      "description": "دستورپزها را با لینک وارد کن یا به‌صورت دستی بساز.",
+      "savedTitle": "هنوز چیزی ذخیره نشده",
+      "savedDescription": "دستورپزهایی که با قلب علامت می‌زنی، اینجا نمایش داده می‌شوند."
+    },
+    "folderMenu": {
+      "open": "باز کردن",
+      "assign": "اختصاص دستورپزها",
+      "rename": "تغییر نام",
+      "renameTitle": "تغییر نام پوشه"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "دستورپز پیدا نشد",
+    "notFoundDescription": "شاید این دستورپز حذف شده باشد.",
+    "deleteTitle": "دستورپز حذف شود؟",
+    "deleteBody": "به سطل زباله منتقل خواهد شد.",
+    "remixCreatedTitle": "بازآفرینی ساخته شد",
+    "remixCreatedBody": "یک نسخه به کتابخانه‌ات افزوده شد.",
+    "byAuthor": "از @{{handle}}",
+    "base": "پایه: {{count}}",
+    "noIngredients": "هیچ ماده‌ای ثبت نشده است.",
+    "remixOf": "بازآفرینی از دستورپز دیگری",
+    "addToPlan": "افزودن به برنامه غذایی",
+    "shareLabel": "اشتراک‌گذاری: {{visibility}}",
+    "remix": "بازآفرینی"
+  },
+  "recipeForm": {
+    "titleRequired": "لطفاً یک عنوان وارد کن.",
+    "gallery": "گالری",
+    "camera": "دوربین",
+    "titleField": "عنوان",
+    "titlePlaceholder": "مثلاً پاستا آلا فورنو",
+    "description": "توضیحات",
+    "descriptionPlaceholder": "توضیح کوتاه (اختیاری)",
+    "prepMin": "آماده‌سازی (دقیقه)",
+    "cookMin": "پخت (دقیقه)",
+    "ingredientPlaceholder": "مثلاً ۲۰۰ گرم آرد",
+    "stepPlaceholder": "مرحله بعدی…",
+    "saveIn": "ذخیره در",
+    "private": "خصوصی",
+    "household": "خانوار",
+    "moveToSteps": "انتقال به طرز تهیه",
+    "moveToIngredients": "انتقال به مواد لازم",
+    "headingPlaceholder": "مثلاً برای سس",
+    "toggleHeading": "تبدیل به عنوان"
+  },
+  "recipeNew": {
+    "title": "دستورپز جدید",
+    "submit": "ذخیره دستورپز"
+  },
+  "recipeEdit": {
+    "title": "ویرایش دستورپز",
+    "submit": "ذخیره تغییرات"
+  },
+  "folderScreen": {
+    "fallbackName": "پوشه",
+    "editRecipes": "ویرایش دستورپزها",
+    "noRecipesTitle": "دستورپزی نیست",
+    "noRecipesDescription": "اول چند دستورپز بساز.",
+    "emptyTitle": "پوشه خالی است",
+    "emptyDescription": "برای افزودن دستورپز، روی مداد در گوشه بالا ضربه بزن."
+  },
+  "recipeImport": {
+    "title": "وارد کردن دستورپز",
+    "import": "وارد کردن",
+    "noneDetected": "هیچ ماده/مرحله‌ای به‌طور خودکار شناسایی نشد — لطفاً به‌صورت دستی اضافه کن.",
+    "failed": "وارد کردن ناموفق بود.",
+    "failedManual": "می‌توانی دستورپز را به‌صورت دستی بسازی.",
+    "urlLabel": "لینک دستورپز",
+    "hint": "یک لینک از یک صفحه دستورپز بچسبان، یا یک پست اینستاگرام را مستقیماً از اپلیکیشن اشتراک‌گذاری کن. عنوان، تصویر، مواد لازم و مراحل به‌طور خودکار وارد می‌شوند.",
+    "loading": "در حال بارگذاری دستورپز…",
+    "save": "ذخیره دستورپز"
+  },
+  "recipeScan": {
+    "title": "دستور پخت از روی عکس یا PDF",
+    "hint": "یک یا چند اسکرین‌شات از همان دستور پخت، یا یک فایل PDF را انتخاب کن. متن مستقیماً روی دستگاه تو شناسایی می‌شود — چیزی آپلود نمی‌شود.",
+    "addFromGallery": "انتخاب از گالری",
+    "takePhoto": "گرفتن عکس",
+    "addFromPdf": "انتخاب PDF",
+    "preparingPdf": "در حال آماده‌سازی PDF…",
+    "pdfFailed": "این PDF خوانده نشد. می‌توانی دستور پخت را به‌صورت دستی تکمیل کنی.",
+    "pdfTruncated": "فقط {{count}} صفحه نخست پردازش شدند.",
+    "scan": "شناسایی دستور پخت",
+    "removeImage": "حذف تصویر",
+    "loading": "در حال شناسایی متن…",
+    "noneDetected": "مواد لازم/مراحل به‌صورت خودکار شناسایی نشدند — لطفاً به‌صورت دستی تکمیل کن.",
+    "failed": "شناسایی متن ناموفق بود.",
+    "failedManual": "می‌توانی دستور پخت را به‌صورت دستی ایجاد کنی.",
+    "save": "ذخیره دستور پخت"
+  },
+  "trash": {
+    "title": "سطل زباله",
+    "emptyAll": "خالی کردن سطل زباله",
+    "tabPrivate": "خصوصی",
+    "tabHousehold": "خانوار",
+    "emptyTitle": "سطل زباله خالی است",
+    "emptyDescription": "دستورپزهای حذف‌شده اینجا نمایش داده می‌شوند.",
+    "restore": "بازیابی",
+    "deletedOn": "تاریخ حذف: {{date}}",
+    "deleteForever": "حذف برای همیشه",
+    "deleteOneTitle": "برای همیشه حذف شود؟",
+    "deleteOneBody": "این دستورپز برای همیشه حذف خواهد شد.",
+    "emptyAllTitle": "سطل زباله خالی شود؟",
+    "emptyAllBody": "همه دستورپزها برای همیشه حذف خواهند شد."
+  }
+}

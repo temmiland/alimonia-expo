@@ -1,0 +1,565 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "cup",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "tbsp",
+    "tsp": "tsp",
+    "piece_one": "pc",
+    "piece_other": "pcs",
+    "bunch_one": "bunch",
+    "bunch_other": "bunches",
+    "pinch_one": "pinch",
+    "pinch_other": "pinches",
+    "can_one": "can",
+    "can_other": "cans",
+    "pack_one": "pack",
+    "pack_other": "packs",
+    "bag_one": "bag",
+    "bag_other": "bags",
+    "clove_one": "clove",
+    "clove_other": "cloves",
+    "slice_one": "slice",
+    "slice_other": "slices"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Fruit & Vegetables",
+      "meat": "Meat & Deli",
+      "fish": "Fish & Seafood",
+      "legumes": "Legumes & Tofu",
+      "dairy": "Dairy & Eggs",
+      "fats": "Fats & Oils",
+      "bakery": "Bread & Bakery",
+      "grains": "Pasta, Rice & Grains",
+      "pantry": "Pantry & Canned",
+      "spices": "Spices & Herbs",
+      "frozen": "Frozen",
+      "drinks": "Drinks",
+      "other": "Other"
+    },
+    "recipe": {
+      "meat": "Meat",
+      "seafood": "Seafood",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "snack": "Snack",
+    "dinner": "Dinner",
+    "snack2": "Snack 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} min",
+    "hoursShort": "{{count}} hr",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "just now",
+      "minutesAgo": "{{count}} min ago",
+      "hoursAgo": "{{count}} hr ago",
+      "daysAgo_one": "{{count}} day ago",
+      "daysAgo_other": "{{count}} days ago",
+      "weeksAgo": "{{count}} wk ago"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "done": "Done",
+    "back": "Back",
+    "next": "Next",
+    "ok": "OK",
+    "retry": "Retry",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "close": "Close",
+    "search": "Search",
+    "loading": "Loading …",
+    "error": "Error",
+    "errorGeneric": "Something went wrong."
+  },
+  "nav": {
+    "recipes": "Recipes",
+    "planner": "Meal plan",
+    "activity": "Activity",
+    "profile": "Profile"
+  },
+  "licenses": {
+    "intro": "alimonia uses the following open-source packages. Many thanks to their authors."
+  },
+  "social": {
+    "unavailable": "No longer available"
+  },
+  "profile": {
+    "followers": "Followers",
+    "following": "Following",
+    "sharedRecipes": "Shared recipes",
+    "searchUsers": "Search users",
+    "noShared": "You haven't shared any recipes yet. Enable “Sharing” on a recipe.",
+    "signedOut": {
+      "title": "Your account, your recipes everywhere",
+      "description": "Create an account to back up your recipes, sync across devices and plan together.",
+      "register": "Register"
+    },
+    "comingSoon": {
+      "title": "Coming soon",
+      "description": "Optional account and multi-device sync features, plus recipe sharing, are currently in the works."
+    }
+  },
+  "household": {
+    "accountRequired": "Account required",
+    "accountRequiredDesc": "Households need an account.",
+    "createTitle": "Create household",
+    "createFailed": "Household could not be created.",
+    "namePlaceholder": "Household name",
+    "joinWithCode": "Join with code",
+    "join": "Join",
+    "joinFailed": "Join failed",
+    "inviteCode": "Invite code",
+    "inviteMessage": "Join my alimonia household! Code: {{code}}",
+    "inviteAction": "Invite",
+    "inviteMember": "Invite member",
+    "members": "MEMBERS",
+    "membersLoadError": "Members could not be loaded.",
+    "noMembers": "No members found.",
+    "owner": "Owner",
+    "you": "You",
+    "member": "Member",
+    "renameSection": "RENAME HOUSEHOLD",
+    "switchSection": "SWITCH ACTIVE HOUSEHOLD",
+    "activeTag": "active",
+    "joinAnotherSection": "JOIN ANOTHER HOUSEHOLD",
+    "joinWithInviteCode": "Join with invite code",
+    "leaveAction": "Leave household",
+    "leaveTitle": "Leave household?",
+    "leaveBody": "You'll keep read access to existing household recipes.",
+    "leave": "Leave",
+    "transferOwner": "Transfer ownership",
+    "transferFailed": "Transfer failed.",
+    "removeMember": "Remove from household",
+    "removeConfirmTitle": "Really remove?",
+    "removeConfirmBody": "{{name}} will be removed from the household.",
+    "removeFailed": "Removal failed."
+  },
+  "profileEdit": {
+    "changeAvatar": "Change profile picture",
+    "fromLibrary": "Choose from library",
+    "handleRule": "@handle: letters and numbers only.",
+    "bioTooLong": "Bio can be at most 150 characters.",
+    "saveFailed": "Save failed (handle may be taken).",
+    "handleHint": "Changing it reserves the old handle for 7 days.",
+    "bio": "Bio",
+    "privateProfile": "Private profile",
+    "privateProfileHint": "Followers must be approved."
+  },
+  "followList": {
+    "unfollow": "Unfollow",
+    "empty": "No one here yet."
+  },
+  "userSearch": {
+    "placeholder": "@handle or name",
+    "noResults": "No matches."
+  },
+  "foreignProfile": {
+    "notFound": "No profile found",
+    "following": "Following",
+    "requested": "Request sent",
+    "follow": "Follow",
+    "more": "More",
+    "private": "This profile is private",
+    "noShared": "No shared recipes yet",
+    "block": "Block",
+    "report": "Report",
+    "reportReason": "Reason for reporting",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Inappropriate content",
+    "reportFake": "Fake profile",
+    "thanks": "Thanks",
+    "reportReceived": "Your report has been recorded and will be reviewed."
+  },
+  "notifications": {
+    "follow": "@{{handle}} now follows you",
+    "followRequest": "@{{handle}} wants to follow you",
+    "like": "@{{handle}} likes your recipe «{{title}}»",
+    "remix": "@{{handle}} remixed «{{title}}»",
+    "signInTitle": "Sign in",
+    "signInDescription": "With an account you'll get notifications about follows, likes and remixes.",
+    "markAllRead": "Mark all read",
+    "requests": "REQUESTS",
+    "accept": "Accept",
+    "reject": "Decline",
+    "emptyTitle": "No notifications",
+    "emptyDescription": "Here's what's happening around your recipes."
+  },
+  "settings": {
+    "title": "Settings",
+    "section": {
+      "account": "Account",
+      "household": "Household",
+      "languageRegion": "Language & Region",
+      "appearance": "Appearance",
+      "dataSync": "Data & Sync",
+      "help": "Help",
+      "about": "About",
+      "accountActions": "Account",
+      "dangerZone": "Danger zone"
+    },
+    "editProfile": "Edit profile",
+    "household": {
+      "owner": "You're the owner",
+      "member": "Member",
+      "createOrJoin": "Create or join a household"
+    },
+    "language": {
+      "title": "Language",
+      "system": "System",
+      "restartTitle": "Restart required",
+      "restartBody": "Please restart the app for the layout direction to fully apply."
+    },
+    "measurement": {
+      "title": "Units",
+      "system": "System",
+      "metric": "Metric",
+      "imperial": "Imperial"
+    },
+    "weekStart": {
+      "title": "Week starts on",
+      "system": "System",
+      "monday": "Monday",
+      "sunday": "Sunday",
+      "saturday": "Saturday"
+    },
+    "appIcon": {
+      "title": "App Icon",
+      "subtitle": "Choose how alimonia looks on your home screen.",
+      "icon": "Default",
+      "pride": "Pride"
+    },
+    "theme": {
+      "title": "Theme",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "mealSlots": {
+      "title": "Meals",
+      "description": "Choose which meals you plan each day and give them your own names.",
+      "rename": "Rename",
+      "renameTitle": "Rename meal"
+    },
+    "sync": {
+      "status": "Sync status",
+      "errors": "{{count}} errors",
+      "pending": "{{count}} pending",
+      "synced": "In sync",
+      "retry": "Retry sync",
+      "discard": "Discard failed"
+    },
+    "trash": "Trash",
+    "showOnboarding": "Show intro again",
+    "version": "Version",
+    "licenses": "Open-source licenses",
+    "logout": {
+      "title": "Log out?",
+      "body": "Local data stays on this device.",
+      "action": "Log out"
+    },
+    "wipe": {
+      "action": "Erase all storage",
+      "subtitle": "Permanently removes all local data",
+      "confirm1Title": "Erase all storage?",
+      "confirm1Body": "All recipes, plans, shopping lists and settings will be permanently removed from this device. Unsynced changes will be lost. You'll also be logged out.",
+      "confirm2Title": "Really erase everything?",
+      "confirm2Body": "This step cannot be undone.",
+      "confirmFinal": "Erase permanently",
+      "failed": "Storage could not be fully erased."
+    },
+    "discardSync": {
+      "title": "Discard failed changes?",
+      "body": "These changes stay on the device but will no longer sync to the cloud.",
+      "action": "Discard"
+    }
+  },
+  "shopping": {
+    "title": "Shopping list",
+    "week": "Wk {{n}}",
+    "composition": "Breakdown",
+    "fromRecipes_one": "from {{count}} recipe",
+    "fromRecipes_other": "from {{count}} recipes",
+    "manual": "manual",
+    "addManual": "Add manually",
+    "changeCategory": "Change category",
+    "empty": {
+      "title": "Nothing to buy yet",
+      "description": "Plan recipes for this week — the ingredients will then appear here automatically."
+    }
+  },
+  "a11y": {
+    "decrease": "Decrease",
+    "increase": "Increase"
+  },
+  "manualItem": {
+    "title": "Add item",
+    "name": "Name",
+    "namePlaceholder": "e.g. olive oil",
+    "quantity": "Quantity",
+    "optional": "optional",
+    "unit": "Unit",
+    "unitPlaceholder": "e.g. ml",
+    "category": "Category"
+  },
+  "addToPlan": {
+    "title": "Add to meal plan",
+    "day": "Day",
+    "meal": "Meal"
+  },
+  "recipePicker": {
+    "titleFor": "Recipe for {{meal}}",
+    "schedule": "Schedule",
+    "copyToHousehold": "Copy to household",
+    "noRecipes": "No recipes found."
+  },
+  "visibility": {
+    "title": "Visibility",
+    "message": "Who can see this recipe?",
+    "private": "Private (only me)",
+    "followers": "Followers only",
+    "public": "Public"
+  },
+  "folder": {
+    "newTitle": "New folder",
+    "namePlaceholderLabel": "Folder name",
+    "namePlaceholder": "e.g. Favorites",
+    "color": "Color",
+    "icon": "Icon",
+    "create": "Create",
+    "inFolder": "Add to folder",
+    "none": "No folders yet.",
+    "createNew": "Create new folder"
+  },
+  "recipe": {
+    "servings": "Servings",
+    "ingredients": "Ingredients",
+    "steps": "Instructions"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "start": "Let's go",
+    "slides": {
+      "flow": {
+        "title": "Plan meals instead of writing shopping lists",
+        "description": "Save recipes, plan your week and automatically get the matching shopping list.",
+        "v1": "Recipe",
+        "v2": "Meal plan",
+        "v3": "Shopping list"
+      },
+      "import": {
+        "title": "Import recipes in seconds",
+        "description": "Just paste a recipe link. Title, image, ingredients and steps are imported automatically."
+      },
+      "plan": {
+        "title": "Plan your week",
+        "description": "Spread recipes across individual days and keep track of upcoming meals.",
+        "v1": "Mon – Pasta",
+        "v2": "Tue – Curry",
+        "v3": "Wed – Soup"
+      },
+      "shop": {
+        "title": "Automatic shopping list",
+        "description": "The shopping list is built straight from your meal plan. Duplicate ingredients are combined automatically.",
+        "v1": "Milk",
+        "v2": "Tomatoes",
+        "v3": "Pasta"
+      }
+    }
+  },
+  "auth": {
+    "login": "Log in",
+    "createAccount": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Display name",
+    "displayNamePlaceholder": "What you'd like to be called",
+    "handlePlaceholder": "unique, letters & numbers only",
+    "forgotPassword": "Forgot password?",
+    "noAccountRegister": "No account yet? Register",
+    "haveAccountLogin": "Already have an account? Log in",
+    "loginFailed": "Login failed.",
+    "registerFailed": "Registration failed.",
+    "enterEmailFirst": "Please enter your email address first.",
+    "enterDisplayName": "Please enter a display name.",
+    "handleRule": "@handle: letters and numbers only (3–20 characters).",
+    "emailSentTitle": "Email sent",
+    "emailSentBody": "Check your inbox for the reset link.",
+    "sendError": "Error sending email.",
+    "almostDoneTitle": "Almost there",
+    "almostDoneBody": "We sent you a confirmation email. Confirm it to log in.",
+    "profileVisibility": "Profile visibility",
+    "publicDesc": "Shared recipes visible to everyone",
+    "privateDesc": "Confirmed followers only"
+  },
+  "planner": {
+    "today": "Today",
+    "personal": "Personal",
+    "addRecipe": "Add recipe",
+    "servingsCount_one": "{{count}} serving",
+    "servingsCount_other": "{{count}} servings",
+    "viewRecipe": "View recipe",
+    "changeServings": "Change servings",
+    "removeFromPlan": "Remove from plan",
+    "firstRun": {
+      "title": "Plan your week",
+      "description": "Tap a slot to add a recipe.",
+      "action": "Open meal plan"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Mine",
+      "household": "Household",
+      "saved": "Saved"
+    },
+    "sort": {
+      "recent": "Newest",
+      "alpha": "A–Z",
+      "category": "Category"
+    },
+    "sortTitle": "Sort",
+    "addRecipe": "Add recipe",
+    "importUrl": "Import URL",
+    "createManual": "Create manually",
+    "scanImage": "Scan photo or PDF",
+    "view": "View",
+    "allFolders": "All",
+    "householdEmpty": {
+      "title": "Cook and plan together",
+      "description": "Household recipes, a shared meal plan and a shared shopping list — for that you need a household.",
+      "create": "Create household",
+      "createAccount": "Create account",
+      "enterCode": "Enter invite code"
+    },
+    "empty": {
+      "title": "No recipes yet",
+      "description": "Import recipes via link or create them manually.",
+      "savedTitle": "Nothing saved yet",
+      "savedDescription": "Recipes you mark with the heart appear here."
+    },
+    "folderMenu": {
+      "open": "Open",
+      "assign": "Assign recipes",
+      "rename": "Rename",
+      "renameTitle": "Rename folder"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Recipe not found",
+    "notFoundDescription": "This recipe may have been deleted.",
+    "deleteTitle": "Delete recipe?",
+    "deleteBody": "It will be moved to the trash.",
+    "remixCreatedTitle": "Remix created",
+    "remixCreatedBody": "A copy has been added to your library.",
+    "byAuthor": "by @{{handle}}",
+    "base": "Base: {{count}}",
+    "noIngredients": "No ingredients recorded.",
+    "remixOf": "Remix of another recipe",
+    "addToPlan": "Add to meal plan",
+    "shareLabel": "Sharing: {{visibility}}",
+    "remix": "Remix"
+  },
+  "recipeForm": {
+    "titleRequired": "Please enter a title.",
+    "gallery": "Gallery",
+    "camera": "Camera",
+    "titleField": "Title",
+    "titlePlaceholder": "e.g. Pasta al Forno",
+    "description": "Description",
+    "descriptionPlaceholder": "Short description (optional)",
+    "prepMin": "Prep (min)",
+    "cookMin": "Cook (min)",
+    "ingredientPlaceholder": "e.g. 200 g flour",
+    "stepPlaceholder": "Next step…",
+    "saveIn": "Save to",
+    "private": "Private",
+    "household": "Household",
+    "moveToSteps": "Move to instructions",
+    "moveToIngredients": "Move to ingredients",
+    "headingPlaceholder": "e.g. For the sauce",
+    "toggleHeading": "Turn into heading"
+  },
+  "recipeNew": {
+    "title": "New recipe",
+    "submit": "Save recipe",
+    "draftRestored": "Restored your unsaved draft.",
+    "discardDraft": "Discard"
+  },
+  "recipeEdit": {
+    "title": "Edit recipe",
+    "submit": "Save changes"
+  },
+  "folderScreen": {
+    "fallbackName": "Folder",
+    "editRecipes": "Edit recipes",
+    "noRecipesTitle": "No recipes",
+    "noRecipesDescription": "Create some recipes first.",
+    "emptyTitle": "Folder is empty",
+    "emptyDescription": "Tap the pencil in the top right to add recipes."
+  },
+  "recipeImport": {
+    "title": "Import recipe",
+    "import": "Import",
+    "noneDetected": "No ingredients/steps could be detected automatically — please add them manually.",
+    "failed": "Import failed.",
+    "failedManual": "You can create the recipe manually.",
+    "urlLabel": "Recipe URL",
+    "hint": "Paste a link from a recipe page, or share an Instagram post directly from the app. Title, image, ingredients and steps are imported automatically.",
+    "loading": "Loading recipe…",
+    "save": "Save recipe"
+  },
+  "recipeScan": {
+    "title": "Recipe from photo or PDF",
+    "hint": "Pick one or more screenshots of the same recipe, or a PDF. Text is recognized right on your device — nothing is uploaded.",
+    "addFromGallery": "Choose from gallery",
+    "takePhoto": "Take photo",
+    "addFromPdf": "Choose PDF",
+    "preparingPdf": "Preparing PDF…",
+    "pdfFailed": "Couldn't read this PDF. You can complete the recipe manually.",
+    "pdfTruncated": "Only the first {{count}} pages were processed.",
+    "scan": "Recognize recipe",
+    "removeImage": "Remove image",
+    "loading": "Recognizing text…",
+    "noneDetected": "No ingredients/steps could be detected automatically — please complete manually.",
+    "failed": "Text recognition failed.",
+    "failedManual": "You can create the recipe manually.",
+    "save": "Save recipe"
+  },
+  "trash": {
+    "title": "Trash",
+    "emptyAll": "Empty trash",
+    "tabPrivate": "Private",
+    "tabHousehold": "Household",
+    "emptyTitle": "Trash is empty",
+    "emptyDescription": "Deleted recipes appear here.",
+    "restore": "Restore",
+    "deletedOn": "Deleted: {{date}}",
+    "deleteForever": "Delete forever",
+    "deleteOneTitle": "Delete forever?",
+    "deleteOneBody": "This recipe will be permanently removed.",
+    "emptyAllTitle": "Empty trash?",
+    "emptyAllBody": "All recipes will be permanently deleted."
+  }
+}

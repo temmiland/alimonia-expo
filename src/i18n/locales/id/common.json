@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "cup",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "sdm",
+    "tsp": "sdt",
+    "piece_one": "bh",
+    "piece_other": "bh",
+    "bunch_one": "ikat",
+    "bunch_other": "ikat",
+    "pinch_one": "sejumput",
+    "pinch_other": "sejumput",
+    "can_one": "kaleng",
+    "can_other": "kaleng",
+    "pack_one": "bks",
+    "pack_other": "bks",
+    "bag_one": "kantong",
+    "bag_other": "kantong",
+    "clove_one": "siung",
+    "clove_other": "siung",
+    "slice_one": "iris",
+    "slice_other": "iris"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Buah & Sayur",
+      "meat": "Daging & Olahan",
+      "fish": "Ikan & Seafood",
+      "legumes": "Kacang-kacangan & Tahu",
+      "dairy": "Produk Susu & Telur",
+      "fats": "Lemak & Minyak",
+      "bakery": "Roti & Bakery",
+      "grains": "Pasta, Beras & Serealia",
+      "pantry": "Bahan Pokok & Kalengan",
+      "spices": "Bumbu & Rempah",
+      "frozen": "Beku",
+      "drinks": "Minuman",
+      "other": "Lainnya"
+    },
+    "recipe": {
+      "meat": "Daging",
+      "seafood": "Seafood",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Sarapan",
+    "lunch": "Makan siang",
+    "snack": "Camilan",
+    "dinner": "Makan malam",
+    "snack2": "Camilan 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} mnt",
+    "hoursShort": "{{count}} jam",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "baru saja",
+      "minutesAgo": "{{count}} mnt lalu",
+      "hoursAgo": "{{count}} jam lalu",
+      "daysAgo_one": "{{count}} hari lalu",
+      "daysAgo_other": "{{count}} hari lalu",
+      "weeksAgo": "{{count}} mgg lalu"
+    }
+  },
+  "common": {
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "done": "Selesai",
+    "back": "Kembali",
+    "next": "Lanjut",
+    "ok": "OK",
+    "retry": "Coba lagi",
+    "edit": "Edit",
+    "add": "Tambah",
+    "remove": "Hapus",
+    "close": "Tutup",
+    "search": "Cari",
+    "loading": "Memuat …",
+    "error": "Error",
+    "errorGeneric": "Ada yang tidak beres."
+  },
+  "nav": {
+    "recipes": "Resep",
+    "planner": "Rencana makan",
+    "activity": "Aktivitas",
+    "profile": "Profil"
+  },
+  "licenses": {
+    "intro": "alimonia menggunakan paket open-source berikut. Terima kasih banyak kepada para penulisnya."
+  },
+  "social": {
+    "unavailable": "Tidak lagi tersedia"
+  },
+  "profile": {
+    "followers": "Pengikut",
+    "following": "Mengikuti",
+    "sharedRecipes": "Resep yang dibagikan",
+    "searchUsers": "Cari pengguna",
+    "noShared": "Kamu belum membagikan resep apa pun. Aktifkan “Bagikan” pada sebuah resep.",
+    "signedOut": {
+      "title": "Akunmu, resepmu di mana saja",
+      "description": "Buat akun untuk mencadangkan resepmu, sinkron di semua perangkat, dan merencanakan bersama.",
+      "register": "Daftar"
+    },
+    "comingSoon": {
+      "title": "Segera hadir",
+      "description": "Fitur akun opsional dan sinkronisasi multi-perangkat, serta berbagi resep, sedang dalam pengembangan."
+    }
+  },
+  "household": {
+    "accountRequired": "Akun diperlukan",
+    "accountRequiredDesc": "Household membutuhkan akun.",
+    "createTitle": "Buat household",
+    "createFailed": "Household tidak dapat dibuat.",
+    "namePlaceholder": "Nama household",
+    "joinWithCode": "Gabung dengan kode",
+    "join": "Gabung",
+    "joinFailed": "Gagal bergabung",
+    "inviteCode": "Kode undangan",
+    "inviteMessage": "Gabung household alimonia-ku! Kode: {{code}}",
+    "inviteAction": "Undang",
+    "inviteMember": "Undang anggota",
+    "members": "ANGGOTA",
+    "membersLoadError": "Anggota tidak dapat dimuat.",
+    "noMembers": "Tidak ada anggota ditemukan.",
+    "owner": "Pemilik",
+    "you": "Kamu",
+    "member": "Anggota",
+    "renameSection": "GANTI NAMA HOUSEHOLD",
+    "switchSection": "GANTI HOUSEHOLD AKTIF",
+    "activeTag": "aktif",
+    "joinAnotherSection": "GABUNG HOUSEHOLD LAIN",
+    "joinWithInviteCode": "Gabung dengan kode undangan",
+    "leaveAction": "Keluar dari household",
+    "leaveTitle": "Keluar dari household?",
+    "leaveBody": "Kamu akan tetap memiliki akses baca ke resep household yang sudah ada.",
+    "leave": "Keluar",
+    "transferOwner": "Alihkan kepemilikan",
+    "transferFailed": "Pengalihan gagal.",
+    "removeMember": "Keluarkan dari household",
+    "removeConfirmTitle": "Benar-benar keluarkan?",
+    "removeConfirmBody": "{{name}} akan dikeluarkan dari household.",
+    "removeFailed": "Gagal mengeluarkan."
+  },
+  "profileEdit": {
+    "changeAvatar": "Ganti foto profil",
+    "fromLibrary": "Pilih dari galeri",
+    "handleRule": "@handle: hanya huruf dan angka.",
+    "bioTooLong": "Bio maksimal 150 karakter.",
+    "saveFailed": "Gagal menyimpan (handle mungkin sudah dipakai).",
+    "handleHint": "Mengubahnya akan mencadangkan handle lama selama 7 hari.",
+    "bio": "Bio",
+    "privateProfile": "Profil privat",
+    "privateProfileHint": "Pengikut harus disetujui."
+  },
+  "followList": {
+    "unfollow": "Berhenti mengikuti",
+    "empty": "Belum ada siapa-siapa di sini."
+  },
+  "userSearch": {
+    "placeholder": "@handle atau nama",
+    "noResults": "Tidak ada hasil."
+  },
+  "foreignProfile": {
+    "notFound": "Profil tidak ditemukan",
+    "following": "Mengikuti",
+    "requested": "Permintaan terkirim",
+    "follow": "Ikuti",
+    "more": "Lainnya",
+    "private": "Profil ini bersifat privat",
+    "noShared": "Belum ada resep yang dibagikan",
+    "block": "Blokir",
+    "report": "Laporkan",
+    "reportReason": "Alasan pelaporan",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Konten tidak pantas",
+    "reportFake": "Profil palsu",
+    "thanks": "Terima kasih",
+    "reportReceived": "Laporanmu telah tercatat dan akan ditinjau."
+  },
+  "notifications": {
+    "follow": "@{{handle}} kini mengikutimu",
+    "followRequest": "@{{handle}} ingin mengikutimu",
+    "like": "@{{handle}} menyukai resepmu «{{title}}»",
+    "remix": "@{{handle}} me-remix «{{title}}»",
+    "signInTitle": "Masuk",
+    "signInDescription": "Dengan akun, kamu akan menerima notifikasi tentang pengikut, suka, dan remix.",
+    "markAllRead": "Tandai semua dibaca",
+    "requests": "PERMINTAAN",
+    "accept": "Terima",
+    "reject": "Tolak",
+    "emptyTitle": "Tidak ada notifikasi",
+    "emptyDescription": "Apa yang terjadi pada resepmu akan muncul di sini."
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "section": {
+      "account": "Akun",
+      "household": "Household",
+      "languageRegion": "Bahasa & Wilayah",
+      "appearance": "Tampilan",
+      "dataSync": "Data & Sinkronisasi",
+      "help": "Bantuan",
+      "about": "Tentang",
+      "accountActions": "Akun",
+      "dangerZone": "Zona berbahaya"
+    },
+    "editProfile": "Edit profil",
+    "household": {
+      "owner": "Kamu adalah pemilik",
+      "member": "Anggota",
+      "createOrJoin": "Buat atau gabung household"
+    },
+    "language": {
+      "title": "Bahasa",
+      "system": "Sistem",
+      "restartTitle": "Perlu mulai ulang",
+      "restartBody": "Mulai ulang aplikasi agar arah tata letak diterapkan secara penuh."
+    },
+    "measurement": {
+      "title": "Satuan",
+      "system": "Sistem",
+      "metric": "Metrik",
+      "imperial": "Imperial"
+    },
+    "appIcon": {
+      "title": "Ikon Aplikasi",
+      "subtitle": "Pilih tampilan ikon alimonia di layar utama Anda.",
+      "icon": "Default",
+      "pride": "Kebanggaan"
+    },
+    "theme": {
+      "title": "Tema",
+      "system": "Sistem",
+      "light": "Terang",
+      "dark": "Gelap"
+    },
+    "mealSlots": {
+      "title": "Waktu makan",
+      "description": "Pilih waktu makan yang ingin direncanakan setiap hari dan beri nama sendiri.",
+      "rename": "Ganti nama",
+      "renameTitle": "Ganti nama waktu makan"
+    },
+    "sync": {
+      "status": "Status sinkronisasi",
+      "errors": "{{count}} error",
+      "pending": "{{count}} tertunda",
+      "synced": "Tersinkron",
+      "retry": "Coba sinkron lagi",
+      "discard": "Buang yang gagal"
+    },
+    "trash": "Sampah",
+    "showOnboarding": "Tampilkan intro lagi",
+    "version": "Versi",
+    "licenses": "Lisensi open-source",
+    "logout": {
+      "title": "Keluar?",
+      "body": "Data lokal akan tetap ada di perangkat ini.",
+      "action": "Keluar"
+    },
+    "wipe": {
+      "action": "Hapus semua penyimpanan",
+      "subtitle": "Menghapus semua data lokal secara permanen",
+      "confirm1Title": "Hapus semua penyimpanan?",
+      "confirm1Body": "Semua resep, rencana, daftar belanja, dan pengaturan akan dihapus permanen dari perangkat ini. Perubahan yang belum tersinkron akan hilang. Kamu juga akan keluar dari akun.",
+      "confirm2Title": "Benar-benar hapus semuanya?",
+      "confirm2Body": "Langkah ini tidak dapat dibatalkan.",
+      "confirmFinal": "Hapus permanen",
+      "failed": "Penyimpanan tidak dapat dihapus seluruhnya."
+    },
+    "discardSync": {
+      "title": "Buang perubahan yang gagal?",
+      "body": "Perubahan ini tetap ada di perangkat, tapi tidak akan lagi disinkronkan ke cloud.",
+      "action": "Buang"
+    }
+  },
+  "shopping": {
+    "title": "Daftar belanja",
+    "week": "Mgg {{n}}",
+    "composition": "Rincian",
+    "fromRecipes_one": "dari {{count}} resep",
+    "fromRecipes_other": "dari {{count}} resep",
+    "manual": "manual",
+    "addManual": "Tambah manual",
+    "changeCategory": "Ganti kategori",
+    "empty": {
+      "title": "Belum ada yang perlu dibeli",
+      "description": "Rencanakan resep untuk minggu ini — bahan-bahannya akan otomatis muncul di sini."
+    }
+  },
+  "a11y": {
+    "decrease": "Kurangi",
+    "increase": "Tambah"
+  },
+  "manualItem": {
+    "title": "Tambah item",
+    "name": "Nama",
+    "namePlaceholder": "mis. minyak zaitun",
+    "quantity": "Jumlah",
+    "optional": "opsional",
+    "unit": "Satuan",
+    "unitPlaceholder": "mis. ml",
+    "category": "Kategori"
+  },
+  "addToPlan": {
+    "title": "Tambah ke rencana makan",
+    "day": "Hari",
+    "meal": "Waktu makan"
+  },
+  "recipePicker": {
+    "titleFor": "Resep untuk {{meal}}",
+    "schedule": "Jadwalkan",
+    "copyToHousehold": "Salin ke household",
+    "noRecipes": "Tidak ada resep ditemukan."
+  },
+  "visibility": {
+    "title": "Visibilitas",
+    "message": "Siapa yang dapat melihat resep ini?",
+    "private": "Privat (hanya saya)",
+    "followers": "Hanya pengikut",
+    "public": "Publik"
+  },
+  "folder": {
+    "newTitle": "Folder baru",
+    "namePlaceholderLabel": "Nama folder",
+    "namePlaceholder": "mis. Favorit",
+    "color": "Warna",
+    "icon": "Ikon",
+    "create": "Buat",
+    "inFolder": "Tambah ke folder",
+    "none": "Belum ada folder.",
+    "createNew": "Buat folder baru"
+  },
+  "recipe": {
+    "servings": "Porsi",
+    "ingredients": "Bahan",
+    "steps": "Cara membuat"
+  },
+  "onboarding": {
+    "skip": "Lewati",
+    "start": "Mulai",
+    "slides": {
+      "flow": {
+        "title": "Rencanakan menu tanpa perlu menulis daftar belanja",
+        "description": "Simpan resep, rencanakan minggumu, dan dapatkan daftar belanja yang sesuai secara otomatis.",
+        "v1": "Resep",
+        "v2": "Rencana makan",
+        "v3": "Daftar belanja"
+      },
+      "import": {
+        "title": "Impor resep dalam hitungan detik",
+        "description": "Tinggal tempel link resep. Judul, gambar, bahan, dan langkah akan diimpor secara otomatis."
+      },
+      "plan": {
+        "title": "Rencanakan minggumu",
+        "description": "Bagi resep ke hari-hari tertentu dan pantau menu yang akan datang.",
+        "v1": "Sen – Pasta",
+        "v2": "Sel – Kari",
+        "v3": "Rab – Sup"
+      },
+      "shop": {
+        "title": "Daftar belanja otomatis",
+        "description": "Daftar belanja dibuat langsung dari rencana makanmu. Bahan yang duplikat akan digabungkan otomatis.",
+        "v1": "Susu",
+        "v2": "Tomat",
+        "v3": "Pasta"
+      }
+    }
+  },
+  "auth": {
+    "login": "Masuk",
+    "createAccount": "Buat akun",
+    "email": "Email",
+    "password": "Kata sandi",
+    "displayName": "Nama tampilan",
+    "displayNamePlaceholder": "Nama yang ingin kamu gunakan",
+    "handlePlaceholder": "unik, hanya huruf & angka",
+    "forgotPassword": "Lupa kata sandi?",
+    "noAccountRegister": "Belum punya akun? Daftar",
+    "haveAccountLogin": "Sudah punya akun? Masuk",
+    "loginFailed": "Gagal masuk.",
+    "registerFailed": "Pendaftaran gagal.",
+    "enterEmailFirst": "Silakan masukkan alamat emailmu dulu.",
+    "enterDisplayName": "Silakan masukkan nama tampilan.",
+    "handleRule": "@handle: hanya huruf dan angka (3–20 karakter).",
+    "emailSentTitle": "Email terkirim",
+    "emailSentBody": "Cek kotak masukmu untuk link reset.",
+    "sendError": "Gagal mengirim email.",
+    "almostDoneTitle": "Hampir selesai",
+    "almostDoneBody": "Kami telah mengirimkan email konfirmasi. Konfirmasi untuk dapat masuk.",
+    "profileVisibility": "Visibilitas profil",
+    "publicDesc": "Resep yang dibagikan terlihat oleh semua orang",
+    "privateDesc": "Hanya pengikut yang sudah disetujui"
+  },
+  "planner": {
+    "today": "Hari ini",
+    "personal": "Pribadi",
+    "addRecipe": "Tambah resep",
+    "servingsCount_one": "{{count}} porsi",
+    "servingsCount_other": "{{count}} porsi",
+    "viewRecipe": "Lihat resep",
+    "changeServings": "Ubah porsi",
+    "removeFromPlan": "Hapus dari rencana",
+    "firstRun": {
+      "title": "Rencanakan minggumu",
+      "description": "Ketuk sebuah slot untuk menambahkan resep.",
+      "action": "Buka rencana makan"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Milikku",
+      "household": "Household",
+      "saved": "Disimpan"
+    },
+    "sort": {
+      "recent": "Terbaru",
+      "alpha": "A–Z",
+      "category": "Kategori"
+    },
+    "sortTitle": "Urutkan",
+    "addRecipe": "Tambah resep",
+    "importUrl": "Impor URL",
+    "createManual": "Buat manual",
+    "scanImage": "Pindai dari foto atau PDF",
+    "view": "Lihat",
+    "allFolders": "Semua",
+    "householdEmpty": {
+      "title": "Masak dan rencanakan bersama",
+      "description": "Resep household, rencana makan bersama, dan daftar belanja bersama — untuk itu kamu butuh household.",
+      "create": "Buat household",
+      "createAccount": "Buat akun",
+      "enterCode": "Masukkan kode undangan"
+    },
+    "empty": {
+      "title": "Belum ada resep",
+      "description": "Impor resep lewat link atau buat secara manual.",
+      "savedTitle": "Belum ada yang disimpan",
+      "savedDescription": "Resep yang kamu tandai dengan hati akan muncul di sini."
+    },
+    "folderMenu": {
+      "open": "Buka",
+      "assign": "Tetapkan resep",
+      "rename": "Ganti nama",
+      "renameTitle": "Ganti nama folder"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Resep tidak ditemukan",
+    "notFoundDescription": "Resep ini mungkin telah dihapus.",
+    "deleteTitle": "Hapus resep?",
+    "deleteBody": "Resep akan dipindahkan ke sampah.",
+    "remixCreatedTitle": "Remix dibuat",
+    "remixCreatedBody": "Sebuah salinan telah ditambahkan ke koleksimu.",
+    "byAuthor": "oleh @{{handle}}",
+    "base": "Dasar: {{count}}",
+    "noIngredients": "Belum ada bahan yang dicatat.",
+    "remixOf": "Remix dari resep lain",
+    "addToPlan": "Tambah ke rencana makan",
+    "shareLabel": "Berbagi: {{visibility}}",
+    "remix": "Remix"
+  },
+  "recipeForm": {
+    "titleRequired": "Silakan masukkan judul.",
+    "gallery": "Galeri",
+    "camera": "Kamera",
+    "titleField": "Judul",
+    "titlePlaceholder": "mis. Pasta al Forno",
+    "description": "Deskripsi",
+    "descriptionPlaceholder": "Deskripsi singkat (opsional)",
+    "prepMin": "Persiapan (mnt)",
+    "cookMin": "Memasak (mnt)",
+    "ingredientPlaceholder": "mis. 200 g tepung",
+    "stepPlaceholder": "Langkah selanjutnya…",
+    "saveIn": "Simpan ke",
+    "private": "Privat",
+    "household": "Household",
+    "moveToSteps": "Pindahkan ke cara membuat",
+    "moveToIngredients": "Pindahkan ke bahan",
+    "headingPlaceholder": "mis. Untuk saus",
+    "toggleHeading": "Jadikan judul bagian"
+  },
+  "recipeNew": {
+    "title": "Resep baru",
+    "submit": "Simpan resep"
+  },
+  "recipeEdit": {
+    "title": "Edit resep",
+    "submit": "Simpan perubahan"
+  },
+  "folderScreen": {
+    "fallbackName": "Folder",
+    "editRecipes": "Edit resep",
+    "noRecipesTitle": "Tidak ada resep",
+    "noRecipesDescription": "Buat beberapa resep dulu.",
+    "emptyTitle": "Folder kosong",
+    "emptyDescription": "Ketuk ikon pensil di kanan atas untuk menambahkan resep."
+  },
+  "recipeImport": {
+    "title": "Impor resep",
+    "import": "Impor",
+    "noneDetected": "Bahan/langkah tidak dapat terdeteksi otomatis — silakan tambahkan secara manual.",
+    "failed": "Impor gagal.",
+    "failedManual": "Kamu dapat membuat resep secara manual.",
+    "urlLabel": "URL resep",
+    "hint": "Tempel link dari halaman resep, atau bagikan postingan Instagram langsung dari aplikasi. Judul, gambar, bahan, dan langkah akan diimpor secara otomatis.",
+    "loading": "Memuat resep…",
+    "save": "Simpan resep"
+  },
+  "recipeScan": {
+    "title": "Resep dari foto atau PDF",
+    "hint": "Pilih satu atau beberapa tangkapan layar dari resep yang sama, atau sebuah PDF. Teks dikenali langsung di perangkatmu — tidak ada yang diunggah.",
+    "addFromGallery": "Pilih dari galeri",
+    "takePhoto": "Ambil foto",
+    "addFromPdf": "Pilih PDF",
+    "preparingPdf": "Menyiapkan PDF…",
+    "pdfFailed": "PDF ini tidak dapat dibaca. Kamu bisa melengkapi resep secara manual.",
+    "pdfTruncated": "Hanya {{count}} halaman pertama yang diproses.",
+    "scan": "Kenali resep",
+    "removeImage": "Hapus gambar",
+    "loading": "Mengenali teks…",
+    "noneDetected": "Bahan/langkah tidak dapat dideteksi secara otomatis — lengkapi secara manual.",
+    "failed": "Pengenalan teks gagal.",
+    "failedManual": "Kamu bisa membuat resep secara manual.",
+    "save": "Simpan resep"
+  },
+  "trash": {
+    "title": "Sampah",
+    "emptyAll": "Kosongkan sampah",
+    "tabPrivate": "Privat",
+    "tabHousehold": "Household",
+    "emptyTitle": "Sampah kosong",
+    "emptyDescription": "Resep yang dihapus akan muncul di sini.",
+    "restore": "Pulihkan",
+    "deletedOn": "Dihapus: {{date}}",
+    "deleteForever": "Hapus selamanya",
+    "deleteOneTitle": "Hapus selamanya?",
+    "deleteOneBody": "Resep ini akan dihapus secara permanen.",
+    "emptyAllTitle": "Kosongkan sampah?",
+    "emptyAllBody": "Semua resep akan dihapus secara permanen."
+  }
+}

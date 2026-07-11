@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "cốc",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "mc canh",
+    "tsp": "mc cà phê",
+    "piece_one": "cái",
+    "piece_other": "cái",
+    "bunch_one": "bó",
+    "bunch_other": "bó",
+    "pinch_one": "nhúm",
+    "pinch_other": "nhúm",
+    "can_one": "lon",
+    "can_other": "lon",
+    "pack_one": "gói",
+    "pack_other": "gói",
+    "bag_one": "túi",
+    "bag_other": "túi",
+    "clove_one": "tép",
+    "clove_other": "tép",
+    "slice_one": "lát",
+    "slice_other": "lát"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Rau củ & Trái cây",
+      "meat": "Thịt & Đồ chế biến",
+      "fish": "Cá & Hải sản",
+      "legumes": "Đậu & Đậu phụ",
+      "dairy": "Sữa & Trứng",
+      "fats": "Dầu & Mỡ",
+      "bakery": "Bánh mì & Bánh ngọt",
+      "grains": "Mì, Gạo & Ngũ cốc",
+      "pantry": "Thực phẩm khô & Đóng hộp",
+      "spices": "Gia vị & Rau thơm",
+      "frozen": "Đông lạnh",
+      "drinks": "Đồ uống",
+      "other": "Khác"
+    },
+    "recipe": {
+      "meat": "Thịt",
+      "seafood": "Hải sản",
+      "vegetarian": "Chay",
+      "vegan": "Thuần chay"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Bữa sáng",
+    "lunch": "Bữa trưa",
+    "snack": "Ăn vặt",
+    "dinner": "Bữa tối",
+    "snack2": "Ăn vặt 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} phút",
+    "hoursShort": "{{count}} giờ",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "vừa xong",
+      "minutesAgo": "{{count}} phút trước",
+      "hoursAgo": "{{count}} giờ trước",
+      "daysAgo_one": "{{count}} ngày trước",
+      "daysAgo_other": "{{count}} ngày trước",
+      "weeksAgo": "{{count}} tuần trước"
+    }
+  },
+  "common": {
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "done": "Xong",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "ok": "OK",
+    "retry": "Thử lại",
+    "edit": "Chỉnh sửa",
+    "add": "Thêm",
+    "remove": "Bỏ",
+    "close": "Đóng",
+    "search": "Tìm kiếm",
+    "loading": "Đang tải …",
+    "error": "Lỗi",
+    "errorGeneric": "Đã có lỗi xảy ra."
+  },
+  "nav": {
+    "recipes": "Công thức",
+    "planner": "Kế hoạch ăn",
+    "activity": "Hoạt động",
+    "profile": "Hồ sơ"
+  },
+  "licenses": {
+    "intro": "alimonia sử dụng các thư viện mã nguồn mở sau. Xin cảm ơn các tác giả."
+  },
+  "social": {
+    "unavailable": "Không còn khả dụng"
+  },
+  "profile": {
+    "followers": "Người theo dõi",
+    "following": "Đang theo dõi",
+    "sharedRecipes": "Công thức đã chia sẻ",
+    "searchUsers": "Tìm người dùng",
+    "noShared": "Bạn chưa chia sẻ công thức nào. Hãy bật “Chia sẻ” trên một công thức.",
+    "signedOut": {
+      "title": "Tài khoản của bạn, công thức của bạn ở mọi nơi",
+      "description": "Tạo tài khoản để sao lưu công thức, đồng bộ trên nhiều thiết bị và cùng lập kế hoạch.",
+      "register": "Đăng ký"
+    },
+    "comingSoon": {
+      "title": "Sắp ra mắt",
+      "description": "Các tính năng tài khoản và đồng bộ đa thiết bị (không bắt buộc), cùng với chia sẻ công thức, đang được phát triển."
+    }
+  },
+  "household": {
+    "accountRequired": "Cần có tài khoản",
+    "accountRequiredDesc": "Hộ gia đình cần có tài khoản.",
+    "createTitle": "Tạo hộ gia đình",
+    "createFailed": "Không thể tạo hộ gia đình.",
+    "namePlaceholder": "Tên hộ gia đình",
+    "joinWithCode": "Tham gia bằng mã",
+    "join": "Tham gia",
+    "joinFailed": "Tham gia không thành công",
+    "inviteCode": "Mã mời",
+    "inviteMessage": "Tham gia hộ gia đình alimonia của tôi! Mã: {{code}}",
+    "inviteAction": "Mời",
+    "inviteMember": "Mời thành viên",
+    "members": "THÀNH VIÊN",
+    "membersLoadError": "Không thể tải danh sách thành viên.",
+    "noMembers": "Không tìm thấy thành viên nào.",
+    "owner": "Chủ sở hữu",
+    "you": "Bạn",
+    "member": "Thành viên",
+    "renameSection": "ĐỔI TÊN HỘ GIA ĐÌNH",
+    "switchSection": "CHUYỂN HỘ GIA ĐÌNH ĐANG HOẠT ĐỘNG",
+    "activeTag": "đang hoạt động",
+    "joinAnotherSection": "THAM GIA HỘ GIA ĐÌNH KHÁC",
+    "joinWithInviteCode": "Tham gia bằng mã mời",
+    "leaveAction": "Rời hộ gia đình",
+    "leaveTitle": "Rời hộ gia đình?",
+    "leaveBody": "Bạn vẫn có quyền xem các công thức hiện có của hộ gia đình.",
+    "leave": "Rời khỏi",
+    "transferOwner": "Chuyển quyền sở hữu",
+    "transferFailed": "Chuyển quyền không thành công.",
+    "removeMember": "Xóa khỏi hộ gia đình",
+    "removeConfirmTitle": "Bạn chắc chắn muốn xóa?",
+    "removeConfirmBody": "{{name}} sẽ bị xóa khỏi hộ gia đình.",
+    "removeFailed": "Xóa không thành công."
+  },
+  "profileEdit": {
+    "changeAvatar": "Đổi ảnh đại diện",
+    "fromLibrary": "Chọn từ thư viện",
+    "handleRule": "@handle: chỉ gồm chữ và số.",
+    "bioTooLong": "Tiểu sử tối đa 150 ký tự.",
+    "saveFailed": "Lưu không thành công (handle có thể đã được dùng).",
+    "handleHint": "Thay đổi sẽ giữ handle cũ trong 7 ngày.",
+    "bio": "Tiểu sử",
+    "privateProfile": "Hồ sơ riêng tư",
+    "privateProfileHint": "Người theo dõi cần được phê duyệt."
+  },
+  "followList": {
+    "unfollow": "Bỏ theo dõi",
+    "empty": "Chưa có ai ở đây."
+  },
+  "userSearch": {
+    "placeholder": "@handle hoặc tên",
+    "noResults": "Không có kết quả."
+  },
+  "foreignProfile": {
+    "notFound": "Không tìm thấy hồ sơ",
+    "following": "Đang theo dõi",
+    "requested": "Đã gửi yêu cầu",
+    "follow": "Theo dõi",
+    "more": "Thêm",
+    "private": "Hồ sơ này ở chế độ riêng tư",
+    "noShared": "Chưa có công thức được chia sẻ",
+    "block": "Chặn",
+    "report": "Báo cáo",
+    "reportReason": "Lý do báo cáo",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Nội dung không phù hợp",
+    "reportFake": "Hồ sơ giả",
+    "thanks": "Cảm ơn",
+    "reportReceived": "Báo cáo của bạn đã được ghi nhận và sẽ được xem xét."
+  },
+  "notifications": {
+    "follow": "@{{handle}} hiện đang theo dõi bạn",
+    "followRequest": "@{{handle}} muốn theo dõi bạn",
+    "like": "@{{handle}} đã thích công thức «{{title}}» của bạn",
+    "remix": "@{{handle}} đã remix «{{title}}»",
+    "signInTitle": "Đăng nhập",
+    "signInDescription": "Với tài khoản, bạn sẽ nhận thông báo về người theo dõi, lượt thích và remix.",
+    "markAllRead": "Đánh dấu đã đọc tất cả",
+    "requests": "YÊU CẦU",
+    "accept": "Đồng ý",
+    "reject": "Từ chối",
+    "emptyTitle": "Không có thông báo",
+    "emptyDescription": "Những gì diễn ra xung quanh công thức của bạn sẽ hiện ở đây."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "section": {
+      "account": "Tài khoản",
+      "household": "Hộ gia đình",
+      "languageRegion": "Ngôn ngữ & Khu vực",
+      "appearance": "Giao diện",
+      "dataSync": "Dữ liệu & Đồng bộ",
+      "help": "Trợ giúp",
+      "about": "Giới thiệu",
+      "accountActions": "Tài khoản",
+      "dangerZone": "Khu vực nguy hiểm"
+    },
+    "editProfile": "Chỉnh sửa hồ sơ",
+    "household": {
+      "owner": "Bạn là chủ sở hữu",
+      "member": "Thành viên",
+      "createOrJoin": "Tạo hoặc tham gia hộ gia đình"
+    },
+    "language": {
+      "title": "Ngôn ngữ",
+      "system": "Hệ thống",
+      "restartTitle": "Cần khởi động lại",
+      "restartBody": "Vui lòng khởi động lại ứng dụng để hướng bố cục được áp dụng đầy đủ."
+    },
+    "measurement": {
+      "title": "Đơn vị",
+      "system": "Hệ thống",
+      "metric": "Hệ mét",
+      "imperial": "Hệ Anh"
+    },
+    "appIcon": {
+      "title": "Biểu tượng ứng dụng",
+      "subtitle": "Chọn cách biểu tượng alimonia hiển thị trên màn hình chính.",
+      "icon": "Mặc định",
+      "pride": "Tự hào"
+    },
+    "theme": {
+      "title": "Chủ đề",
+      "system": "Hệ thống",
+      "light": "Sáng",
+      "dark": "Tối"
+    },
+    "mealSlots": {
+      "title": "Bữa ăn",
+      "description": "Chọn những bữa ăn muốn lên kế hoạch mỗi ngày và đặt tên riêng cho chúng.",
+      "rename": "Đổi tên",
+      "renameTitle": "Đổi tên bữa ăn"
+    },
+    "sync": {
+      "status": "Trạng thái đồng bộ",
+      "errors": "{{count}} lỗi",
+      "pending": "{{count}} đang chờ",
+      "synced": "Đã đồng bộ",
+      "retry": "Thử đồng bộ lại",
+      "discard": "Bỏ các thay đổi lỗi"
+    },
+    "trash": "Thùng rác",
+    "showOnboarding": "Xem lại phần giới thiệu",
+    "version": "Phiên bản",
+    "licenses": "Giấy phép mã nguồn mở",
+    "logout": {
+      "title": "Đăng xuất?",
+      "body": "Dữ liệu trên máy vẫn được giữ lại trên thiết bị này.",
+      "action": "Đăng xuất"
+    },
+    "wipe": {
+      "action": "Xóa toàn bộ dữ liệu",
+      "subtitle": "Xóa vĩnh viễn toàn bộ dữ liệu trên máy",
+      "confirm1Title": "Xóa toàn bộ dữ liệu?",
+      "confirm1Body": "Tất cả công thức, kế hoạch, danh sách mua sắm và cài đặt sẽ bị xóa vĩnh viễn khỏi thiết bị này. Các thay đổi chưa đồng bộ sẽ bị mất. Bạn cũng sẽ bị đăng xuất.",
+      "confirm2Title": "Bạn chắc chắn muốn xóa tất cả?",
+      "confirm2Body": "Bước này không thể hoàn tác.",
+      "confirmFinal": "Xóa vĩnh viễn",
+      "failed": "Không thể xóa toàn bộ dữ liệu."
+    },
+    "discardSync": {
+      "title": "Bỏ các thay đổi lỗi?",
+      "body": "Các thay đổi này vẫn được giữ trên thiết bị, nhưng sẽ không còn đồng bộ lên cloud nữa.",
+      "action": "Bỏ"
+    }
+  },
+  "shopping": {
+    "title": "Danh sách mua sắm",
+    "week": "Tuần {{n}}",
+    "composition": "Chi tiết",
+    "fromRecipes_one": "từ {{count}} công thức",
+    "fromRecipes_other": "từ {{count}} công thức",
+    "manual": "thủ công",
+    "addManual": "Thêm thủ công",
+    "changeCategory": "Đổi danh mục",
+    "empty": {
+      "title": "Chưa có gì cần mua",
+      "description": "Lập kế hoạch công thức cho tuần này — nguyên liệu sẽ tự động xuất hiện ở đây."
+    }
+  },
+  "a11y": {
+    "decrease": "Giảm",
+    "increase": "Tăng"
+  },
+  "manualItem": {
+    "title": "Thêm mục",
+    "name": "Tên",
+    "namePlaceholder": "vd. dầu ô liu",
+    "quantity": "Số lượng",
+    "optional": "không bắt buộc",
+    "unit": "Đơn vị",
+    "unitPlaceholder": "vd. ml",
+    "category": "Danh mục"
+  },
+  "addToPlan": {
+    "title": "Thêm vào kế hoạch ăn",
+    "day": "Ngày",
+    "meal": "Bữa ăn"
+  },
+  "recipePicker": {
+    "titleFor": "Công thức cho {{meal}}",
+    "schedule": "Lên kế hoạch",
+    "copyToHousehold": "Sao chép vào hộ gia đình",
+    "noRecipes": "Không tìm thấy công thức nào."
+  },
+  "visibility": {
+    "title": "Chế độ hiển thị",
+    "message": "Ai có thể xem công thức này?",
+    "private": "Riêng tư (chỉ mình tôi)",
+    "followers": "Chỉ người theo dõi",
+    "public": "Công khai"
+  },
+  "folder": {
+    "newTitle": "Thư mục mới",
+    "namePlaceholderLabel": "Tên thư mục",
+    "namePlaceholder": "vd. Yêu thích",
+    "color": "Màu",
+    "icon": "Biểu tượng",
+    "create": "Tạo",
+    "inFolder": "Thêm vào thư mục",
+    "none": "Chưa có thư mục nào.",
+    "createNew": "Tạo thư mục mới"
+  },
+  "recipe": {
+    "servings": "Số phần ăn",
+    "ingredients": "Nguyên liệu",
+    "steps": "Cách làm"
+  },
+  "onboarding": {
+    "skip": "Bỏ qua",
+    "start": "Bắt đầu",
+    "slides": {
+      "flow": {
+        "title": "Lập kế hoạch bữa ăn thay vì viết danh sách mua sắm",
+        "description": "Lưu công thức, lập kế hoạch cho tuần của bạn và tự động nhận danh sách mua sắm phù hợp.",
+        "v1": "Công thức",
+        "v2": "Kế hoạch ăn",
+        "v3": "Danh sách mua sắm"
+      },
+      "import": {
+        "title": "Nhập công thức trong vài giây",
+        "description": "Chỉ cần dán liên kết công thức. Tiêu đề, hình ảnh, nguyên liệu và các bước sẽ được nhập tự động."
+      },
+      "plan": {
+        "title": "Lập kế hoạch cho tuần của bạn",
+        "description": "Sắp xếp công thức cho từng ngày và theo dõi các bữa ăn sắp tới.",
+        "v1": "Th 2 – Pasta",
+        "v2": "Th 3 – Cà ri",
+        "v3": "Th 4 – Súp"
+      },
+      "shop": {
+        "title": "Danh sách mua sắm tự động",
+        "description": "Danh sách mua sắm được tạo trực tiếp từ kế hoạch ăn của bạn. Nguyên liệu trùng lặp sẽ được tự động gộp lại.",
+        "v1": "Sữa",
+        "v2": "Cà chua",
+        "v3": "Pasta"
+      }
+    }
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "createAccount": "Tạo tài khoản",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "displayName": "Tên hiển thị",
+    "displayNamePlaceholder": "Tên bạn muốn được gọi",
+    "handlePlaceholder": "duy nhất, chỉ gồm chữ & số",
+    "forgotPassword": "Quên mật khẩu?",
+    "noAccountRegister": "Chưa có tài khoản? Đăng ký",
+    "haveAccountLogin": "Đã có tài khoản? Đăng nhập",
+    "loginFailed": "Đăng nhập không thành công.",
+    "registerFailed": "Đăng ký không thành công.",
+    "enterEmailFirst": "Vui lòng nhập địa chỉ email trước.",
+    "enterDisplayName": "Vui lòng nhập tên hiển thị.",
+    "handleRule": "@handle: chỉ gồm chữ và số (3–20 ký tự).",
+    "emailSentTitle": "Đã gửi email",
+    "emailSentBody": "Kiểm tra hộp thư để lấy liên kết đặt lại.",
+    "sendError": "Lỗi khi gửi email.",
+    "almostDoneTitle": "Sắp xong rồi",
+    "almostDoneBody": "Chúng tôi đã gửi cho bạn một email xác nhận. Hãy xác nhận để đăng nhập.",
+    "profileVisibility": "Chế độ hiển thị hồ sơ",
+    "publicDesc": "Công thức chia sẻ hiển thị cho mọi người",
+    "privateDesc": "Chỉ người theo dõi đã được xác nhận"
+  },
+  "planner": {
+    "today": "Hôm nay",
+    "personal": "Cá nhân",
+    "addRecipe": "Thêm công thức",
+    "servingsCount_one": "{{count}} phần ăn",
+    "servingsCount_other": "{{count}} phần ăn",
+    "viewRecipe": "Xem công thức",
+    "changeServings": "Đổi số phần ăn",
+    "removeFromPlan": "Xóa khỏi kế hoạch",
+    "firstRun": {
+      "title": "Lập kế hoạch cho tuần của bạn",
+      "description": "Chạm vào một ô để thêm công thức.",
+      "action": "Mở kế hoạch ăn"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Của tôi",
+      "household": "Hộ gia đình",
+      "saved": "Đã lưu"
+    },
+    "sort": {
+      "recent": "Mới nhất",
+      "alpha": "A–Z",
+      "category": "Danh mục"
+    },
+    "sortTitle": "Sắp xếp",
+    "addRecipe": "Thêm công thức",
+    "importUrl": "Nhập URL",
+    "createManual": "Tạo thủ công",
+    "scanImage": "Quét từ ảnh hoặc PDF",
+    "view": "Xem",
+    "allFolders": "Tất cả",
+    "householdEmpty": {
+      "title": "Cùng nấu ăn và lập kế hoạch",
+      "description": "Công thức hộ gia đình, kế hoạch ăn chung và danh sách mua sắm chung — để có những điều này bạn cần một hộ gia đình.",
+      "create": "Tạo hộ gia đình",
+      "createAccount": "Tạo tài khoản",
+      "enterCode": "Nhập mã mời"
+    },
+    "empty": {
+      "title": "Chưa có công thức nào",
+      "description": "Nhập công thức qua liên kết hoặc tạo thủ công.",
+      "savedTitle": "Chưa lưu gì cả",
+      "savedDescription": "Các công thức bạn đánh dấu bằng trái tim sẽ xuất hiện ở đây."
+    },
+    "folderMenu": {
+      "open": "Mở",
+      "assign": "Gán công thức",
+      "rename": "Đổi tên",
+      "renameTitle": "Đổi tên thư mục"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Không tìm thấy công thức",
+    "notFoundDescription": "Công thức này có thể đã bị xóa.",
+    "deleteTitle": "Xóa công thức?",
+    "deleteBody": "Công thức sẽ được chuyển vào thùng rác.",
+    "remixCreatedTitle": "Đã tạo remix",
+    "remixCreatedBody": "Một bản sao đã được thêm vào thư viện của bạn.",
+    "byAuthor": "bởi @{{handle}}",
+    "base": "Gốc: {{count}}",
+    "noIngredients": "Chưa có nguyên liệu nào được ghi nhận.",
+    "remixOf": "Remix từ một công thức khác",
+    "addToPlan": "Thêm vào kế hoạch ăn",
+    "shareLabel": "Chia sẻ: {{visibility}}",
+    "remix": "Remix"
+  },
+  "recipeForm": {
+    "titleRequired": "Vui lòng nhập tiêu đề.",
+    "gallery": "Thư viện ảnh",
+    "camera": "Máy ảnh",
+    "titleField": "Tiêu đề",
+    "titlePlaceholder": "vd. Pasta al Forno",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Mô tả ngắn (không bắt buộc)",
+    "prepMin": "Chuẩn bị (phút)",
+    "cookMin": "Nấu (phút)",
+    "ingredientPlaceholder": "vd. 200 g bột mì",
+    "stepPlaceholder": "Bước tiếp theo…",
+    "saveIn": "Lưu vào",
+    "private": "Riêng tư",
+    "household": "Hộ gia đình",
+    "moveToSteps": "Chuyển sang cách làm",
+    "moveToIngredients": "Chuyển sang nguyên liệu",
+    "headingPlaceholder": "vd. Cho nước sốt",
+    "toggleHeading": "Chuyển thành tiêu đề"
+  },
+  "recipeNew": {
+    "title": "Công thức mới",
+    "submit": "Lưu công thức"
+  },
+  "recipeEdit": {
+    "title": "Chỉnh sửa công thức",
+    "submit": "Lưu thay đổi"
+  },
+  "folderScreen": {
+    "fallbackName": "Thư mục",
+    "editRecipes": "Chỉnh sửa công thức",
+    "noRecipesTitle": "Không có công thức",
+    "noRecipesDescription": "Hãy tạo một số công thức trước.",
+    "emptyTitle": "Thư mục trống",
+    "emptyDescription": "Chạm vào biểu tượng bút ở trên cùng bên phải để thêm công thức."
+  },
+  "recipeImport": {
+    "title": "Nhập công thức",
+    "import": "Nhập",
+    "noneDetected": "Không thể tự động nhận diện nguyên liệu/các bước — vui lòng thêm thủ công.",
+    "failed": "Nhập không thành công.",
+    "failedManual": "Bạn có thể tạo công thức theo cách thủ công.",
+    "urlLabel": "URL công thức",
+    "hint": "Dán liên kết từ một trang công thức, hoặc chia sẻ bài đăng Instagram trực tiếp từ ứng dụng. Tiêu đề, hình ảnh, nguyên liệu và các bước sẽ được nhập tự động.",
+    "loading": "Đang tải công thức…",
+    "save": "Lưu công thức"
+  },
+  "recipeScan": {
+    "title": "Công thức từ ảnh hoặc PDF",
+    "hint": "Chọn một hoặc nhiều ảnh chụp màn hình của cùng một công thức, hoặc một tệp PDF. Văn bản được nhận dạng trực tiếp trên thiết bị của bạn — không có gì được tải lên.",
+    "addFromGallery": "Chọn từ thư viện",
+    "takePhoto": "Chụp ảnh",
+    "addFromPdf": "Chọn PDF",
+    "preparingPdf": "Đang chuẩn bị PDF…",
+    "pdfFailed": "Không thể đọc tệp PDF này. Bạn có thể hoàn tất công thức theo cách thủ công.",
+    "pdfTruncated": "Chỉ {{count}} trang đầu tiên được xử lý.",
+    "scan": "Nhận dạng công thức",
+    "removeImage": "Xóa ảnh",
+    "loading": "Đang nhận dạng văn bản…",
+    "noneDetected": "Không thể tự động nhận dạng nguyên liệu/các bước — vui lòng bổ sung thủ công.",
+    "failed": "Nhận dạng văn bản không thành công.",
+    "failedManual": "Bạn có thể tạo công thức theo cách thủ công.",
+    "save": "Lưu công thức"
+  },
+  "trash": {
+    "title": "Thùng rác",
+    "emptyAll": "Xóa toàn bộ thùng rác",
+    "tabPrivate": "Riêng tư",
+    "tabHousehold": "Hộ gia đình",
+    "emptyTitle": "Thùng rác trống",
+    "emptyDescription": "Các công thức đã xóa sẽ xuất hiện ở đây.",
+    "restore": "Khôi phục",
+    "deletedOn": "Đã xóa: {{date}}",
+    "deleteForever": "Xóa vĩnh viễn",
+    "deleteOneTitle": "Xóa vĩnh viễn?",
+    "deleteOneBody": "Công thức này sẽ bị xóa vĩnh viễn.",
+    "emptyAllTitle": "Xóa toàn bộ thùng rác?",
+    "emptyAllBody": "Tất cả công thức sẽ bị xóa vĩnh viễn."
+  }
+}

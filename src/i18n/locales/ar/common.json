@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "مغ",
+    "g": "غ",
+    "kg": "كغ",
+    "oz": "أونصة",
+    "lb": "رطل",
+    "ml": "مل",
+    "cl": "سل",
+    "l": "ل",
+    "floz": "أونصة سائلة",
+    "cup": "كوب",
+    "pint": "باينت",
+    "quart": "كوارت",
+    "gallon": "غالون",
+    "tbsp": "م.ك",
+    "tsp": "م.ص",
+    "piece_one": "قطعة",
+    "piece_other": "قطع",
+    "bunch_one": "حزمة",
+    "bunch_other": "حزم",
+    "pinch_one": "رشة",
+    "pinch_other": "رشات",
+    "can_one": "علبة",
+    "can_other": "علب",
+    "pack_one": "عبوة",
+    "pack_other": "عبوات",
+    "bag_one": "كيس",
+    "bag_other": "أكياس",
+    "clove_one": "فص",
+    "clove_other": "فصوص",
+    "slice_one": "شريحة",
+    "slice_other": "شرائح"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "فواكه وخضروات",
+      "meat": "لحوم ومقبّلات",
+      "fish": "أسماك ومأكولات بحرية",
+      "legumes": "بقوليات وتوفو",
+      "dairy": "ألبان وبيض",
+      "fats": "دهون وزيوت",
+      "bakery": "خبز ومخبوزات",
+      "grains": "معكرونة وأرز وحبوب",
+      "pantry": "مؤن ومعلبات",
+      "spices": "بهارات وأعشاب",
+      "frozen": "مجمدات",
+      "drinks": "مشروبات",
+      "other": "أخرى"
+    },
+    "recipe": {
+      "meat": "لحوم",
+      "seafood": "مأكولات بحرية",
+      "vegetarian": "نباتي",
+      "vegan": "نباتي صرف"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "الفطور",
+    "lunch": "الغداء",
+    "snack": "وجبة خفيفة",
+    "dinner": "العشاء",
+    "snack2": "وجبة خفيفة 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} د",
+    "hoursShort": "{{count}} س",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "الآن",
+      "minutesAgo": "منذ {{count}} د",
+      "hoursAgo": "منذ {{count}} س",
+      "daysAgo_one": "منذ {{count}} يوم",
+      "daysAgo_other": "منذ {{count}} يوم",
+      "weeksAgo": "منذ {{count}} أسب."
+    }
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "done": "تم",
+    "back": "رجوع",
+    "next": "التالي",
+    "ok": "حسنًا",
+    "retry": "إعادة المحاولة",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "remove": "إزالة",
+    "close": "إغلاق",
+    "search": "بحث",
+    "loading": "جارٍ التحميل …",
+    "error": "خطأ",
+    "errorGeneric": "حدث خطأ ما."
+  },
+  "nav": {
+    "recipes": "الوصفات",
+    "planner": "خطة الوجبات",
+    "activity": "النشاط",
+    "profile": "الملف الشخصي"
+  },
+  "licenses": {
+    "intro": "يستخدم alimonia الحزم مفتوحة المصدر التالية. شكرًا جزيلًا لمؤلفيها."
+  },
+  "social": {
+    "unavailable": "لم يعد متاحًا"
+  },
+  "profile": {
+    "followers": "المتابعون",
+    "following": "تتابعهم",
+    "sharedRecipes": "الوصفات المشاركة",
+    "searchUsers": "البحث عن مستخدمين",
+    "noShared": "لم تشارك أي وصفة بعد. فعّل «المشاركة» في إحدى وصفاتك.",
+    "signedOut": {
+      "title": "حسابك ووصفاتك في كل مكان",
+      "description": "أنشئ حسابًا لحفظ نسخة احتياطية من وصفاتك ومزامنتها بين الأجهزة والتخطيط معًا.",
+      "register": "تسجيل"
+    },
+    "comingSoon": {
+      "title": "قريبًا",
+      "description": "ميزات الحساب الاختيارية والمزامنة بين الأجهزة، بالإضافة إلى مشاركة الوصفات، قيد التطوير حاليًا."
+    }
+  },
+  "household": {
+    "accountRequired": "الحساب مطلوب",
+    "accountRequiredDesc": "تحتاج المنازل إلى حساب.",
+    "createTitle": "إنشاء منزل",
+    "createFailed": "تعذّر إنشاء المنزل.",
+    "namePlaceholder": "اسم المنزل",
+    "joinWithCode": "الانضمام برمز",
+    "join": "انضمام",
+    "joinFailed": "فشل الانضمام",
+    "inviteCode": "رمز الدعوة",
+    "inviteMessage": "انضم إلى منزلي على alimonia! الرمز: {{code}}",
+    "inviteAction": "دعوة",
+    "inviteMember": "دعوة عضو",
+    "members": "الأعضاء",
+    "membersLoadError": "تعذّر تحميل الأعضاء.",
+    "noMembers": "لم يُعثر على أعضاء.",
+    "owner": "المالك",
+    "you": "أنت",
+    "member": "عضو",
+    "renameSection": "إعادة تسمية المنزل",
+    "switchSection": "تبديل المنزل النشط",
+    "activeTag": "نشط",
+    "joinAnotherSection": "الانضمام إلى منزل آخر",
+    "joinWithInviteCode": "الانضمام برمز دعوة",
+    "leaveAction": "ترك المنزل",
+    "leaveTitle": "ترك المنزل؟",
+    "leaveBody": "ستحتفظ بإمكانية الوصول للقراءة فقط إلى وصفات المنزل الحالية.",
+    "leave": "ترك",
+    "transferOwner": "نقل الملكية",
+    "transferFailed": "فشل النقل.",
+    "removeMember": "إزالة من المنزل",
+    "removeConfirmTitle": "إزالة بالفعل؟",
+    "removeConfirmBody": "سيتم إزالة {{name}} من المنزل.",
+    "removeFailed": "فشلت الإزالة."
+  },
+  "profileEdit": {
+    "changeAvatar": "تغيير صورة الملف الشخصي",
+    "fromLibrary": "اختيار من المعرض",
+    "handleRule": "@handle: حروف وأرقام فقط.",
+    "bioTooLong": "السيرة الذاتية يجب ألا تتجاوز 150 حرفًا.",
+    "saveFailed": "فشل الحفظ (قد يكون المعرّف مستخدمًا).",
+    "handleHint": "تغييره يحجز المعرّف القديم لمدة 7 أيام.",
+    "bio": "السيرة الذاتية",
+    "privateProfile": "ملف شخصي خاص",
+    "privateProfileHint": "يجب الموافقة على المتابعين."
+  },
+  "followList": {
+    "unfollow": "إلغاء المتابعة",
+    "empty": "لا يوجد أحد هنا بعد."
+  },
+  "userSearch": {
+    "placeholder": "@handle أو الاسم",
+    "noResults": "لا توجد نتائج."
+  },
+  "foreignProfile": {
+    "notFound": "لم يُعثر على ملف شخصي",
+    "following": "متابَع",
+    "requested": "تم إرسال الطلب",
+    "follow": "متابعة",
+    "more": "المزيد",
+    "private": "هذا الملف الشخصي خاص",
+    "noShared": "لا توجد وصفات مشاركة بعد",
+    "block": "حظر",
+    "report": "إبلاغ",
+    "reportReason": "سبب الإبلاغ",
+    "reportSpam": "رسائل مزعجة",
+    "reportInappropriate": "محتوى غير لائق",
+    "reportFake": "ملف شخصي مزيف",
+    "thanks": "شكرًا",
+    "reportReceived": "تم تسجيل بلاغك وسيُراجع."
+  },
+  "notifications": {
+    "follow": "@{{handle}} يتابعك الآن",
+    "followRequest": "@{{handle}} يريد متابعتك",
+    "like": "يحب @{{handle}} وصفتك «{{title}}»",
+    "remix": "أعاد @{{handle}} تركيب «{{title}}»",
+    "signInTitle": "تسجيل الدخول",
+    "signInDescription": "بحساب، ستحصل على إشعارات حول المتابعات والإعجابات وإعادة التركيب.",
+    "markAllRead": "وضع علامة مقروء على الكل",
+    "requests": "الطلبات",
+    "accept": "قبول",
+    "reject": "رفض",
+    "emptyTitle": "لا توجد إشعارات",
+    "emptyDescription": "هنا سيظهر ما يحدث حول وصفاتك."
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "section": {
+      "account": "الحساب",
+      "household": "المنزل",
+      "languageRegion": "اللغة والمنطقة",
+      "appearance": "المظهر",
+      "dataSync": "البيانات والمزامنة",
+      "help": "المساعدة",
+      "about": "حول",
+      "accountActions": "الحساب",
+      "dangerZone": "منطقة الخطر"
+    },
+    "editProfile": "تعديل الملف الشخصي",
+    "household": {
+      "owner": "أنت المالك",
+      "member": "عضو",
+      "createOrJoin": "إنشاء منزل أو الانضمام إليه"
+    },
+    "language": {
+      "title": "اللغة",
+      "system": "النظام",
+      "restartTitle": "إعادة التشغيل مطلوبة",
+      "restartBody": "يرجى إعادة تشغيل التطبيق لتطبيق اتجاه التخطيط بالكامل."
+    },
+    "measurement": {
+      "title": "الوحدات",
+      "system": "النظام",
+      "metric": "متري",
+      "imperial": "إمبراطوري"
+    },
+    "appIcon": {
+      "title": "أيقونة التطبيق",
+      "subtitle": "اختر شكل أيقونة alimonia على الشاشة الرئيسية.",
+      "icon": "افتراضي",
+      "pride": "فخر"
+    },
+    "theme": {
+      "title": "السمة",
+      "system": "النظام",
+      "light": "فاتح",
+      "dark": "داكن"
+    },
+    "mealSlots": {
+      "title": "الوجبات",
+      "description": "اختر الوجبات التي تخطط لها كل يوم وأعطها أسماء خاصة بك.",
+      "rename": "إعادة تسمية",
+      "renameTitle": "إعادة تسمية الوجبة"
+    },
+    "sync": {
+      "status": "حالة المزامنة",
+      "errors": "{{count}} أخطاء",
+      "pending": "{{count}} قيد الانتظار",
+      "synced": "متزامن",
+      "retry": "إعادة محاولة المزامنة",
+      "discard": "تجاهل الفاشلة"
+    },
+    "trash": "سلة المحذوفات",
+    "showOnboarding": "إظهار المقدمة مرة أخرى",
+    "version": "الإصدار",
+    "licenses": "ترخيصات مفتوحة المصدر",
+    "logout": {
+      "title": "تسجيل الخروج؟",
+      "body": "تبقى البيانات المحلية على هذا الجهاز.",
+      "action": "تسجيل الخروج"
+    },
+    "wipe": {
+      "action": "محو كل التخزين",
+      "subtitle": "يزيل جميع البيانات المحلية بشكل نهائي",
+      "confirm1Title": "محو كل التخزين؟",
+      "confirm1Body": "سيتم إزالة جميع الوصفات والخطط وقوائم التسوق والإعدادات بشكل نهائي من هذا الجهاز. ستُفقد التغييرات غير المتزامنة. سيتم أيضًا تسجيل خروجك.",
+      "confirm2Title": "محو كل شيء بالفعل؟",
+      "confirm2Body": "لا يمكن التراجع عن هذه الخطوة.",
+      "confirmFinal": "محو نهائيًا",
+      "failed": "تعذّر محو التخزين بالكامل."
+    },
+    "discardSync": {
+      "title": "تجاهل التغييرات الفاشلة؟",
+      "body": "تبقى هذه التغييرات على الجهاز لكنها لن تُزامن مع السحابة بعد الآن.",
+      "action": "تجاهل"
+    }
+  },
+  "shopping": {
+    "title": "قائمة التسوق",
+    "week": "أسبوع {{n}}",
+    "composition": "التفاصيل",
+    "fromRecipes_one": "من {{count}} وصفة",
+    "fromRecipes_other": "من {{count}} وصفة",
+    "manual": "يدوي",
+    "addManual": "إضافة يدويًا",
+    "changeCategory": "تغيير الفئة",
+    "empty": {
+      "title": "لا شيء لشرائه حتى الآن",
+      "description": "خطّط وصفات لهذا الأسبوع — ستظهر المكونات هنا تلقائيًا."
+    }
+  },
+  "a11y": {
+    "decrease": "تقليل",
+    "increase": "زيادة"
+  },
+  "manualItem": {
+    "title": "إضافة عنصر",
+    "name": "الاسم",
+    "namePlaceholder": "مثل: زيت الزيتون",
+    "quantity": "الكمية",
+    "optional": "اختياري",
+    "unit": "الوحدة",
+    "unitPlaceholder": "مثل: مل",
+    "category": "الفئة"
+  },
+  "addToPlan": {
+    "title": "إضافة إلى خطة الوجبات",
+    "day": "اليوم",
+    "meal": "الوجبة"
+  },
+  "recipePicker": {
+    "titleFor": "وصفة لـ {{meal}}",
+    "schedule": "جدولة",
+    "copyToHousehold": "نسخ إلى المنزل",
+    "noRecipes": "لم يُعثر على وصفات."
+  },
+  "visibility": {
+    "title": "الظهور",
+    "message": "من يمكنه رؤية هذه الوصفة؟",
+    "private": "خاصة (أنا فقط)",
+    "followers": "المتابعون فقط",
+    "public": "عامة"
+  },
+  "folder": {
+    "newTitle": "مجلد جديد",
+    "namePlaceholderLabel": "اسم المجلد",
+    "namePlaceholder": "مثل: المفضلة",
+    "color": "اللون",
+    "icon": "الأيقونة",
+    "create": "إنشاء",
+    "inFolder": "إضافة إلى مجلد",
+    "none": "لا توجد مجلدات حتى الآن.",
+    "createNew": "إنشاء مجلد جديد"
+  },
+  "recipe": {
+    "servings": "الحصص",
+    "ingredients": "المكونات",
+    "steps": "خطوات التحضير"
+  },
+  "onboarding": {
+    "skip": "تخطي",
+    "start": "لنبدأ",
+    "slides": {
+      "flow": {
+        "title": "خطّط للوجبات بدل كتابة قوائم التسوق",
+        "description": "احفظ الوصفات، وخطّط لأسبوعك، واحصل تلقائيًا على قائمة التسوق المطابقة.",
+        "v1": "وصفة",
+        "v2": "خطة الوجبات",
+        "v3": "قائمة التسوق"
+      },
+      "import": {
+        "title": "استورد الوصفات في ثوانٍ",
+        "description": "فقط ألصق رابط وصفة. يتم استيراد العنوان والصورة والمكونات والخطوات تلقائيًا."
+      },
+      "plan": {
+        "title": "خطّط لأسبوعك",
+        "description": "وزّع الوصفات على أيام منفصلة وتابع الوجبات القادمة.",
+        "v1": "الإثنين – معكرونة",
+        "v2": "الثلاثاء – كاري",
+        "v3": "الأربعاء – شوربة"
+      },
+      "shop": {
+        "title": "قائمة تسوق تلقائية",
+        "description": "تُبنى قائمة التسوق مباشرة من خطة وجباتك. تُجمع المكونات المكررة تلقائيًا.",
+        "v1": "حليب",
+        "v2": "طماطم",
+        "v3": "معكرونة"
+      }
+    }
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "displayName": "الاسم المعروض",
+    "displayNamePlaceholder": "كيف تحب أن تُدعى",
+    "handlePlaceholder": "فريد، حروف وأرقام فقط",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccountRegister": "لا تملك حسابًا؟ سجّل",
+    "haveAccountLogin": "تملك حسابًا؟ سجّل الدخول",
+    "loginFailed": "فشل تسجيل الدخول.",
+    "registerFailed": "فشل التسجيل.",
+    "enterEmailFirst": "يرجى إدخال بريدك الإلكتروني أولًا.",
+    "enterDisplayName": "يرجى إدخال اسم معروض.",
+    "handleRule": "@handle: حروف وأرقام فقط (3–20 حرفًا).",
+    "emailSentTitle": "تم إرسال البريد الإلكتروني",
+    "emailSentBody": "تحقق من بريدك الوارد للحصول على رابط إعادة التعيين.",
+    "sendError": "خطأ في إرسال البريد الإلكتروني.",
+    "almostDoneTitle": "أوشكنا على الانتهاء",
+    "almostDoneBody": "أرسلنا لك بريد تأكيد. أكّده لتسجيل الدخول.",
+    "profileVisibility": "ظهور الملف الشخصي",
+    "publicDesc": "الوصفات المشاركة مرئية لكل الناس",
+    "privateDesc": "المتابعون المؤكدون فقط"
+  },
+  "planner": {
+    "today": "اليوم",
+    "personal": "شخصي",
+    "addRecipe": "إضافة وصفة",
+    "servingsCount_one": "{{count}} حصة",
+    "servingsCount_other": "{{count}} حصة",
+    "viewRecipe": "عرض الوصفة",
+    "changeServings": "تغيير عدد الحصص",
+    "removeFromPlan": "إزالة من الخطة",
+    "firstRun": {
+      "title": "خطّط لأسبوعك",
+      "description": "اضغط على فراغ لإضافة وصفة.",
+      "action": "فتح خطة الوجبات"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "وصفاتي",
+      "household": "المنزل",
+      "saved": "المحفوظة"
+    },
+    "sort": {
+      "recent": "الأحدث",
+      "alpha": "أ–ي",
+      "category": "الفئة"
+    },
+    "sortTitle": "ترتيب",
+    "addRecipe": "إضافة وصفة",
+    "importUrl": "استيراد رابط",
+    "createManual": "إنشاء يدويًا",
+    "scanImage": "مسح من صورة أو PDF",
+    "view": "عرض",
+    "allFolders": "الكل",
+    "householdEmpty": {
+      "title": "اطبخوا وخططوا معًا",
+      "description": "وصفات المنزل، وخطة وجبات مشتركة، وقائمة تسوق مشتركة — لهذا تحتاج إلى منزل.",
+      "create": "إنشاء منزل",
+      "createAccount": "إنشاء حساب",
+      "enterCode": "إدخال رمز الدعوة"
+    },
+    "empty": {
+      "title": "لا توجد وصفات بعد",
+      "description": "استورد وصفات عبر رابط أو أنشئها يدويًا.",
+      "savedTitle": "لا شيء محفوظ بعد",
+      "savedDescription": "تظهر هنا الوصفات التي تضع عليها علامة القلب."
+    },
+    "folderMenu": {
+      "open": "فتح",
+      "assign": "تخصيص وصفات",
+      "rename": "إعادة تسمية",
+      "renameTitle": "إعادة تسمية المجلد"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "الوصفة غير موجودة",
+    "notFoundDescription": "قد تكون هذه الوصفة محذوفة.",
+    "deleteTitle": "حذف الوصفة؟",
+    "deleteBody": "ستُنقل إلى سلة المحذوفات.",
+    "remixCreatedTitle": "تم إنشاء إعادة التركيب",
+    "remixCreatedBody": "تمت إضافة نسخة إلى مكتبتك.",
+    "byAuthor": "بواسطة @{{handle}}",
+    "base": "الأساس: {{count}}",
+    "noIngredients": "لا توجد مكونات مسجّلة.",
+    "remixOf": "إعادة تركيب لوصفة أخرى",
+    "addToPlan": "إضافة إلى خطة الوجبات",
+    "shareLabel": "المشاركة: {{visibility}}",
+    "remix": "إعادة تركيب"
+  },
+  "recipeForm": {
+    "titleRequired": "يرجى إدخال عنوان.",
+    "gallery": "المعرض",
+    "camera": "الكاميرا",
+    "titleField": "العنوان",
+    "titlePlaceholder": "مثل: باستا الفرن",
+    "description": "الوصف",
+    "descriptionPlaceholder": "وصف قصير (اختياري)",
+    "prepMin": "التحضير (د)",
+    "cookMin": "الطبخ (د)",
+    "ingredientPlaceholder": "مثل: 200 غ طحين",
+    "stepPlaceholder": "الخطوة التالية…",
+    "saveIn": "حفظ في",
+    "private": "خاصة",
+    "household": "المنزل",
+    "moveToSteps": "نقل إلى خطوات التحضير",
+    "moveToIngredients": "نقل إلى المكونات",
+    "headingPlaceholder": "مثل: للصوص",
+    "toggleHeading": "تحويل إلى عنوان"
+  },
+  "recipeNew": {
+    "title": "وصفة جديدة",
+    "submit": "حفظ الوصفة"
+  },
+  "recipeEdit": {
+    "title": "تعديل الوصفة",
+    "submit": "حفظ التغييرات"
+  },
+  "folderScreen": {
+    "fallbackName": "مجلد",
+    "editRecipes": "تعديل الوصفات",
+    "noRecipesTitle": "لا توجد وصفات",
+    "noRecipesDescription": "أنشئ بعض الوصفات أولًا.",
+    "emptyTitle": "المجلد فارغ",
+    "emptyDescription": "اضغط على القلم في الأعلى لإضافة وصفات."
+  },
+  "recipeImport": {
+    "title": "استيراد وصفة",
+    "import": "استيراد",
+    "noneDetected": "تعذّر الكشف عن مكونات/خطوات تلقائيًا — يرجى إضافتها يدويًا.",
+    "failed": "فشل الاستيراد.",
+    "failedManual": "يمكنك إنشاء الوصفة يدويًا.",
+    "urlLabel": "رابط الوصفة",
+    "hint": "ألصق رابطًا من صفحة وصفة، أو شارك منشور إنستغرام مباشرة من التطبيق. يتم استيراد العنوان والصورة والمكونات والخطوات تلقائيًا.",
+    "loading": "جارٍ تحميل الوصفة…",
+    "save": "حفظ الوصفة"
+  },
+  "recipeScan": {
+    "title": "وصفة من صورة أو PDF",
+    "hint": "اختر لقطة شاشة واحدة أو أكثر لنفس الوصفة، أو ملف PDF. يتم التعرف على النص مباشرة على جهازك — لا يتم رفع أي شيء.",
+    "addFromGallery": "اختيار من المعرض",
+    "takePhoto": "تصوير",
+    "addFromPdf": "اختيار PDF",
+    "preparingPdf": "جارٍ تجهيز PDF…",
+    "pdfFailed": "تعذّرت قراءة هذا الملف. يمكنك إنشاء الوصفة يدويًا.",
+    "pdfTruncated": "تمت معالجة أول {{count}} صفحات فقط.",
+    "scan": "التعرف على الوصفة",
+    "removeImage": "إزالة الصورة",
+    "loading": "جارٍ التعرف على النص…",
+    "noneDetected": "تعذّر اكتشاف المكونات/الخطوات تلقائيًا — يُرجى إكمالها يدويًا.",
+    "failed": "فشل التعرف على النص.",
+    "failedManual": "يمكنك إنشاء الوصفة يدويًا.",
+    "save": "حفظ الوصفة"
+  },
+  "trash": {
+    "title": "سلة المحذوفات",
+    "emptyAll": "إفراغ السلة",
+    "tabPrivate": "خاصة",
+    "tabHousehold": "المنزل",
+    "emptyTitle": "سلة المحذوفات فارغة",
+    "emptyDescription": "تظهر الوصفات المحذوفة هنا.",
+    "restore": "استعادة",
+    "deletedOn": "تاريخ الحذف: {{date}}",
+    "deleteForever": "حذف نهائي",
+    "deleteOneTitle": "حذف نهائيًا؟",
+    "deleteOneBody": "ستُزال هذه الوصفة بشكل نهائي.",
+    "emptyAllTitle": "إفراغ سلة المحذوفات؟",
+    "emptyAllBody": "ستُحذف جميع الوصفات بشكل نهائي."
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "su bardağı",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "yk",
+    "tsp": "çk",
+    "piece_one": "adet",
+    "piece_other": "adet",
+    "bunch_one": "demet",
+    "bunch_other": "demet",
+    "pinch_one": "tutam",
+    "pinch_other": "tutam",
+    "can_one": "kutu",
+    "can_other": "kutu",
+    "pack_one": "paket",
+    "pack_other": "paket",
+    "bag_one": "poşet",
+    "bag_other": "poşet",
+    "clove_one": "diş",
+    "clove_other": "diş",
+    "slice_one": "dilim",
+    "slice_other": "dilim"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Meyve & Sebze",
+      "meat": "Et & Şarküteri",
+      "fish": "Balık & Deniz Ürünleri",
+      "legumes": "Baklagiller & Tofu",
+      "dairy": "Süt Ürünleri & Yumurta",
+      "fats": "Yağlar",
+      "bakery": "Ekmek & Fırın Ürünleri",
+      "grains": "Makarna, Pirinç & Tahıllar",
+      "pantry": "Kuru Gıda & Konserve",
+      "spices": "Baharat & Otlar",
+      "frozen": "Dondurulmuş",
+      "drinks": "İçecekler",
+      "other": "Diğer"
+    },
+    "recipe": {
+      "meat": "Etli",
+      "seafood": "Deniz Ürünleri",
+      "vegetarian": "Vejetaryen",
+      "vegan": "Vegan"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Kahvaltı",
+    "lunch": "Öğle Yemeği",
+    "snack": "Ara Öğün",
+    "dinner": "Akşam Yemeği",
+    "snack2": "Ara Öğün 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} dk",
+    "hoursShort": "{{count}} sa",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "az önce",
+      "minutesAgo": "{{count}} dk önce",
+      "hoursAgo": "{{count}} sa önce",
+      "daysAgo_one": "{{count}} gün önce",
+      "daysAgo_other": "{{count}} gün önce",
+      "weeksAgo": "{{count}} hf önce"
+    }
+  },
+  "common": {
+    "cancel": "Vazgeç",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "done": "Bitti",
+    "back": "Geri",
+    "next": "İleri",
+    "ok": "Tamam",
+    "retry": "Tekrar dene",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "remove": "Kaldır",
+    "close": "Kapat",
+    "search": "Ara",
+    "loading": "Yükleniyor …",
+    "error": "Hata",
+    "errorGeneric": "Bir şeyler ters gitti."
+  },
+  "nav": {
+    "recipes": "Tarifler",
+    "planner": "Yemek planı",
+    "activity": "Etkinlik",
+    "profile": "Profil"
+  },
+  "licenses": {
+    "intro": "alimonia aşağıdaki açık kaynak paketleri kullanıyor. Yazarlarına çok teşekkürler."
+  },
+  "social": {
+    "unavailable": "Artık mevcut değil"
+  },
+  "profile": {
+    "followers": "Takipçiler",
+    "following": "Takip edilenler",
+    "sharedRecipes": "Paylaşılan tarifler",
+    "searchUsers": "Kullanıcı ara",
+    "noShared": "Henüz hiç tarif paylaşmadın. Bir tarifte \"Paylaşım\"ı aç.",
+    "signedOut": {
+      "title": "Hesabın, her yerde tariflerin",
+      "description": "Tariflerini yedeklemek, cihazlar arasında senkronize etmek ve birlikte plan yapmak için bir hesap oluştur.",
+      "register": "Kayıt ol"
+    },
+    "comingSoon": {
+      "title": "Çok yakında",
+      "description": "İsteğe bağlı hesap ve çoklu cihaz senkronizasyonu özellikleri ile tarif paylaşımı şu anda geliştiriliyor."
+    }
+  },
+  "household": {
+    "accountRequired": "Hesap gerekli",
+    "accountRequiredDesc": "Hanelerin bir hesaba ihtiyacı var.",
+    "createTitle": "Hane oluştur",
+    "createFailed": "Hane oluşturulamadı.",
+    "namePlaceholder": "Hane adı",
+    "joinWithCode": "Kodla katıl",
+    "join": "Katıl",
+    "joinFailed": "Katılma başarısız oldu",
+    "inviteCode": "Davet kodu",
+    "inviteMessage": "alimonia hanemize katıl! Kod: {{code}}",
+    "inviteAction": "Davet et",
+    "inviteMember": "Üye davet et",
+    "members": "ÜYELER",
+    "membersLoadError": "Üyeler yüklenemedi.",
+    "noMembers": "Hiç üye bulunamadı.",
+    "owner": "Sahip",
+    "you": "Sen",
+    "member": "Üye",
+    "renameSection": "HANEYİ YENİDEN ADLANDIR",
+    "switchSection": "AKTİF HANEYİ DEĞİŞTİR",
+    "activeTag": "aktif",
+    "joinAnotherSection": "BAŞKA BİR HANEYE KATIL",
+    "joinWithInviteCode": "Davet koduyla katıl",
+    "leaveAction": "Haneden ayrıl",
+    "leaveTitle": "Haneden ayrılınsın mı?",
+    "leaveBody": "Mevcut hane tariflerine okuma erişimini koruyacaksın.",
+    "leave": "Ayrıl",
+    "transferOwner": "Sahipliği devret",
+    "transferFailed": "Devir başarısız oldu.",
+    "removeMember": "Haneden çıkar",
+    "removeConfirmTitle": "Gerçekten çıkarılsın mı?",
+    "removeConfirmBody": "{{name}} haneden çıkarılacak.",
+    "removeFailed": "Çıkarma başarısız oldu."
+  },
+  "profileEdit": {
+    "changeAvatar": "Profil fotoğrafını değiştir",
+    "fromLibrary": "Kütüphaneden seç",
+    "handleRule": "@handle: sadece harf ve sayı.",
+    "bioTooLong": "Biyografi en fazla 150 karakter olabilir.",
+    "saveFailed": "Kaydetme başarısız oldu (handle alınmış olabilir).",
+    "handleHint": "Değiştirmek eski handle'ı 7 gün boyunca rezerve eder.",
+    "bio": "Biyografi",
+    "privateProfile": "Gizli profil",
+    "privateProfileHint": "Takipçilerin onaylanması gerekir."
+  },
+  "followList": {
+    "unfollow": "Takibi bırak",
+    "empty": "Burada henüz kimse yok."
+  },
+  "userSearch": {
+    "placeholder": "@handle veya ad",
+    "noResults": "Sonuç bulunamadı."
+  },
+  "foreignProfile": {
+    "notFound": "Profil bulunamadı",
+    "following": "Takip ediliyor",
+    "requested": "İstek gönderildi",
+    "follow": "Takip et",
+    "more": "Daha fazla",
+    "private": "Bu profil gizli",
+    "noShared": "Henüz paylaşılan tarif yok",
+    "block": "Engelle",
+    "report": "Bildir",
+    "reportReason": "Bildirme nedeni",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Uygunsuz içerik",
+    "reportFake": "Sahte profil",
+    "thanks": "Teşekkürler",
+    "reportReceived": "Bildirimin kaydedildi ve incelenecek."
+  },
+  "notifications": {
+    "follow": "@{{handle}} artık seni takip ediyor",
+    "followRequest": "@{{handle}} seni takip etmek istiyor",
+    "like": "@{{handle}} «{{title}}» tarifini beğendi",
+    "remix": "@{{handle}} «{{title}}»yi remixledi",
+    "signInTitle": "Giriş yap",
+    "signInDescription": "Bir hesapla takip, beğeni ve remix bildirimleri alırsın.",
+    "markAllRead": "Tümünü okundu işaretle",
+    "requests": "İSTEKLER",
+    "accept": "Kabul et",
+    "reject": "Reddet",
+    "emptyTitle": "Bildirim yok",
+    "emptyDescription": "Tariflerinle ilgili olanlar burada görünecek."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "section": {
+      "account": "Hesap",
+      "household": "Hane",
+      "languageRegion": "Dil & Bölge",
+      "appearance": "Görünüm",
+      "dataSync": "Veri & Senkronizasyon",
+      "help": "Yardım",
+      "about": "Hakkında",
+      "accountActions": "Hesap",
+      "dangerZone": "Tehlikeli bölge"
+    },
+    "editProfile": "Profili düzenle",
+    "household": {
+      "owner": "Sahibisin",
+      "member": "Üye",
+      "createOrJoin": "Hane oluştur veya katıl"
+    },
+    "language": {
+      "title": "Dil",
+      "system": "Sistem",
+      "restartTitle": "Yeniden başlatma gerekli",
+      "restartBody": "Yazı yönünün tam olarak uygulanması için lütfen uygulamayı yeniden başlat."
+    },
+    "measurement": {
+      "title": "Birimler",
+      "system": "Sistem",
+      "metric": "Metrik",
+      "imperial": "İngiliz birimi"
+    },
+    "appIcon": {
+      "title": "Uygulama Simgesi",
+      "subtitle": "alimonia'nın ana ekranında nasıl görüneceğini seçin.",
+      "icon": "Varsayılan",
+      "pride": "Onur"
+    },
+    "theme": {
+      "title": "Tema",
+      "system": "Sistem",
+      "light": "Açık",
+      "dark": "Koyu"
+    },
+    "mealSlots": {
+      "title": "Öğünler",
+      "description": "Her gün planladığın öğünleri seç ve onlara kendi adını ver.",
+      "rename": "Yeniden adlandır",
+      "renameTitle": "Öğünü yeniden adlandır"
+    },
+    "sync": {
+      "status": "Senkronizasyon durumu",
+      "errors": "{{count}} hata",
+      "pending": "{{count}} beklemede",
+      "synced": "Senkronize",
+      "retry": "Senkronizasyonu tekrar dene",
+      "discard": "Başarısızları sil"
+    },
+    "trash": "Çöp kutusu",
+    "showOnboarding": "Tanıtımı tekrar göster",
+    "version": "Sürüm",
+    "licenses": "Açık kaynak lisansları",
+    "logout": {
+      "title": "Çıkış yapılsın mı?",
+      "body": "Yerel veriler bu cihazda kalır.",
+      "action": "Çıkış yap"
+    },
+    "wipe": {
+      "action": "Tüm depolamayı sil",
+      "subtitle": "Tüm yerel verileri kalıcı olarak kaldırır",
+      "confirm1Title": "Tüm depolama silinsin mi?",
+      "confirm1Body": "Tüm tarifler, planlar, alışveriş listeleri ve ayarlar bu cihazdan kalıcı olarak kaldırılacak. Senkronize edilmemiş değişiklikler kaybolacak. Ayrıca çıkış yapacaksın.",
+      "confirm2Title": "Her şey gerçekten silinsin mi?",
+      "confirm2Body": "Bu adım geri alınamaz.",
+      "confirmFinal": "Kalıcı olarak sil",
+      "failed": "Depolama tamamen silinemedi."
+    },
+    "discardSync": {
+      "title": "Başarısız değişiklikler silinsin mi?",
+      "body": "Bu değişiklikler cihazda kalacak ama artık buluta senkronize edilmeyecek.",
+      "action": "Sil"
+    }
+  },
+  "shopping": {
+    "title": "Alışveriş listesi",
+    "week": "{{n}}. hf",
+    "composition": "Dağılım",
+    "fromRecipes_one": "{{count}} tariften",
+    "fromRecipes_other": "{{count}} tariften",
+    "manual": "manuel",
+    "addManual": "Manuel ekle",
+    "changeCategory": "Kategoriyi değiştir",
+    "empty": {
+      "title": "Henüz alınacak bir şey yok",
+      "description": "Bu hafta için tarifler planla — malzemeler otomatik olarak burada görünecek."
+    }
+  },
+  "a11y": {
+    "decrease": "Azalt",
+    "increase": "Artır"
+  },
+  "manualItem": {
+    "title": "Öğe ekle",
+    "name": "Ad",
+    "namePlaceholder": "örn. zeytinyağı",
+    "quantity": "Miktar",
+    "optional": "isteğe bağlı",
+    "unit": "Birim",
+    "unitPlaceholder": "örn. ml",
+    "category": "Kategori"
+  },
+  "addToPlan": {
+    "title": "Yemek planına ekle",
+    "day": "Gün",
+    "meal": "Öğün"
+  },
+  "recipePicker": {
+    "titleFor": "{{meal}} için tarif",
+    "schedule": "Planla",
+    "copyToHousehold": "Haneye kopyala",
+    "noRecipes": "Hiç tarif bulunamadı."
+  },
+  "visibility": {
+    "title": "Görünürlük",
+    "message": "Bu tarifi kim görebilir?",
+    "private": "Gizli (sadece ben)",
+    "followers": "Sadece takipçiler",
+    "public": "Herkese açık"
+  },
+  "folder": {
+    "newTitle": "Yeni klasör",
+    "namePlaceholderLabel": "Klasör adı",
+    "namePlaceholder": "örn. Favoriler",
+    "color": "Renk",
+    "icon": "Simge",
+    "create": "Oluştur",
+    "inFolder": "Klasöre ekle",
+    "none": "Henüz klasör yok.",
+    "createNew": "Yeni klasör oluştur"
+  },
+  "recipe": {
+    "servings": "Porsiyon",
+    "ingredients": "Malzemeler",
+    "steps": "Hazırlanışı"
+  },
+  "onboarding": {
+    "skip": "Geç",
+    "start": "Hadi başlayalım",
+    "slides": {
+      "flow": {
+        "title": "Alışveriş listesi yazmak yerine yemek planla",
+        "description": "Tarifleri kaydet, haftanı planla ve uygun alışveriş listesini otomatik olarak al.",
+        "v1": "Tarif",
+        "v2": "Yemek planı",
+        "v3": "Alışveriş listesi"
+      },
+      "import": {
+        "title": "Tarifleri saniyeler içinde içe aktar",
+        "description": "Sadece bir tarif bağlantısı yapıştır. Başlık, görsel, malzemeler ve adımlar otomatik olarak içe aktarılır."
+      },
+      "plan": {
+        "title": "Haftanı planla",
+        "description": "Tarifleri günlere dağıt ve gelecek öğünleri takip et.",
+        "v1": "Pzt – Makarna",
+        "v2": "Sal – Köri",
+        "v3": "Çar – Çorba"
+      },
+      "shop": {
+        "title": "Otomatik alışveriş listesi",
+        "description": "Alışveriş listesi doğrudan yemek planından oluşturulur. Tekrarlanan malzemeler otomatik olarak birleştirilir.",
+        "v1": "Süt",
+        "v2": "Domates",
+        "v3": "Makarna"
+      }
+    }
+  },
+  "auth": {
+    "login": "Giriş yap",
+    "createAccount": "Hesap oluştur",
+    "email": "E-posta",
+    "password": "Şifre",
+    "displayName": "Görünen ad",
+    "displayNamePlaceholder": "Nasıl çağrılmak istersin",
+    "handlePlaceholder": "benzersiz, sadece harf ve sayı",
+    "forgotPassword": "Şifreni mi unuttun?",
+    "noAccountRegister": "Hesabın yok mu? Kayıt ol",
+    "haveAccountLogin": "Zaten hesabın var mı? Giriş yap",
+    "loginFailed": "Giriş başarısız oldu.",
+    "registerFailed": "Kayıt başarısız oldu.",
+    "enterEmailFirst": "Lütfen önce e-posta adresini gir.",
+    "enterDisplayName": "Lütfen bir görünen ad gir.",
+    "handleRule": "@handle: sadece harf ve sayı (3–20 karakter).",
+    "emailSentTitle": "E-posta gönderildi",
+    "emailSentBody": "Sıfırlama bağlantısı için gelen kutunu kontrol et.",
+    "sendError": "E-posta gönderilirken hata oluştu.",
+    "almostDoneTitle": "Az kaldı",
+    "almostDoneBody": "Sana bir onay e-postası gönderdik. Giriş yapmak için onu onayla.",
+    "profileVisibility": "Profil görünürlüğü",
+    "publicDesc": "Paylaşılan tarifler herkese görünür",
+    "privateDesc": "Sadece onaylı takipçiler"
+  },
+  "planner": {
+    "today": "Bugün",
+    "personal": "Kişisel",
+    "addRecipe": "Tarif ekle",
+    "servingsCount_one": "{{count}} porsiyon",
+    "servingsCount_other": "{{count}} porsiyon",
+    "viewRecipe": "Tarifi görüntüle",
+    "changeServings": "Porsiyonu değiştir",
+    "removeFromPlan": "Plandan kaldır",
+    "firstRun": {
+      "title": "Haftanı planla",
+      "description": "Tarif eklemek için bir alana dokun.",
+      "action": "Yemek planını aç"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Benim",
+      "household": "Hane",
+      "saved": "Kaydedilenler"
+    },
+    "sort": {
+      "recent": "En yeni",
+      "alpha": "A–Z",
+      "category": "Kategori"
+    },
+    "sortTitle": "Sırala",
+    "addRecipe": "Tarif ekle",
+    "importUrl": "URL içe aktar",
+    "createManual": "Manuel oluştur",
+    "scanImage": "Fotoğraftan veya PDF'ten tara",
+    "view": "Görüntüle",
+    "allFolders": "Tümü",
+    "householdEmpty": {
+      "title": "Birlikte pişirin ve planlayın",
+      "description": "Hane tarifleri, ortak yemek planı ve ortak alışveriş listesi için bir haneye ihtiyacın var.",
+      "create": "Hane oluştur",
+      "createAccount": "Hesap oluştur",
+      "enterCode": "Davet kodu gir"
+    },
+    "empty": {
+      "title": "Henüz tarif yok",
+      "description": "Tarifleri bağlantı ile içe aktar veya manuel olarak oluştur.",
+      "savedTitle": "Henüz kaydedilen yok",
+      "savedDescription": "Kalp ile işaretlediğin tarifler burada görünür."
+    },
+    "folderMenu": {
+      "open": "Aç",
+      "assign": "Tarif ata",
+      "rename": "Yeniden adlandır",
+      "renameTitle": "Klasörü yeniden adlandır"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Tarif bulunamadı",
+    "notFoundDescription": "Bu tarif silinmiş olabilir.",
+    "deleteTitle": "Tarif silinsin mi?",
+    "deleteBody": "Çöp kutusuna taşınacak.",
+    "remixCreatedTitle": "Remix oluşturuldu",
+    "remixCreatedBody": "Kitaplığına bir kopya eklendi.",
+    "byAuthor": "@{{handle}} tarafından",
+    "base": "Temel: {{count}}",
+    "noIngredients": "Hiç malzeme kaydedilmemiş.",
+    "remixOf": "Başka bir tarifin remixi",
+    "addToPlan": "Yemek planına ekle",
+    "shareLabel": "Paylaşım: {{visibility}}",
+    "remix": "Remixle"
+  },
+  "recipeForm": {
+    "titleRequired": "Lütfen bir başlık gir.",
+    "gallery": "Galeri",
+    "camera": "Kamera",
+    "titleField": "Başlık",
+    "titlePlaceholder": "örn. Pasta al Forno",
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Kısa açıklama (isteğe bağlı)",
+    "prepMin": "Hazırlık (dk)",
+    "cookMin": "Pişirme (dk)",
+    "ingredientPlaceholder": "örn. 200 g un",
+    "stepPlaceholder": "Sonraki adım…",
+    "saveIn": "Şuraya kaydet",
+    "private": "Gizli",
+    "household": "Hane",
+    "moveToSteps": "Hazırlanışına taşı",
+    "moveToIngredients": "Malzemelere taşı",
+    "headingPlaceholder": "örn. Sos için",
+    "toggleHeading": "Başlığa dönüştür"
+  },
+  "recipeNew": {
+    "title": "Yeni tarif",
+    "submit": "Tarifi kaydet"
+  },
+  "recipeEdit": {
+    "title": "Tarifi düzenle",
+    "submit": "Değişiklikleri kaydet"
+  },
+  "folderScreen": {
+    "fallbackName": "Klasör",
+    "editRecipes": "Tarifleri düzenle",
+    "noRecipesTitle": "Tarif yok",
+    "noRecipesDescription": "Önce birkaç tarif oluştur.",
+    "emptyTitle": "Klasör boş",
+    "emptyDescription": "Tarif eklemek için sağ üstteki kaleme dokun."
+  },
+  "recipeImport": {
+    "title": "Tarif içe aktar",
+    "import": "İçe aktar",
+    "noneDetected": "Malzemeler/adımlar otomatik olarak tespit edilemedi — lütfen manuel olarak ekle.",
+    "failed": "İçe aktarma başarısız oldu.",
+    "failedManual": "Tarifi manuel olarak oluşturabilirsin.",
+    "urlLabel": "Tarif URL'si",
+    "hint": "Bir tarif sayfasından bağlantı yapıştır veya bir Instagram gönderisini doğrudan uygulamadan paylaş. Başlık, görsel, malzemeler ve adımlar otomatik olarak içe aktarılır.",
+    "loading": "Tarif yükleniyor…",
+    "save": "Tarifi kaydet"
+  },
+  "recipeScan": {
+    "title": "Fotoğraftan veya PDF'ten tarif",
+    "hint": "Aynı tarife ait bir veya daha fazla ekran görüntüsü, ya da bir PDF seç. Metin doğrudan cihazında tanınır — hiçbir şey yüklenmez.",
+    "addFromGallery": "Galeriden seç",
+    "takePhoto": "Fotoğraf çek",
+    "addFromPdf": "PDF seç",
+    "preparingPdf": "PDF hazırlanıyor…",
+    "pdfFailed": "Bu PDF okunamadı. Tarifi elle tamamlayabilirsin.",
+    "pdfTruncated": "Yalnızca ilk {{count}} sayfa işlendi.",
+    "scan": "Tarifi tanı",
+    "removeImage": "Görseli kaldır",
+    "loading": "Metin tanınıyor…",
+    "noneDetected": "Malzemeler/adımlar otomatik olarak algılanamadı — lütfen elle tamamla.",
+    "failed": "Metin tanıma başarısız oldu.",
+    "failedManual": "Tarifi elle oluşturabilirsin.",
+    "save": "Tarifi kaydet"
+  },
+  "trash": {
+    "title": "Çöp kutusu",
+    "emptyAll": "Çöp kutusunu boşalt",
+    "tabPrivate": "Gizli",
+    "tabHousehold": "Hane",
+    "emptyTitle": "Çöp kutusu boş",
+    "emptyDescription": "Silinen tarifler burada görünür.",
+    "restore": "Geri yükle",
+    "deletedOn": "Silindi: {{date}}",
+    "deleteForever": "Kalıcı olarak sil",
+    "deleteOneTitle": "Kalıcı olarak silinsin mi?",
+    "deleteOneBody": "Bu tarif kalıcı olarak kaldırılacak.",
+    "emptyAllTitle": "Çöp kutusu boşaltılsın mı?",
+    "emptyAllBody": "Tüm tarifler kalıcı olarak silinecek."
+  }
+}

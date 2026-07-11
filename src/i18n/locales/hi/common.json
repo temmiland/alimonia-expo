@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "मिग्रा",
+    "g": "ग्रा",
+    "kg": "किग्रा",
+    "oz": "औंस",
+    "lb": "पौंड",
+    "ml": "मिली",
+    "cl": "सेंली",
+    "l": "ली",
+    "floz": "फ्लो औंस",
+    "cup": "कप",
+    "pint": "पाइंट",
+    "quart": "क्वार्ट",
+    "gallon": "गैलन",
+    "tbsp": "बड़ा चम्मच",
+    "tsp": "छोटा चम्मच",
+    "piece_one": "टुकड़ा",
+    "piece_other": "टुकड़े",
+    "bunch_one": "गुच्छा",
+    "bunch_other": "गुच्छे",
+    "pinch_one": "चुटकी",
+    "pinch_other": "चुटकियाँ",
+    "can_one": "टिन",
+    "can_other": "टिन",
+    "pack_one": "पैक",
+    "pack_other": "पैक",
+    "bag_one": "थैली",
+    "bag_other": "थैलियाँ",
+    "clove_one": "कली",
+    "clove_other": "कलियाँ",
+    "slice_one": "स्लाइस",
+    "slice_other": "स्लाइस"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "फल और सब्ज़ियाँ",
+      "meat": "मीट और डेली",
+      "fish": "मछली और सीफ़ूड",
+      "legumes": "दालें और टोफू",
+      "dairy": "डेयरी और अंडे",
+      "fats": "घी, तेल और वसा",
+      "bakery": "ब्रेड और बेकरी",
+      "grains": "पास्ता, चावल और अनाज",
+      "pantry": "रसोई भंडार और डिब्बाबंद सामान",
+      "spices": "मसाले और हर्ब्स",
+      "frozen": "फ्रोज़न",
+      "drinks": "पेय पदार्थ",
+      "other": "अन्य"
+    },
+    "recipe": {
+      "meat": "मीट",
+      "seafood": "सीफ़ूड",
+      "vegetarian": "शाकाहारी",
+      "vegan": "वीगन"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "नाश्ता",
+    "lunch": "लंच",
+    "snack": "स्नैक",
+    "dinner": "डिनर",
+    "snack2": "स्नैक 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} मिनट",
+    "hoursShort": "{{count}} घं",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "अभी",
+      "minutesAgo": "{{count}} मिनट पहले",
+      "hoursAgo": "{{count}} घंटे पहले",
+      "daysAgo_one": "{{count}} दिन पहले",
+      "daysAgo_other": "{{count}} दिन पहले",
+      "weeksAgo": "{{count}} सप्ताह पहले"
+    }
+  },
+  "common": {
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "delete": "हटाएं",
+    "done": "हो गया",
+    "back": "वापस",
+    "next": "आगे",
+    "ok": "ठीक है",
+    "retry": "फिर से कोशिश करें",
+    "edit": "संपादित करें",
+    "add": "जोड़ें",
+    "remove": "हटाएं",
+    "close": "बंद करें",
+    "search": "खोजें",
+    "loading": "लोड हो रहा है …",
+    "error": "त्रुटि",
+    "errorGeneric": "कुछ गलत हो गया।"
+  },
+  "nav": {
+    "recipes": "रेसिपी",
+    "planner": "मील प्लान",
+    "activity": "एक्टिविटी",
+    "profile": "प्रोफ़ाइल"
+  },
+  "licenses": {
+    "intro": "alimonia निम्नलिखित ओपन-सोर्स पैकेज का उपयोग करता है। इनके लेखकों को हार्दिक धन्यवाद।"
+  },
+  "social": {
+    "unavailable": "अब उपलब्ध नहीं है"
+  },
+  "profile": {
+    "followers": "फॉलोअर्स",
+    "following": "फॉलोइंग",
+    "sharedRecipes": "शेयर की गई रेसिपी",
+    "searchUsers": "यूज़र खोजें",
+    "noShared": "आपने अभी तक कोई रेसिपी शेयर नहीं की है। किसी रेसिपी में “शेयरिंग” चालू करें।",
+    "signedOut": {
+      "title": "आपका अकाउंट, आपकी रेसिपी हर जगह",
+      "description": "अपनी रेसिपी का बैकअप लेने, सभी डिवाइस पर सिंक करने और साथ में प्लान करने के लिए अकाउंट बनाएं।",
+      "register": "रजिस्टर करें"
+    },
+    "comingSoon": {
+      "title": "जल्द आ रहा है",
+      "description": "वैकल्पिक अकाउंट और मल्टी-डिवाइस सिंक सुविधाएं, साथ ही रेसिपी शेयरिंग, फ़िलहाल तैयार की जा रही हैं।"
+    }
+  },
+  "household": {
+    "accountRequired": "अकाउंट ज़रूरी है",
+    "accountRequiredDesc": "हाउसहोल्ड के लिए अकाउंट ज़रूरी है।",
+    "createTitle": "हाउसहोल्ड बनाएं",
+    "createFailed": "हाउसहोल्ड नहीं बनाया जा सका।",
+    "namePlaceholder": "हाउसहोल्ड का नाम",
+    "joinWithCode": "कोड से जुड़ें",
+    "join": "जुड़ें",
+    "joinFailed": "जुड़ना असफल रहा",
+    "inviteCode": "इनवाइट कोड",
+    "inviteMessage": "मेरे alimonia हाउसहोल्ड से जुड़ें! कोड: {{code}}",
+    "inviteAction": "इनवाइट करें",
+    "inviteMember": "मेंबर इनवाइट करें",
+    "members": "मेंबर्स",
+    "membersLoadError": "मेंबर्स लोड नहीं हो सके।",
+    "noMembers": "कोई मेंबर नहीं मिला।",
+    "owner": "ओनर",
+    "you": "आप",
+    "member": "मेंबर",
+    "renameSection": "हाउसहोल्ड का नाम बदलें",
+    "switchSection": "एक्टिव हाउसहोल्ड बदलें",
+    "activeTag": "एक्टिव",
+    "joinAnotherSection": "किसी अन्य हाउसहोल्ड से जुड़ें",
+    "joinWithInviteCode": "इनवाइट कोड से जुड़ें",
+    "leaveAction": "हाउसहोल्ड छोड़ें",
+    "leaveTitle": "हाउसहोल्ड छोड़ें?",
+    "leaveBody": "आपके पास मौजूदा हाउसहोल्ड रेसिपी का रीड एक्सेस बना रहेगा।",
+    "leave": "छोड़ें",
+    "transferOwner": "ओनरशिप ट्रांसफ़र करें",
+    "transferFailed": "ट्रांसफ़र असफल रहा।",
+    "removeMember": "हाउसहोल्ड से हटाएं",
+    "removeConfirmTitle": "क्या वाकई हटाना है?",
+    "removeConfirmBody": "{{name}} को हाउसहोल्ड से हटा दिया जाएगा।",
+    "removeFailed": "हटाना असफल रहा।"
+  },
+  "profileEdit": {
+    "changeAvatar": "प्रोफ़ाइल फ़ोटो बदलें",
+    "fromLibrary": "लाइब्रेरी से चुनें",
+    "handleRule": "@handle: सिर्फ़ अक्षर और अंक।",
+    "bioTooLong": "बायो अधिकतम 150 अक्षर का हो सकता है।",
+    "saveFailed": "सेव नहीं हो सका (हैंडल पहले से इस्तेमाल हो सकता है)।",
+    "handleHint": "बदलने पर पुराना हैंडल 7 दिन तक आरक्षित रहता है।",
+    "bio": "बायो",
+    "privateProfile": "प्राइवेट प्रोफ़ाइल",
+    "privateProfileHint": "फॉलोअर्स को मंज़ूरी देनी होगी।"
+  },
+  "followList": {
+    "unfollow": "अनफॉलो करें",
+    "empty": "यहां अभी तक कोई नहीं है।"
+  },
+  "userSearch": {
+    "placeholder": "@handle या नाम",
+    "noResults": "कोई नतीजा नहीं।"
+  },
+  "foreignProfile": {
+    "notFound": "कोई प्रोफ़ाइल नहीं मिली",
+    "following": "फॉलो किया हुआ",
+    "requested": "रिक्वेस्ट भेजी गई",
+    "follow": "फॉलो करें",
+    "more": "और",
+    "private": "यह प्रोफ़ाइल प्राइवेट है",
+    "noShared": "अभी तक कोई रेसिपी शेयर नहीं की गई",
+    "block": "ब्लॉक करें",
+    "report": "रिपोर्ट करें",
+    "reportReason": "रिपोर्ट करने का कारण",
+    "reportSpam": "स्पैम",
+    "reportInappropriate": "अनुचित कंटेंट",
+    "reportFake": "फ़र्ज़ी प्रोफ़ाइल",
+    "thanks": "धन्यवाद",
+    "reportReceived": "आपकी रिपोर्ट दर्ज कर ली गई है और इसकी जांच की जाएगी।"
+  },
+  "notifications": {
+    "follow": "@{{handle}} अब आपको फॉलो करता है",
+    "followRequest": "@{{handle}} आपको फॉलो करना चाहता है",
+    "like": "@{{handle}} को आपकी रेसिपी «{{title}}» पसंद आई",
+    "remix": "@{{handle}} ने «{{title}}» को रीमिक्स किया",
+    "signInTitle": "साइन इन करें",
+    "signInDescription": "अकाउंट के साथ आपको फॉलो, लाइक और रीमिक्स के नोटिफ़िकेशन मिलेंगे।",
+    "markAllRead": "सभी को पढ़ा हुआ चिह्नित करें",
+    "requests": "रिक्वेस्ट",
+    "accept": "स्वीकार करें",
+    "reject": "अस्वीकार करें",
+    "emptyTitle": "कोई नोटिफ़िकेशन नहीं",
+    "emptyDescription": "आपकी रेसिपी से जुड़ी गतिविधि यहां दिखेगी।"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "section": {
+      "account": "अकाउंट",
+      "household": "हाउसहोल्ड",
+      "languageRegion": "भाषा और क्षेत्र",
+      "appearance": "दिखावट",
+      "dataSync": "डेटा और सिंक",
+      "help": "सहायता",
+      "about": "ऐप के बारे में",
+      "accountActions": "अकाउंट",
+      "dangerZone": "जोखिम क्षेत्र"
+    },
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "household": {
+      "owner": "आप ओनर हैं",
+      "member": "मेंबर",
+      "createOrJoin": "हाउसहोल्ड बनाएं या जुड़ें"
+    },
+    "language": {
+      "title": "भाषा",
+      "system": "सिस्टम",
+      "restartTitle": "रीस्टार्ट ज़रूरी है",
+      "restartBody": "लेआउट दिशा पूरी तरह लागू होने के लिए कृपया ऐप को रीस्टार्ट करें।"
+    },
+    "measurement": {
+      "title": "यूनिट",
+      "system": "सिस्टम",
+      "metric": "मेट्रिक",
+      "imperial": "इम्पीरियल"
+    },
+    "appIcon": {
+      "title": "ऐप आइकन",
+      "subtitle": "चुनें कि होम स्क्रीन पर alimonia कैसा दिखे।",
+      "icon": "डिफ़ॉल्ट",
+      "pride": "स्वाभिमान"
+    },
+    "theme": {
+      "title": "थीम",
+      "system": "सिस्टम",
+      "light": "लाइट",
+      "dark": "डार्क"
+    },
+    "mealSlots": {
+      "title": "मील्स",
+      "description": "चुनें कि आप हर दिन कौन-से मील्स प्लान करना चाहते हैं और उन्हें अपना नाम दें।",
+      "rename": "नाम बदलें",
+      "renameTitle": "मील का नाम बदलें"
+    },
+    "sync": {
+      "status": "सिंक स्टेटस",
+      "errors": "{{count}} त्रुटियां",
+      "pending": "{{count}} पेंडिंग",
+      "synced": "सिंक हो गया",
+      "retry": "सिंक फिर से कोशिश करें",
+      "discard": "असफल को हटाएं"
+    },
+    "trash": "ट्रैश",
+    "showOnboarding": "इंट्रो फिर से देखें",
+    "version": "वर्शन",
+    "licenses": "ओपन-सोर्स लाइसेंस",
+    "logout": {
+      "title": "लॉग आउट करें?",
+      "body": "लोकल डेटा इस डिवाइस पर बना रहेगा।",
+      "action": "लॉग आउट करें"
+    },
+    "wipe": {
+      "action": "पूरा स्टोरेज मिटाएं",
+      "subtitle": "सभी लोकल डेटा को स्थायी रूप से हटाता है",
+      "confirm1Title": "पूरा स्टोरेज मिटाएं?",
+      "confirm1Body": "सभी रेसिपी, प्लान, शॉपिंग लिस्ट और सेटिंग्स इस डिवाइस से स्थायी रूप से हटा दी जाएंगी। बिना सिंक हुए बदलाव खो जाएंगे। आपको लॉग आउट भी कर दिया जाएगा।",
+      "confirm2Title": "क्या वाकई सब कुछ मिटाना है?",
+      "confirm2Body": "यह कार्रवाई वापस नहीं की जा सकती।",
+      "confirmFinal": "स्थायी रूप से मिटाएं",
+      "failed": "स्टोरेज पूरी तरह मिटाया नहीं जा सका।"
+    },
+    "discardSync": {
+      "title": "असफल बदलाव हटाएं?",
+      "body": "ये बदलाव डिवाइस पर बने रहेंगे, लेकिन अब क्लाउड से सिंक नहीं होंगे।",
+      "action": "हटाएं"
+    }
+  },
+  "shopping": {
+    "title": "शॉपिंग लिस्ट",
+    "week": "सप्ताह {{n}}",
+    "composition": "ब्रेकडाउन",
+    "fromRecipes_one": "{{count}} रेसिपी से",
+    "fromRecipes_other": "{{count}} रेसिपी से",
+    "manual": "मैनुअल",
+    "addManual": "मैनुअल जोड़ें",
+    "changeCategory": "कैटेगरी बदलें",
+    "empty": {
+      "title": "अभी खरीदने को कुछ नहीं है",
+      "description": "इस सप्ताह के लिए रेसिपी प्लान करें — सामग्री यहां ख़ुद-ब-ख़ुद दिखने लगेगी।"
+    }
+  },
+  "a11y": {
+    "decrease": "घटाएं",
+    "increase": "बढ़ाएं"
+  },
+  "manualItem": {
+    "title": "आइटम जोड़ें",
+    "name": "नाम",
+    "namePlaceholder": "जैसे, ऑलिव ऑयल",
+    "quantity": "मात्रा",
+    "optional": "वैकल्पिक",
+    "unit": "यूनिट",
+    "unitPlaceholder": "जैसे, मिली",
+    "category": "कैटेगरी"
+  },
+  "addToPlan": {
+    "title": "मील प्लान में जोड़ें",
+    "day": "दिन",
+    "meal": "मील"
+  },
+  "recipePicker": {
+    "titleFor": "{{meal}} के लिए रेसिपी",
+    "schedule": "शेड्यूल करें",
+    "copyToHousehold": "हाउसहोल्ड में कॉपी करें",
+    "noRecipes": "कोई रेसिपी नहीं मिली।"
+  },
+  "visibility": {
+    "title": "विज़िबिलिटी",
+    "message": "इस रेसिपी को कौन देख सकता है?",
+    "private": "प्राइवेट (सिर्फ़ मैं)",
+    "followers": "सिर्फ़ फॉलोअर्स",
+    "public": "पब्लिक"
+  },
+  "folder": {
+    "newTitle": "नया फ़ोल्डर",
+    "namePlaceholderLabel": "फ़ोल्डर का नाम",
+    "namePlaceholder": "जैसे, फ़ेवरेट्स",
+    "color": "रंग",
+    "icon": "आइकन",
+    "create": "बनाएं",
+    "inFolder": "फ़ोल्डर में जोड़ें",
+    "none": "अभी तक कोई फ़ोल्डर नहीं है।",
+    "createNew": "नया फ़ोल्डर बनाएं"
+  },
+  "recipe": {
+    "servings": "सर्विंग्स",
+    "ingredients": "सामग्री",
+    "steps": "बनाने की विधि"
+  },
+  "onboarding": {
+    "skip": "स्किप करें",
+    "start": "शुरू करें",
+    "slides": {
+      "flow": {
+        "title": "शॉपिंग लिस्ट लिखने के बजाय मील प्लान करें",
+        "description": "रेसिपी सेव करें, अपना सप्ताह प्लान करें और सही शॉपिंग लिस्ट अपने आप पाएं।",
+        "v1": "रेसिपी",
+        "v2": "मील प्लान",
+        "v3": "शॉपिंग लिस्ट"
+      },
+      "import": {
+        "title": "सेकंडों में रेसिपी इंपोर्ट करें",
+        "description": "सिर्फ़ रेसिपी का लिंक पेस्ट करें। टाइटल, इमेज, सामग्री और स्टेप्स अपने आप इंपोर्ट हो जाएंगे।"
+      },
+      "plan": {
+        "title": "अपना सप्ताह प्लान करें",
+        "description": "रेसिपी को अलग-अलग दिनों में बांटें और आने वाले भोजन का ध्यान रखें।",
+        "v1": "सोम – पास्ता",
+        "v2": "मंगल – करी",
+        "v3": "बुध – सूप"
+      },
+      "shop": {
+        "title": "ऑटोमैटिक शॉपिंग लिस्ट",
+        "description": "शॉपिंग लिस्ट सीधे आपके मील प्लान से बनती है। डुप्लिकेट सामग्री अपने आप जोड़ दी जाती है।",
+        "v1": "दूध",
+        "v2": "टमाटर",
+        "v3": "पास्ता"
+      }
+    }
+  },
+  "auth": {
+    "login": "लॉग इन करें",
+    "createAccount": "अकाउंट बनाएं",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "displayName": "डिस्प्ले नेम",
+    "displayNamePlaceholder": "आप किस नाम से जाने जाना चाहते हैं",
+    "handlePlaceholder": "यूनीक, सिर्फ़ अक्षर और अंक",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccountRegister": "अभी अकाउंट नहीं है? रजिस्टर करें",
+    "haveAccountLogin": "पहले से अकाउंट है? लॉग इन करें",
+    "loginFailed": "लॉगिन असफल रहा।",
+    "registerFailed": "रजिस्ट्रेशन असफल रहा।",
+    "enterEmailFirst": "कृपया पहले अपना ईमेल एड्रेस डालें।",
+    "enterDisplayName": "कृपया एक डिस्प्ले नेम डालें।",
+    "handleRule": "@handle: सिर्फ़ अक्षर और अंक (3–20 कैरेक्टर)।",
+    "emailSentTitle": "ईमेल भेजा गया",
+    "emailSentBody": "रीसेट लिंक के लिए अपना इनबॉक्स देखें।",
+    "sendError": "ईमेल भेजने में त्रुटि।",
+    "almostDoneTitle": "बस थोड़ा और",
+    "almostDoneBody": "हमने आपको एक कन्फ़र्मेशन ईमेल भेजा है। लॉग इन करने के लिए उसे कन्फ़र्म करें।",
+    "profileVisibility": "प्रोफ़ाइल विज़िबिलिटी",
+    "publicDesc": "शेयर की गई रेसिपी सभी को दिखेंगी",
+    "privateDesc": "सिर्फ़ कन्फ़र्म किए गए फॉलोअर्स"
+  },
+  "planner": {
+    "today": "आज",
+    "personal": "पर्सनल",
+    "addRecipe": "रेसिपी जोड़ें",
+    "servingsCount_one": "{{count}} सर्विंग",
+    "servingsCount_other": "{{count}} सर्विंग्स",
+    "viewRecipe": "रेसिपी देखें",
+    "changeServings": "सर्विंग्स बदलें",
+    "removeFromPlan": "प्लान से हटाएं",
+    "firstRun": {
+      "title": "अपना सप्ताह प्लान करें",
+      "description": "रेसिपी जोड़ने के लिए किसी स्लॉट पर टैप करें।",
+      "action": "मील प्लान खोलें"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "मेरी",
+      "household": "हाउसहोल्ड",
+      "saved": "सेव की गई"
+    },
+    "sort": {
+      "recent": "सबसे नई",
+      "alpha": "A–Z",
+      "category": "कैटेगरी"
+    },
+    "sortTitle": "सॉर्ट करें",
+    "addRecipe": "रेसिपी जोड़ें",
+    "importUrl": "URL इंपोर्ट करें",
+    "createManual": "मैनुअल बनाएं",
+    "scanImage": "फ़ोटो या PDF से स्कैन करें",
+    "view": "देखें",
+    "allFolders": "सभी",
+    "householdEmpty": {
+      "title": "साथ में पकाएं और प्लान करें",
+      "description": "हाउसहोल्ड रेसिपी, साझा मील प्लान और साझा शॉपिंग लिस्ट के लिए आपको एक हाउसहोल्ड चाहिए।",
+      "create": "हाउसहोल्ड बनाएं",
+      "createAccount": "अकाउंट बनाएं",
+      "enterCode": "इनवाइट कोड डालें"
+    },
+    "empty": {
+      "title": "अभी तक कोई रेसिपी नहीं है",
+      "description": "लिंक से रेसिपी इंपोर्ट करें या मैनुअल बनाएं।",
+      "savedTitle": "अभी तक कुछ सेव नहीं किया गया",
+      "savedDescription": "जिन रेसिपी को आप हार्ट से मार्क करेंगे, वे यहां दिखेंगी।"
+    },
+    "folderMenu": {
+      "open": "खोलें",
+      "assign": "रेसिपी असाइन करें",
+      "rename": "नाम बदलें",
+      "renameTitle": "फ़ोल्डर का नाम बदलें"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "रेसिपी नहीं मिली",
+    "notFoundDescription": "यह रेसिपी हटाई जा सकती है।",
+    "deleteTitle": "रेसिपी हटाएं?",
+    "deleteBody": "यह ट्रैश में चली जाएगी।",
+    "remixCreatedTitle": "रीमिक्स बन गया",
+    "remixCreatedBody": "एक कॉपी आपकी लाइब्रेरी में जोड़ दी गई है।",
+    "byAuthor": "@{{handle}} द्वारा",
+    "base": "आधार: {{count}}",
+    "noIngredients": "कोई सामग्री दर्ज नहीं है।",
+    "remixOf": "किसी और रेसिपी का रीमिक्स",
+    "addToPlan": "मील प्लान में जोड़ें",
+    "shareLabel": "शेयरिंग: {{visibility}}",
+    "remix": "रीमिक्स करें"
+  },
+  "recipeForm": {
+    "titleRequired": "कृपया एक टाइटल डालें।",
+    "gallery": "गैलरी",
+    "camera": "कैमरा",
+    "titleField": "टाइटल",
+    "titlePlaceholder": "जैसे, पास्ता अल फ़ोर्नो",
+    "description": "डिस्क्रिप्शन",
+    "descriptionPlaceholder": "छोटा डिस्क्रिप्शन (वैकल्पिक)",
+    "prepMin": "तैयारी (मिनट)",
+    "cookMin": "पकाने का समय (मिनट)",
+    "ingredientPlaceholder": "जैसे, 200 ग्रा आटा",
+    "stepPlaceholder": "अगला स्टेप…",
+    "saveIn": "यहां सेव करें",
+    "private": "प्राइवेट",
+    "household": "हाउसहोल्ड",
+    "moveToSteps": "बनाने की विधि में ले जाएं",
+    "moveToIngredients": "सामग्री में ले जाएं",
+    "headingPlaceholder": "जैसे, सॉस के लिए",
+    "toggleHeading": "हेडिंग बनाएं"
+  },
+  "recipeNew": {
+    "title": "नई रेसिपी",
+    "submit": "रेसिपी सेव करें"
+  },
+  "recipeEdit": {
+    "title": "रेसिपी संपादित करें",
+    "submit": "बदलाव सेव करें"
+  },
+  "folderScreen": {
+    "fallbackName": "फ़ोल्डर",
+    "editRecipes": "रेसिपी संपादित करें",
+    "noRecipesTitle": "कोई रेसिपी नहीं",
+    "noRecipesDescription": "पहले कुछ रेसिपी बनाएं।",
+    "emptyTitle": "फ़ोल्डर खाली है",
+    "emptyDescription": "रेसिपी जोड़ने के लिए ऊपर दाईं ओर पेंसिल पर टैप करें।"
+  },
+  "recipeImport": {
+    "title": "रेसिपी इंपोर्ट करें",
+    "import": "इंपोर्ट करें",
+    "noneDetected": "सामग्री/स्टेप्स अपने आप नहीं पहचाने जा सके — कृपया उन्हें मैनुअल जोड़ें।",
+    "failed": "इंपोर्ट असफल रहा।",
+    "failedManual": "आप रेसिपी मैनुअल बना सकते हैं।",
+    "urlLabel": "रेसिपी URL",
+    "hint": "किसी रेसिपी पेज का लिंक पेस्ट करें, या किसी Instagram पोस्ट को सीधे ऐप से शेयर करें। टाइटल, इमेज, सामग्री और स्टेप्स अपने आप इंपोर्ट हो जाएंगे।",
+    "loading": "रेसिपी लोड हो रही है…",
+    "save": "रेसिपी सेव करें"
+  },
+  "recipeScan": {
+    "title": "फ़ोटो या PDF से रेसिपी",
+    "hint": "एक ही रेसिपी के एक या अधिक स्क्रीनशॉट चुनें, या एक PDF। टेक्स्ट सीधे आपके डिवाइस पर पहचाना जाता है — कुछ भी अपलोड नहीं होता।",
+    "addFromGallery": "गैलरी से चुनें",
+    "takePhoto": "फ़ोटो लें",
+    "addFromPdf": "PDF चुनें",
+    "preparingPdf": "PDF तैयार किया जा रहा है…",
+    "pdfFailed": "इस PDF को पढ़ा नहीं जा सका। आप रेसिपी मैन्युअल रूप से पूरी कर सकते हैं।",
+    "pdfTruncated": "केवल पहले {{count}} पेज ही प्रोसेस किए गए।",
+    "scan": "रेसिपी पहचानें",
+    "removeImage": "इमेज हटाएं",
+    "loading": "टेक्स्ट पहचाना जा रहा है…",
+    "noneDetected": "सामग्री/स्टेप्स स्वचालित रूप से नहीं पहचाने जा सके — कृपया मैन्युअल रूप से पूरा करें।",
+    "failed": "टेक्स्ट पहचान विफल रही।",
+    "failedManual": "आप रेसिपी मैन्युअल रूप से बना सकते हैं।",
+    "save": "रेसिपी सेव करें"
+  },
+  "trash": {
+    "title": "ट्रैश",
+    "emptyAll": "ट्रैश खाली करें",
+    "tabPrivate": "प्राइवेट",
+    "tabHousehold": "हाउसहोल्ड",
+    "emptyTitle": "ट्रैश खाली है",
+    "emptyDescription": "हटाई गई रेसिपी यहां दिखेंगी।",
+    "restore": "रीस्टोर करें",
+    "deletedOn": "हटाई गई: {{date}}",
+    "deleteForever": "हमेशा के लिए हटाएं",
+    "deleteOneTitle": "हमेशा के लिए हटाएं?",
+    "deleteOneBody": "यह रेसिपी स्थायी रूप से हटा दी जाएगी।",
+    "emptyAllTitle": "ट्रैश खाली करें?",
+    "emptyAllBody": "सभी रेसिपी स्थायी रूप से हटा दी जाएंगी।"
+  }
+}

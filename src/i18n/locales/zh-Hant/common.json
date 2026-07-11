@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "杯",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "大匙",
+    "tsp": "小匙",
+    "piece_one": "個",
+    "piece_other": "個",
+    "bunch_one": "把",
+    "bunch_other": "把",
+    "pinch_one": "一撮",
+    "pinch_other": "一撮",
+    "can_one": "罐",
+    "can_other": "罐",
+    "pack_one": "包",
+    "pack_other": "包",
+    "bag_one": "袋",
+    "bag_other": "袋",
+    "clove_one": "瓣",
+    "clove_other": "瓣",
+    "slice_one": "片",
+    "slice_other": "片"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "蔬果",
+      "meat": "肉類與熟食",
+      "fish": "魚類與海鮮",
+      "legumes": "豆類與豆製品",
+      "dairy": "乳製品與蛋類",
+      "fats": "油脂",
+      "bakery": "麵包烘焙",
+      "grains": "麵食、米與穀物",
+      "pantry": "乾貨與罐頭",
+      "spices": "香料與香草",
+      "frozen": "冷凍食品",
+      "drinks": "飲品",
+      "other": "其他"
+    },
+    "recipe": {
+      "meat": "肉類",
+      "seafood": "海鮮",
+      "vegetarian": "素食",
+      "vegan": "全素"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "snack": "點心",
+    "dinner": "晚餐",
+    "snack2": "點心2"
+  },
+  "time": {
+    "minutesShort": "{{count}}分鐘",
+    "hoursShort": "{{count}}小時",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "剛剛",
+      "minutesAgo": "{{count}}分鐘前",
+      "hoursAgo": "{{count}}小時前",
+      "daysAgo_one": "{{count}}天前",
+      "daysAgo_other": "{{count}}天前",
+      "weeksAgo": "{{count}}週前"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "save": "儲存",
+    "delete": "刪除",
+    "done": "完成",
+    "back": "返回",
+    "next": "下一步",
+    "ok": "好",
+    "retry": "重試",
+    "edit": "編輯",
+    "add": "新增",
+    "remove": "移除",
+    "close": "關閉",
+    "search": "搜尋",
+    "loading": "載入中 …",
+    "error": "錯誤",
+    "errorGeneric": "發生錯誤了。"
+  },
+  "nav": {
+    "recipes": "食譜",
+    "planner": "餐點計畫",
+    "activity": "動態",
+    "profile": "個人檔案"
+  },
+  "licenses": {
+    "intro": "alimonia 使用了以下開源套件，感謝這些作者的貢獻。"
+  },
+  "social": {
+    "unavailable": "已無法使用"
+  },
+  "profile": {
+    "followers": "粉絲",
+    "following": "追蹤中",
+    "sharedRecipes": "已分享的食譜",
+    "searchUsers": "搜尋使用者",
+    "noShared": "你還沒有分享任何食譜，到食譜裡開啟「分享」試試看。",
+    "signedOut": {
+      "title": "你的帳號，隨處可見你的食譜",
+      "description": "建立帳號即可備份食譜、跨裝置同步，還能一起規劃餐點。",
+      "register": "註冊"
+    },
+    "comingSoon": {
+      "title": "敬請期待",
+      "description": "選用的帳號與多裝置同步功能，以及食譜分享功能，目前正在開發中。"
+    }
+  },
+  "household": {
+    "accountRequired": "需要帳號",
+    "accountRequiredDesc": "家庭功能需要先註冊帳號。",
+    "createTitle": "建立家庭",
+    "createFailed": "家庭建立失敗。",
+    "namePlaceholder": "家庭名稱",
+    "joinWithCode": "使用邀請碼加入",
+    "join": "加入",
+    "joinFailed": "加入失敗",
+    "inviteCode": "邀請碼",
+    "inviteMessage": "一起加入我的 alimonia 家庭吧！邀請碼：{{code}}",
+    "inviteAction": "邀請",
+    "inviteMember": "邀請成員",
+    "members": "成員",
+    "membersLoadError": "成員載入失敗。",
+    "noMembers": "目前沒有成員。",
+    "owner": "擁有者",
+    "you": "你",
+    "member": "成員",
+    "renameSection": "重新命名家庭",
+    "switchSection": "切換目前家庭",
+    "activeTag": "使用中",
+    "joinAnotherSection": "加入其他家庭",
+    "joinWithInviteCode": "使用邀請碼加入",
+    "leaveAction": "離開家庭",
+    "leaveTitle": "要離開這個家庭嗎？",
+    "leaveBody": "你仍可檢視先前的家庭食譜。",
+    "leave": "離開",
+    "transferOwner": "轉移擁有者",
+    "transferFailed": "轉移失敗。",
+    "removeMember": "從家庭中移除",
+    "removeConfirmTitle": "確定要移除嗎？",
+    "removeConfirmBody": "{{name}} 將被移出家庭。",
+    "removeFailed": "移除失敗。"
+  },
+  "profileEdit": {
+    "changeAvatar": "更換大頭貼",
+    "fromLibrary": "從相簿選擇",
+    "handleRule": "@handle：僅限英文字母與數字。",
+    "bioTooLong": "簡介最多150個字。",
+    "saveFailed": "儲存失敗（帳號名稱可能已被使用）。",
+    "handleHint": "變更後，舊的帳號名稱會保留7天。",
+    "bio": "簡介",
+    "privateProfile": "不公開帳號",
+    "privateProfileHint": "粉絲須經過你的核准。"
+  },
+  "followList": {
+    "unfollow": "取消追蹤",
+    "empty": "這裡還沒有任何人。"
+  },
+  "userSearch": {
+    "placeholder": "@帳號名稱或姓名",
+    "noResults": "找不到符合的結果。"
+  },
+  "foreignProfile": {
+    "notFound": "找不到這個檔案",
+    "following": "追蹤中",
+    "requested": "已送出邀請",
+    "follow": "追蹤",
+    "more": "更多",
+    "private": "這是不公開帳號",
+    "noShared": "目前還沒有分享的食譜",
+    "block": "封鎖",
+    "report": "檢舉",
+    "reportReason": "檢舉原因",
+    "reportSpam": "垂直訊息／廣告",
+    "reportInappropriate": "不當內容",
+    "reportFake": "假帳號",
+    "thanks": "謝謝你",
+    "reportReceived": "已收到你的檢舉，我們會進行審核。"
+  },
+  "notifications": {
+    "follow": "@{{handle}} 開始追蹤你了",
+    "followRequest": "@{{handle}} 想要追蹤你",
+    "like": "@{{handle}} 喜歡你的食譜 «{{title}}»",
+    "remix": "@{{handle}} 改編了 «{{title}}»",
+    "signInTitle": "登入",
+    "signInDescription": "登入帳號後，你就能收到追蹤、喜歡與改編的通知。",
+    "markAllRead": "全部標為已讀",
+    "requests": "邀請",
+    "accept": "接受",
+    "reject": "拒絕",
+    "emptyTitle": "目前沒有通知",
+    "emptyDescription": "與你的食譜相關的動態會顯示在這裡。"
+  },
+  "settings": {
+    "title": "設定",
+    "section": {
+      "account": "帳號",
+      "household": "家庭",
+      "languageRegion": "語言與地區",
+      "appearance": "外觀",
+      "dataSync": "資料與同步",
+      "help": "說明",
+      "about": "關於",
+      "accountActions": "帳號",
+      "dangerZone": "危險操作"
+    },
+    "editProfile": "編輯個人檔案",
+    "household": {
+      "owner": "你是擁有者",
+      "member": "成員",
+      "createOrJoin": "建立或加入家庭"
+    },
+    "language": {
+      "title": "語言",
+      "system": "跟隨系統",
+      "restartTitle": "需要重新啟動",
+      "restartBody": "請重新啟動應用程式，讓排版方向完整套用。"
+    },
+    "measurement": {
+      "title": "單位",
+      "system": "跟隨系統",
+      "metric": "公制",
+      "imperial": "英制"
+    },
+    "appIcon": {
+      "title": "應用程式圖示",
+      "subtitle": "選擇 alimonia 在主畫面上的圖示樣式。",
+      "icon": "預設",
+      "pride": "驕傲"
+    },
+    "theme": {
+      "title": "主題",
+      "system": "跟隨系統",
+      "light": "淺色",
+      "dark": "深色"
+    },
+    "mealSlots": {
+      "title": "餐次",
+      "description": "選擇每天要規劃的餐次，並為它們設定自己的名稱。",
+      "rename": "重新命名",
+      "renameTitle": "重新命名餐次"
+    },
+    "sync": {
+      "status": "同步狀態",
+      "errors": "{{count}} 個錯誤",
+      "pending": "{{count}} 項待同步",
+      "synced": "已同步",
+      "retry": "重試同步",
+      "discard": "捨棄失敗項目"
+    },
+    "trash": "垃圾桶",
+    "showOnboarding": "重新觀看介紹",
+    "version": "版本",
+    "licenses": "開源授權",
+    "logout": {
+      "title": "要登出嗎？",
+      "body": "本機資料會繼續保留在這台裝置上。",
+      "action": "登出"
+    },
+    "wipe": {
+      "action": "清除所有儲存資料",
+      "subtitle": "永久刪除所有本機資料",
+      "confirm1Title": "要清除所有儲存資料嗎？",
+      "confirm1Body": "這台裝置上的所有食譜、計畫、購物清單與設定都會被永久刪除。尚未同步的變更也會遺失，同時你會被登出。",
+      "confirm2Title": "確定要清除所有資料嗎？",
+      "confirm2Body": "此操作無法復原。",
+      "confirmFinal": "永久刪除",
+      "failed": "無法完全清除儲存資料。"
+    },
+    "discardSync": {
+      "title": "要捨棄同步失敗的變更嗎？",
+      "body": "這些變更會留在裝置上，但不會再同步到雲端。",
+      "action": "捨棄"
+    }
+  },
+  "shopping": {
+    "title": "購物清單",
+    "week": "第{{n}}週",
+    "composition": "組成明細",
+    "fromRecipes_one": "來自{{count}}則食譜",
+    "fromRecipes_other": "來自{{count}}則食譜",
+    "manual": "手動新增",
+    "addManual": "手動新增",
+    "changeCategory": "變更分類",
+    "empty": {
+      "title": "目前沒有要買的東西",
+      "description": "幫這週安排好食譜，食材就會自動出現在這裡。"
+    }
+  },
+  "a11y": {
+    "decrease": "減少",
+    "increase": "增加"
+  },
+  "manualItem": {
+    "title": "新增項目",
+    "name": "名稱",
+    "namePlaceholder": "例如：橄欖油",
+    "quantity": "數量",
+    "optional": "選填",
+    "unit": "單位",
+    "unitPlaceholder": "例如：ml",
+    "category": "分類"
+  },
+  "addToPlan": {
+    "title": "加入餐點計畫",
+    "day": "日期",
+    "meal": "餐次"
+  },
+  "recipePicker": {
+    "titleFor": "{{meal}}的食譜",
+    "schedule": "排入計畫",
+    "copyToHousehold": "複製到家庭",
+    "noRecipes": "找不到食譜。"
+  },
+  "visibility": {
+    "title": "公開範圍",
+    "message": "誰可以看到這份食譜？",
+    "private": "不公開（僅自己）",
+    "followers": "僅限粉絲",
+    "public": "公開"
+  },
+  "folder": {
+    "newTitle": "新增資料夾",
+    "namePlaceholderLabel": "資料夾名稱",
+    "namePlaceholder": "例如：我的最愛",
+    "color": "顏色",
+    "icon": "圖示",
+    "create": "建立",
+    "inFolder": "加入資料夾",
+    "none": "目前還沒有資料夾。",
+    "createNew": "新增資料夾"
+  },
+  "recipe": {
+    "servings": "份量",
+    "ingredients": "食材",
+    "steps": "做法"
+  },
+  "onboarding": {
+    "skip": "略過",
+    "start": "開始使用",
+    "slides": {
+      "flow": {
+        "title": "規劃餐點，不用再手寫購物清單",
+        "description": "儲存食譜、規劃一週菜單，購物清單就會自動幫你準備好。",
+        "v1": "食譜",
+        "v2": "餐點計畫",
+        "v3": "購物清單"
+      },
+      "import": {
+        "title": "幾秒鐘匯入食譜",
+        "description": "貼上食譜連結就好，標題、圖片、食材與做法都會自動匯入。"
+      },
+      "plan": {
+        "title": "規劃你的一週",
+        "description": "把食譜分配到每一天，提前掌握接下來要吃什麼。",
+        "v1": "一 – 義大利麵",
+        "v2": "二 – 咖哩",
+        "v3": "三 – 湯品"
+      },
+      "shop": {
+        "title": "自動產生購物清單",
+        "description": "購物清單會直接根據你的餐點計畫產生，重複的食材會自動合併。",
+        "v1": "牛奶",
+        "v2": "番茄",
+        "v3": "義大利麵"
+      }
+    }
+  },
+  "auth": {
+    "login": "登入",
+    "createAccount": "建立帳號",
+    "email": "電子郵件",
+    "password": "密碼",
+    "displayName": "顯示名稱",
+    "displayNamePlaceholder": "你想被怎麼稱呼",
+    "handlePlaceholder": "唯一帳號名稱，僅限英文字母與數字",
+    "forgotPassword": "忘記密碼？",
+    "noAccountRegister": "還沒有帳號？註冊",
+    "haveAccountLogin": "已經有帳號？登入",
+    "loginFailed": "登入失敗。",
+    "registerFailed": "註冊失敗。",
+    "enterEmailFirst": "請先輸入你的電子郵件地址。",
+    "enterDisplayName": "請輸入顯示名稱。",
+    "handleRule": "@handle：僅限英文字母與數字（3–20個字元）。",
+    "emailSentTitle": "郵件已寄出",
+    "emailSentBody": "請查看收件匣中的重設連結。",
+    "sendError": "郵件寄送失敗。",
+    "almostDoneTitle": "就快完成了",
+    "almostDoneBody": "我們已經寄出一封確認信，請確認後即可登入。",
+    "profileVisibility": "個人檔案公開範圍",
+    "publicDesc": "所有人都能看到你分享的食譜",
+    "privateDesc": "僅限已核准的粉絲"
+  },
+  "planner": {
+    "today": "今天",
+    "personal": "個人",
+    "addRecipe": "新增食譜",
+    "servingsCount_one": "{{count}}份",
+    "servingsCount_other": "{{count}}份",
+    "viewRecipe": "查看食譜",
+    "changeServings": "調整份量",
+    "removeFromPlan": "從計畫中移除",
+    "firstRun": {
+      "title": "規劃你的一週",
+      "description": "點一下時段即可新增食譜。",
+      "action": "開啟餐點計畫"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "我的",
+      "household": "家庭",
+      "saved": "已收藏"
+    },
+    "sort": {
+      "recent": "最新",
+      "alpha": "A–Z",
+      "category": "分類"
+    },
+    "sortTitle": "排序方式",
+    "addRecipe": "新增食譜",
+    "importUrl": "匯入網址",
+    "createManual": "手動建立",
+    "scanImage": "從照片或PDF掃描",
+    "view": "檢視",
+    "allFolders": "全部",
+    "householdEmpty": {
+      "title": "一起做菜，一起規劃",
+      "description": "家庭共享食譜、共用餐點計畫和購物清單，都需要先建立家庭。",
+      "create": "建立家庭",
+      "createAccount": "建立帳號",
+      "enterCode": "輸入邀請碼"
+    },
+    "empty": {
+      "title": "目前還沒有食譜",
+      "description": "透過連結匯入食譜，或自己手動建立。",
+      "savedTitle": "目前還沒有收藏",
+      "savedDescription": "你標記愛心的食譜會顯示在這裡。"
+    },
+    "folderMenu": {
+      "open": "開啟",
+      "assign": "指定食譜",
+      "rename": "重新命名",
+      "renameTitle": "重新命名資料夾"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "找不到這份食譜",
+    "notFoundDescription": "這份食譜可能已被刪除。",
+    "deleteTitle": "要刪除這份食譜嗎？",
+    "deleteBody": "將會移到垃圾桶。",
+    "remixCreatedTitle": "已建立改編版本",
+    "remixCreatedBody": "副本已加入你的食譜庫。",
+    "byAuthor": "由 @{{handle}} 建立",
+    "base": "基準份量：{{count}}",
+    "noIngredients": "目前沒有食材紀錄。",
+    "remixOf": "改編自其他食譜",
+    "addToPlan": "加入餐點計畫",
+    "shareLabel": "分享範圍：{{visibility}}",
+    "remix": "改編"
+  },
+  "recipeForm": {
+    "titleRequired": "請輸入標題。",
+    "gallery": "相簿",
+    "camera": "相機",
+    "titleField": "標題",
+    "titlePlaceholder": "例如：焗烤義大利麵",
+    "description": "描述",
+    "descriptionPlaceholder": "簡短描述（選填）",
+    "prepMin": "準備時間（分鐘）",
+    "cookMin": "烹煮時間（分鐘）",
+    "ingredientPlaceholder": "例如：麵粉 200 克",
+    "stepPlaceholder": "下一步…",
+    "saveIn": "儲存到",
+    "private": "不公開",
+    "household": "家庭",
+    "moveToSteps": "移到做法",
+    "moveToIngredients": "移到食材",
+    "headingPlaceholder": "例如：醬汁部分",
+    "toggleHeading": "轉換為標題"
+  },
+  "recipeNew": {
+    "title": "新增食譜",
+    "submit": "儲存食譜"
+  },
+  "recipeEdit": {
+    "title": "編輯食譜",
+    "submit": "儲存變更"
+  },
+  "folderScreen": {
+    "fallbackName": "資料夾",
+    "editRecipes": "編輯食譜",
+    "noRecipesTitle": "沒有食譜",
+    "noRecipesDescription": "請先建立一些食譜。",
+    "emptyTitle": "這個資料夾是空的",
+    "emptyDescription": "點一下右上角的鉛筆圖示即可新增食譜。"
+  },
+  "recipeImport": {
+    "title": "匯入食譜",
+    "import": "匯入",
+    "noneDetected": "無法自動偵測到食材或做法，請手動新增。",
+    "failed": "匯入失敗。",
+    "failedManual": "你可以手動建立這份食譜。",
+    "urlLabel": "食譜網址",
+    "hint": "貼上食譜頁面的連結，或直接從應用程式分享一則 Instagram 貼文。標題、圖片、食材與做法都會自動匯入。",
+    "loading": "正在載入食譜…",
+    "save": "儲存食譜"
+  },
+  "recipeScan": {
+    "title": "從照片或PDF建立食譜",
+    "hint": "選擇同一份食譜的一張或多張截圖，或一份PDF。文字會直接在你的裝置上辨識——不會上傳任何內容。",
+    "addFromGallery": "從相簿選擇",
+    "takePhoto": "拍照",
+    "addFromPdf": "選擇PDF",
+    "preparingPdf": "正在準備PDF…",
+    "pdfFailed": "無法讀取此PDF。你可以手動完成食譜。",
+    "pdfTruncated": "僅處理了前{{count}}頁。",
+    "scan": "辨識食譜",
+    "removeImage": "移除圖片",
+    "loading": "正在辨識文字…",
+    "noneDetected": "無法自動辨識食材/步驟——請手動補充。",
+    "failed": "文字辨識失敗。",
+    "failedManual": "你可以手動建立食譜。",
+    "save": "儲存食譜"
+  },
+  "trash": {
+    "title": "垃圾桶",
+    "emptyAll": "清空垃圾桶",
+    "tabPrivate": "不公開",
+    "tabHousehold": "家庭",
+    "emptyTitle": "垃圾桶是空的",
+    "emptyDescription": "刪除的食譜會顯示在這裡。",
+    "restore": "還原",
+    "deletedOn": "刪除於：{{date}}",
+    "deleteForever": "永久刪除",
+    "deleteOneTitle": "要永久刪除嗎？",
+    "deleteOneBody": "這份食譜將會永久刪除。",
+    "emptyAllTitle": "要清空垃圾桶嗎？",
+    "emptyAllBody": "所有食譜都將被永久刪除。"
+  }
+}

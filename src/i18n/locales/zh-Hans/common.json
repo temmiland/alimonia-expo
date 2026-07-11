@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "杯",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "大勺",
+    "tsp": "小勺",
+    "piece_one": "个",
+    "piece_other": "个",
+    "bunch_one": "把",
+    "bunch_other": "把",
+    "pinch_one": "一撮",
+    "pinch_other": "一撮",
+    "can_one": "罐",
+    "can_other": "罐",
+    "pack_one": "包",
+    "pack_other": "包",
+    "bag_one": "袋",
+    "bag_other": "袋",
+    "clove_one": "瓣",
+    "clove_other": "瓣",
+    "slice_one": "片",
+    "slice_other": "片"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "蔬果",
+      "meat": "肉类与熟食",
+      "fish": "鱼类与海鲜",
+      "legumes": "豆类与豆制品",
+      "dairy": "乳制品与蛋类",
+      "fats": "油脂",
+      "bakery": "面包烘焙",
+      "grains": "面食、米与谷物",
+      "pantry": "粮油与罐头",
+      "spices": "香料与香草",
+      "frozen": "冷冻食品",
+      "drinks": "饮品",
+      "other": "其他"
+    },
+    "recipe": {
+      "meat": "肉类",
+      "seafood": "海鲜",
+      "vegetarian": "素食",
+      "vegan": "纯素"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "snack": "加餐",
+    "dinner": "晚餐",
+    "snack2": "加餐2"
+  },
+  "time": {
+    "minutesShort": "{{count}}分钟",
+    "hoursShort": "{{count}}小时",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "刚刚",
+      "minutesAgo": "{{count}}分钟前",
+      "hoursAgo": "{{count}}小时前",
+      "daysAgo_one": "{{count}}天前",
+      "daysAgo_other": "{{count}}天前",
+      "weeksAgo": "{{count}}周前"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "done": "完成",
+    "back": "返回",
+    "next": "下一步",
+    "ok": "好",
+    "retry": "重试",
+    "edit": "编辑",
+    "add": "添加",
+    "remove": "移除",
+    "close": "关闭",
+    "search": "搜索",
+    "loading": "加载中 …",
+    "error": "错误",
+    "errorGeneric": "出了点问题。"
+  },
+  "nav": {
+    "recipes": "食谱",
+    "planner": "膳食计划",
+    "activity": "动态",
+    "profile": "我的"
+  },
+  "licenses": {
+    "intro": "alimonia 使用了以下开源软件包，感谢这些作者的付出。"
+  },
+  "social": {
+    "unavailable": "已不可用"
+  },
+  "profile": {
+    "followers": "粉丝",
+    "following": "关注",
+    "sharedRecipes": "已分享的食谱",
+    "searchUsers": "搜索用户",
+    "noShared": "你还没有分享过食谱。在食谱里打开“分享”试试吧。",
+    "signedOut": {
+      "title": "你的账户，随处可见你的食谱",
+      "description": "创建账户即可备份食谱、跨设备同步，还能和家人一起规划。",
+      "register": "注册"
+    },
+    "comingSoon": {
+      "title": "敬请期待",
+      "description": "可选的账户与多设备同步功能，以及食谱分享功能，目前正在开发中。"
+    }
+  },
+  "household": {
+    "accountRequired": "需要账户",
+    "accountRequiredDesc": "家庭组功能需要先注册账户。",
+    "createTitle": "创建家庭组",
+    "createFailed": "家庭组创建失败。",
+    "namePlaceholder": "家庭组名称",
+    "joinWithCode": "使用邀请码加入",
+    "join": "加入",
+    "joinFailed": "加入失败",
+    "inviteCode": "邀请码",
+    "inviteMessage": "加入我的 alimonia 家庭组吧！邀请码：{{code}}",
+    "inviteAction": "邀请",
+    "inviteMember": "邀请成员",
+    "members": "成员",
+    "membersLoadError": "成员加载失败。",
+    "noMembers": "暂无成员。",
+    "owner": "创建者",
+    "you": "我",
+    "member": "成员",
+    "renameSection": "重命名家庭组",
+    "switchSection": "切换当前家庭组",
+    "activeTag": "当前",
+    "joinAnotherSection": "加入其他家庭组",
+    "joinWithInviteCode": "使用邀请码加入",
+    "leaveAction": "退出家庭组",
+    "leaveTitle": "退出家庭组？",
+    "leaveBody": "你仍可以查看已有的家庭组食谱。",
+    "leave": "退出",
+    "transferOwner": "转让创建者",
+    "transferFailed": "转让失败。",
+    "removeMember": "移出家庭组",
+    "removeConfirmTitle": "确定要移除吗？",
+    "removeConfirmBody": "{{name}} 将被移出家庭组。",
+    "removeFailed": "移除失败。"
+  },
+  "profileEdit": {
+    "changeAvatar": "更换头像",
+    "fromLibrary": "从相册选择",
+    "handleRule": "@handle：仅支持英文字母和数字。",
+    "bioTooLong": "简介最多150个字符。",
+    "saveFailed": "保存失败（该用户名可能已被占用）。",
+    "handleHint": "更改后，原用户名将被保留7天。",
+    "bio": "简介",
+    "privateProfile": "隐私账户",
+    "privateProfileHint": "关注请求需要你批准。"
+  },
+  "followList": {
+    "unfollow": "取消关注",
+    "empty": "这里还什么都没有。"
+  },
+  "userSearch": {
+    "placeholder": "@用户名或昵称",
+    "noResults": "没有找到匹配结果。"
+  },
+  "foreignProfile": {
+    "notFound": "未找到该主页",
+    "following": "已关注",
+    "requested": "已发送请求",
+    "follow": "关注",
+    "more": "更多",
+    "private": "该主页为隐私账户",
+    "noShared": "还没有分享的食谱",
+    "block": "拉黑",
+    "report": "举报",
+    "reportReason": "举报原因",
+    "reportSpam": "垃圾信息",
+    "reportInappropriate": "不当内容",
+    "reportFake": "虚假账户",
+    "thanks": "谢谢反馈",
+    "reportReceived": "你的举报已收到，我们会进行审核。"
+  },
+  "notifications": {
+    "follow": "@{{handle}} 关注了你",
+    "followRequest": "@{{handle}} 申请关注你",
+    "like": "@{{handle}} 喜欢你的食谱 «{{title}}»",
+    "remix": "@{{handle}} 改编了 «{{title}}»",
+    "signInTitle": "登录",
+    "signInDescription": "登录账户后，你将收到关注、点赞和改编的通知。",
+    "markAllRead": "全部标为已读",
+    "requests": "请求",
+    "accept": "接受",
+    "reject": "拒绝",
+    "emptyTitle": "暂无通知",
+    "emptyDescription": "和你的食谱相关的动态会显示在这里。"
+  },
+  "settings": {
+    "title": "设置",
+    "section": {
+      "account": "账户",
+      "household": "家庭组",
+      "languageRegion": "语言与地区",
+      "appearance": "外观",
+      "dataSync": "数据与同步",
+      "help": "帮助",
+      "about": "关于",
+      "accountActions": "账户",
+      "dangerZone": "危险操作"
+    },
+    "editProfile": "编辑资料",
+    "household": {
+      "owner": "你是创建者",
+      "member": "成员",
+      "createOrJoin": "创建或加入家庭组"
+    },
+    "language": {
+      "title": "语言",
+      "system": "跟随系统",
+      "restartTitle": "需要重启",
+      "restartBody": "请重启应用，以完整应用排版方向设置。"
+    },
+    "measurement": {
+      "title": "单位",
+      "system": "跟随系统",
+      "metric": "公制",
+      "imperial": "英制"
+    },
+    "appIcon": {
+      "title": "应用图标",
+      "subtitle": "选择 alimonia 在主屏幕上的图标样式。",
+      "icon": "默认",
+      "pride": "骄傲"
+    },
+    "theme": {
+      "title": "主题",
+      "system": "跟随系统",
+      "light": "浅色",
+      "dark": "深色"
+    },
+    "mealSlots": {
+      "title": "餐次",
+      "description": "选择每天要计划的餐次，并为它们设置自己的名称。",
+      "rename": "重命名",
+      "renameTitle": "重命名餐次"
+    },
+    "sync": {
+      "status": "同步状态",
+      "errors": "{{count}} 个错误",
+      "pending": "{{count}} 项待同步",
+      "synced": "已同步",
+      "retry": "重试同步",
+      "discard": "放弃失败项"
+    },
+    "trash": "回收站",
+    "showOnboarding": "重新查看引导",
+    "version": "版本",
+    "licenses": "开源许可",
+    "logout": {
+      "title": "退出登录？",
+      "body": "本地数据会继续保留在此设备上。",
+      "action": "退出登录"
+    },
+    "wipe": {
+      "action": "清空所有存储数据",
+      "subtitle": "永久删除所有本地数据",
+      "confirm1Title": "清空所有存储数据？",
+      "confirm1Body": "此设备上的所有食谱、计划、购物清单和设置都会被永久删除。未同步的更改也会丢失，同时你会被登出。",
+      "confirm2Title": "确定要清空所有数据吗？",
+      "confirm2Body": "此操作无法撤销。",
+      "confirmFinal": "永久删除",
+      "failed": "未能完全清空存储数据。"
+    },
+    "discardSync": {
+      "title": "放弃同步失败的更改？",
+      "body": "这些更改会保留在设备上，但不会再同步到云端。",
+      "action": "放弃"
+    }
+  },
+  "shopping": {
+    "title": "购物清单",
+    "week": "第{{n}}周",
+    "composition": "构成明细",
+    "fromRecipes_one": "来自{{count}}个食谱",
+    "fromRecipes_other": "来自{{count}}个食谱",
+    "manual": "手动添加",
+    "addManual": "手动添加",
+    "changeCategory": "更改分类",
+    "empty": {
+      "title": "暂时没有要买的东西",
+      "description": "为这周安排好食谱，食材就会自动出现在这里。"
+    }
+  },
+  "a11y": {
+    "decrease": "减少",
+    "increase": "增加"
+  },
+  "manualItem": {
+    "title": "添加项目",
+    "name": "名称",
+    "namePlaceholder": "例如：橄榄油",
+    "quantity": "数量",
+    "optional": "可选",
+    "unit": "单位",
+    "unitPlaceholder": "例如：ml",
+    "category": "分类"
+  },
+  "addToPlan": {
+    "title": "添加到膳食计划",
+    "day": "日期",
+    "meal": "餐次"
+  },
+  "recipePicker": {
+    "titleFor": "{{meal}}的食谱",
+    "schedule": "安排",
+    "copyToHousehold": "复制到家庭组",
+    "noRecipes": "未找到食谱。"
+  },
+  "visibility": {
+    "title": "可见范围",
+    "message": "谁可以看到这个食谱？",
+    "private": "仅自己可见",
+    "followers": "仅关注者可见",
+    "public": "公开"
+  },
+  "folder": {
+    "newTitle": "新建文件夹",
+    "namePlaceholderLabel": "文件夹名称",
+    "namePlaceholder": "例如：常用食谱",
+    "color": "颜色",
+    "icon": "图标",
+    "create": "创建",
+    "inFolder": "添加到文件夹",
+    "none": "还没有文件夹。",
+    "createNew": "新建文件夹"
+  },
+  "recipe": {
+    "servings": "份数",
+    "ingredients": "食材",
+    "steps": "做法"
+  },
+  "onboarding": {
+    "skip": "跳过",
+    "start": "开始使用",
+    "slides": {
+      "flow": {
+        "title": "规划膳食，不再手写购物清单",
+        "description": "保存食谱、规划一周菜单，购物清单会自动为你生成。",
+        "v1": "食谱",
+        "v2": "膳食计划",
+        "v3": "购物清单"
+      },
+      "import": {
+        "title": "几秒钟导入食谱",
+        "description": "粘贴食谱链接即可。标题、图片、食材和步骤都会自动导入。"
+      },
+      "plan": {
+        "title": "规划你的一周",
+        "description": "把食谱安排到每一天，提前掌握接下来要吃什么。",
+        "v1": "周一 – 意面",
+        "v2": "周二 – 咖喱",
+        "v3": "周三 – 汤"
+      },
+      "shop": {
+        "title": "自动生成购物清单",
+        "description": "购物清单直接根据你的膳食计划生成，重复的食材会自动合并。",
+        "v1": "牛奶",
+        "v2": "番茄",
+        "v3": "意面"
+      }
+    }
+  },
+  "auth": {
+    "login": "登录",
+    "createAccount": "创建账户",
+    "email": "邮箱",
+    "password": "密码",
+    "displayName": "昵称",
+    "displayNamePlaceholder": "你想被怎么称呼",
+    "handlePlaceholder": "唯一用户名，仅限字母和数字",
+    "forgotPassword": "忘记密码？",
+    "noAccountRegister": "还没有账户？注册",
+    "haveAccountLogin": "已有账户？登录",
+    "loginFailed": "登录失败。",
+    "registerFailed": "注册失败。",
+    "enterEmailFirst": "请先输入你的邮箱地址。",
+    "enterDisplayName": "请输入昵称。",
+    "handleRule": "@handle：仅限字母和数字（3–20个字符）。",
+    "emailSentTitle": "邮件已发送",
+    "emailSentBody": "请查看收件箱中的重置链接。",
+    "sendError": "邮件发送失败。",
+    "almostDoneTitle": "就差一步了",
+    "almostDoneBody": "我们已经给你发了一封确认邮件，确认后即可登录。",
+    "profileVisibility": "主页可见范围",
+    "publicDesc": "所有人都能看到你分享的食谱",
+    "privateDesc": "仅已通过审核的关注者可见"
+  },
+  "planner": {
+    "today": "今天",
+    "personal": "个人",
+    "addRecipe": "添加食谱",
+    "servingsCount_one": "{{count}}份",
+    "servingsCount_other": "{{count}}份",
+    "viewRecipe": "查看食谱",
+    "changeServings": "修改份数",
+    "removeFromPlan": "从计划中移除",
+    "firstRun": {
+      "title": "规划你的一周",
+      "description": "点按任意时段即可添加食谱。",
+      "action": "打开膳食计划"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "我的",
+      "household": "家庭组",
+      "saved": "收藏"
+    },
+    "sort": {
+      "recent": "最新",
+      "alpha": "字母排序",
+      "category": "分类"
+    },
+    "sortTitle": "排序方式",
+    "addRecipe": "添加食谱",
+    "importUrl": "导入链接",
+    "createManual": "手动创建",
+    "scanImage": "从照片或PDF扫描",
+    "view": "查看",
+    "allFolders": "全部",
+    "householdEmpty": {
+      "title": "一起做饭，一起规划",
+      "description": "家庭共享食谱、共用膳食计划和购物清单，都需要先创建家庭组。",
+      "create": "创建家庭组",
+      "createAccount": "创建账户",
+      "enterCode": "输入邀请码"
+    },
+    "empty": {
+      "title": "还没有食谱",
+      "description": "通过链接导入食谱，或者手动创建一个。",
+      "savedTitle": "还没有收藏",
+      "savedDescription": "你点击爱心标记的食谱会出现在这里。"
+    },
+    "folderMenu": {
+      "open": "打开",
+      "assign": "分配食谱",
+      "rename": "重命名",
+      "renameTitle": "重命名文件夹"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "未找到该食谱",
+    "notFoundDescription": "该食谱可能已被删除。",
+    "deleteTitle": "删除食谱？",
+    "deleteBody": "将被移到回收站。",
+    "remixCreatedTitle": "改编已创建",
+    "remixCreatedBody": "副本已添加到你的食谱库。",
+    "byAuthor": "由 @{{handle}} 创建",
+    "base": "基准份数：{{count}}",
+    "noIngredients": "暂无食材记录。",
+    "remixOf": "改编自其他食谱",
+    "addToPlan": "添加到膳食计划",
+    "shareLabel": "分享范围：{{visibility}}",
+    "remix": "改编"
+  },
+  "recipeForm": {
+    "titleRequired": "请输入标题。",
+    "gallery": "相册",
+    "camera": "拍照",
+    "titleField": "标题",
+    "titlePlaceholder": "例如：番茄烤意面",
+    "description": "简介",
+    "descriptionPlaceholder": "简短描述（可选）",
+    "prepMin": "准备时间（分钟）",
+    "cookMin": "烹饪时间（分钟）",
+    "ingredientPlaceholder": "例如：面粉 200 克",
+    "stepPlaceholder": "下一步…",
+    "saveIn": "保存到",
+    "private": "私密",
+    "household": "家庭组",
+    "moveToSteps": "移到做法",
+    "moveToIngredients": "移到食材",
+    "headingPlaceholder": "例如：酱汁部分",
+    "toggleHeading": "转换为标题"
+  },
+  "recipeNew": {
+    "title": "新建食谱",
+    "submit": "保存食谱"
+  },
+  "recipeEdit": {
+    "title": "编辑食谱",
+    "submit": "保存更改"
+  },
+  "folderScreen": {
+    "fallbackName": "文件夹",
+    "editRecipes": "编辑食谱",
+    "noRecipesTitle": "暂无食谱",
+    "noRecipesDescription": "先创建一些食谱吧。",
+    "emptyTitle": "文件夹是空的",
+    "emptyDescription": "点击右上角的铅笔图标即可添加食谱。"
+  },
+  "recipeImport": {
+    "title": "导入食谱",
+    "import": "导入",
+    "noneDetected": "未能自动识别食材或步骤，请手动添加。",
+    "failed": "导入失败。",
+    "failedManual": "你可以手动创建这个食谱。",
+    "urlLabel": "食谱链接",
+    "hint": "粘贴食谱页面的链接，或直接从应用分享一个 Instagram 帖子。标题、图片、食材和步骤都会自动导入。",
+    "loading": "正在加载食谱…",
+    "save": "保存食谱"
+  },
+  "recipeScan": {
+    "title": "从照片或PDF创建食谱",
+    "hint": "选择同一食谱的一张或多张截图，或一份PDF。文本会直接在你的设备上识别——不会上传任何内容。",
+    "addFromGallery": "从相册选择",
+    "takePhoto": "拍照",
+    "addFromPdf": "选择PDF",
+    "preparingPdf": "正在准备PDF…",
+    "pdfFailed": "无法读取此PDF。你可以手动完成食谱。",
+    "pdfTruncated": "仅处理了前{{count}}页。",
+    "scan": "识别食谱",
+    "removeImage": "移除图片",
+    "loading": "正在识别文本…",
+    "noneDetected": "无法自动识别食材/步骤——请手动补充。",
+    "failed": "文本识别失败。",
+    "failedManual": "你可以手动创建食谱。",
+    "save": "保存食谱"
+  },
+  "trash": {
+    "title": "回收站",
+    "emptyAll": "清空回收站",
+    "tabPrivate": "私密",
+    "tabHousehold": "家庭组",
+    "emptyTitle": "回收站是空的",
+    "emptyDescription": "删除的食谱会出现在这里。",
+    "restore": "恢复",
+    "deletedOn": "删除于：{{date}}",
+    "deleteForever": "永久删除",
+    "deleteOneTitle": "永久删除？",
+    "deleteOneBody": "该食谱将被永久删除。",
+    "emptyAllTitle": "清空回收站？",
+    "emptyAllBody": "所有食谱都将被永久删除。"
+  }
+}

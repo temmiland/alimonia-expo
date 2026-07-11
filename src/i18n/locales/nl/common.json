@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "kop",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "el",
+    "tsp": "tl",
+    "piece_one": "stk.",
+    "piece_other": "stk.",
+    "bunch_one": "bosje",
+    "bunch_other": "bosjes",
+    "pinch_one": "snufje",
+    "pinch_other": "snufjes",
+    "can_one": "blik",
+    "can_other": "blikken",
+    "pack_one": "pak",
+    "pack_other": "pakken",
+    "bag_one": "zakje",
+    "bag_other": "zakjes",
+    "clove_one": "teentje",
+    "clove_other": "teentjes",
+    "slice_one": "plak",
+    "slice_other": "plakken"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Groente & fruit",
+      "meat": "Vlees & vleeswaren",
+      "fish": "Vis & zeevruchten",
+      "legumes": "Peulvruchten & tofu",
+      "dairy": "Zuivel & eieren",
+      "fats": "Vetten & oliën",
+      "bakery": "Brood & banket",
+      "grains": "Pasta, rijst & granen",
+      "pantry": "Voorraadkast & conserven",
+      "spices": "Kruiden & specerijen",
+      "frozen": "Diepvries",
+      "drinks": "Dranken",
+      "other": "Overig"
+    },
+    "recipe": {
+      "meat": "Vlees",
+      "seafood": "Zeevruchten",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Veganistisch"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Ontbijt",
+    "lunch": "Lunch",
+    "snack": "Snack",
+    "dinner": "Avondeten",
+    "snack2": "Snack 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} min",
+    "hoursShort": "{{count}} u",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "net nu",
+      "minutesAgo": "{{count}} min geleden",
+      "hoursAgo": "{{count}} u geleden",
+      "daysAgo_one": "{{count}} dag geleden",
+      "daysAgo_other": "{{count}} dagen geleden",
+      "weeksAgo": "{{count}} wk geleden"
+    }
+  },
+  "common": {
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "done": "Klaar",
+    "back": "Terug",
+    "next": "Volgende",
+    "ok": "OK",
+    "retry": "Opnieuw proberen",
+    "edit": "Bewerken",
+    "add": "Toevoegen",
+    "remove": "Verwijderen",
+    "close": "Sluiten",
+    "search": "Zoeken",
+    "loading": "Laden …",
+    "error": "Fout",
+    "errorGeneric": "Er ging iets mis."
+  },
+  "nav": {
+    "recipes": "Recepten",
+    "planner": "Weekmenu",
+    "activity": "Activiteit",
+    "profile": "Profiel"
+  },
+  "licenses": {
+    "intro": "alimonia gebruikt de volgende open-source pakketten. Veel dank aan de makers."
+  },
+  "social": {
+    "unavailable": "Niet meer beschikbaar"
+  },
+  "profile": {
+    "followers": "Volgers",
+    "following": "Volgend",
+    "sharedRecipes": "Gedeelde recepten",
+    "searchUsers": "Gebruikers zoeken",
+    "noShared": "Je hebt nog geen recepten gedeeld. Zet \"Delen\" aan bij een recept.",
+    "signedOut": {
+      "title": "Jouw account, jouw recepten overal",
+      "description": "Maak een account om je recepten te backuppen, te synchroniseren tussen apparaten en samen te plannen.",
+      "register": "Registreren"
+    },
+    "comingSoon": {
+      "title": "Binnenkort beschikbaar",
+      "description": "Optionele account- en multi-apparaat-synchronisatie, plus het delen van recepten, zijn momenteel in ontwikkeling."
+    }
+  },
+  "household": {
+    "accountRequired": "Account vereist",
+    "accountRequiredDesc": "Huishoudens hebben een account nodig.",
+    "createTitle": "Huishouden aanmaken",
+    "createFailed": "Huishouden kon niet worden aangemaakt.",
+    "namePlaceholder": "Naam van huishouden",
+    "joinWithCode": "Deelnemen met code",
+    "join": "Deelnemen",
+    "joinFailed": "Deelnemen mislukt",
+    "inviteCode": "Uitnodigingscode",
+    "inviteMessage": "Doe mee met mijn alimonia-huishouden! Code: {{code}}",
+    "inviteAction": "Uitnodigen",
+    "inviteMember": "Lid uitnodigen",
+    "members": "LEDEN",
+    "membersLoadError": "Leden konden niet worden geladen.",
+    "noMembers": "Geen leden gevonden.",
+    "owner": "Eigenaar",
+    "you": "Jij",
+    "member": "Lid",
+    "renameSection": "HUISHOUDEN HERNOEMEN",
+    "switchSection": "ACTIEF HUISHOUDEN WISSELEN",
+    "activeTag": "actief",
+    "joinAnotherSection": "BIJ ANDER HUISHOUDEN AANSLUITEN",
+    "joinWithInviteCode": "Deelnemen met uitnodigingscode",
+    "leaveAction": "Huishouden verlaten",
+    "leaveTitle": "Huishouden verlaten?",
+    "leaveBody": "Je behoudt leestoegang tot bestaande huishoudrecepten.",
+    "leave": "Verlaten",
+    "transferOwner": "Eigenaarschap overdragen",
+    "transferFailed": "Overdracht mislukt.",
+    "removeMember": "Verwijderen uit huishouden",
+    "removeConfirmTitle": "Echt verwijderen?",
+    "removeConfirmBody": "{{name}} wordt verwijderd uit het huishouden.",
+    "removeFailed": "Verwijderen mislukt."
+  },
+  "profileEdit": {
+    "changeAvatar": "Profielfoto wijzigen",
+    "fromLibrary": "Kiezen uit bibliotheek",
+    "handleRule": "@handle: alleen letters en cijfers.",
+    "bioTooLong": "Bio mag maximaal 150 tekens bevatten.",
+    "saveFailed": "Opslaan mislukt (handle is mogelijk al in gebruik).",
+    "handleHint": "Wijzigen reserveert de oude handle voor 7 dagen.",
+    "bio": "Bio",
+    "privateProfile": "Privéprofiel",
+    "privateProfileHint": "Volgers moeten worden goedgekeurd."
+  },
+  "followList": {
+    "unfollow": "Ontvolgen",
+    "empty": "Hier is nog niemand."
+  },
+  "userSearch": {
+    "placeholder": "@handle of naam",
+    "noResults": "Geen resultaten."
+  },
+  "foreignProfile": {
+    "notFound": "Geen profiel gevonden",
+    "following": "Volgend",
+    "requested": "Verzoek verzonden",
+    "follow": "Volgen",
+    "more": "Meer",
+    "private": "Dit profiel is privé",
+    "noShared": "Nog geen gedeelde recepten",
+    "block": "Blokkeren",
+    "report": "Rapporteren",
+    "reportReason": "Reden voor rapportage",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Ongepaste inhoud",
+    "reportFake": "Nepprofiel",
+    "thanks": "Bedankt",
+    "reportReceived": "Je melding is geregistreerd en wordt beoordeeld."
+  },
+  "notifications": {
+    "follow": "@{{handle}} volgt je nu",
+    "followRequest": "@{{handle}} wil je volgen",
+    "like": "@{{handle}} vindt je recept «{{title}}» leuk",
+    "remix": "@{{handle}} heeft «{{title}}» geremixt",
+    "signInTitle": "Log in",
+    "signInDescription": "Met een account ontvang je meldingen over volgers, likes en remixes.",
+    "markAllRead": "Alles als gelezen markeren",
+    "requests": "VERZOEKEN",
+    "accept": "Accepteren",
+    "reject": "Weigeren",
+    "emptyTitle": "Geen meldingen",
+    "emptyDescription": "Hier verschijnt wat er rond je recepten gebeurt."
+  },
+  "settings": {
+    "title": "Instellingen",
+    "section": {
+      "account": "Account",
+      "household": "Huishouden",
+      "languageRegion": "Taal & regio",
+      "appearance": "Weergave",
+      "dataSync": "Gegevens & synchronisatie",
+      "help": "Help",
+      "about": "Over",
+      "accountActions": "Account",
+      "dangerZone": "Gevarenzone"
+    },
+    "editProfile": "Profiel bewerken",
+    "household": {
+      "owner": "Jij bent de eigenaar",
+      "member": "Lid",
+      "createOrJoin": "Huishouden aanmaken of deelnemen"
+    },
+    "language": {
+      "title": "Taal",
+      "system": "Systeem",
+      "restartTitle": "Herstart vereist",
+      "restartBody": "Herstart de app zodat de schrijfrichting volledig wordt toegepast."
+    },
+    "measurement": {
+      "title": "Eenheden",
+      "system": "Systeem",
+      "metric": "Metrisch",
+      "imperial": "Imperiaal"
+    },
+    "appIcon": {
+      "title": "App-pictogram",
+      "subtitle": "Kies hoe alimonia op je startscherm uitziet.",
+      "icon": "Standaard",
+      "pride": "Pride"
+    },
+    "theme": {
+      "title": "Thema",
+      "system": "Systeem",
+      "light": "Licht",
+      "dark": "Donker"
+    },
+    "mealSlots": {
+      "title": "Maaltijden",
+      "description": "Kies welke maaltijden je elke dag plant en geef ze een eigen naam.",
+      "rename": "Hernoemen",
+      "renameTitle": "Maaltijd hernoemen"
+    },
+    "sync": {
+      "status": "Synchronisatiestatus",
+      "errors": "{{count}} fouten",
+      "pending": "{{count}} in behandeling",
+      "synced": "Gesynchroniseerd",
+      "retry": "Synchronisatie opnieuw proberen",
+      "discard": "Mislukte verwijderen"
+    },
+    "trash": "Prullenbak",
+    "showOnboarding": "Introductie opnieuw tonen",
+    "version": "Versie",
+    "licenses": "Open-source licenties",
+    "logout": {
+      "title": "Uitloggen?",
+      "body": "Lokale gegevens blijven op dit apparaat.",
+      "action": "Uitloggen"
+    },
+    "wipe": {
+      "action": "Alle opslag wissen",
+      "subtitle": "Verwijdert alle lokale gegevens permanent",
+      "confirm1Title": "Alle opslag wissen?",
+      "confirm1Body": "Alle recepten, planningen, boodschappenlijsten en instellingen worden permanent van dit apparaat verwijderd. Niet-gesynchroniseerde wijzigingen gaan verloren. Je wordt ook uitgelogd.",
+      "confirm2Title": "Echt alles wissen?",
+      "confirm2Body": "Deze stap kan niet ongedaan worden gemaakt.",
+      "confirmFinal": "Permanent wissen",
+      "failed": "De opslag kon niet volledig worden gewist."
+    },
+    "discardSync": {
+      "title": "Mislukte wijzigingen verwijderen?",
+      "body": "Deze wijzigingen blijven op het apparaat staan, maar worden niet meer naar de cloud gesynchroniseerd.",
+      "action": "Verwijderen"
+    }
+  },
+  "shopping": {
+    "title": "Boodschappenlijst",
+    "week": "Wk {{n}}",
+    "composition": "Samenstelling",
+    "fromRecipes_one": "van {{count}} recept",
+    "fromRecipes_other": "van {{count}} recepten",
+    "manual": "handmatig",
+    "addManual": "Handmatig toevoegen",
+    "changeCategory": "Categorie wijzigen",
+    "empty": {
+      "title": "Nog niets te kopen",
+      "description": "Plan recepten voor deze week — de ingrediënten verschijnen dan automatisch hier."
+    }
+  },
+  "a11y": {
+    "decrease": "Verminderen",
+    "increase": "Verhogen"
+  },
+  "manualItem": {
+    "title": "Item toevoegen",
+    "name": "Naam",
+    "namePlaceholder": "bv. olijfolie",
+    "quantity": "Hoeveelheid",
+    "optional": "optioneel",
+    "unit": "Eenheid",
+    "unitPlaceholder": "bv. ml",
+    "category": "Categorie"
+  },
+  "addToPlan": {
+    "title": "Toevoegen aan weekmenu",
+    "day": "Dag",
+    "meal": "Maaltijd"
+  },
+  "recipePicker": {
+    "titleFor": "Recept voor {{meal}}",
+    "schedule": "Inplannen",
+    "copyToHousehold": "Kopiëren naar huishouden",
+    "noRecipes": "Geen recepten gevonden."
+  },
+  "visibility": {
+    "title": "Zichtbaarheid",
+    "message": "Wie mag dit recept zien?",
+    "private": "Privé (alleen ik)",
+    "followers": "Alleen volgers",
+    "public": "Openbaar"
+  },
+  "folder": {
+    "newTitle": "Nieuwe map",
+    "namePlaceholderLabel": "Mapnaam",
+    "namePlaceholder": "bv. Favorieten",
+    "color": "Kleur",
+    "icon": "Pictogram",
+    "create": "Aanmaken",
+    "inFolder": "Toevoegen aan map",
+    "none": "Nog geen mappen.",
+    "createNew": "Nieuwe map aanmaken"
+  },
+  "recipe": {
+    "servings": "Porties",
+    "ingredients": "Ingrediënten",
+    "steps": "Bereiding"
+  },
+  "onboarding": {
+    "skip": "Overslaan",
+    "start": "Aan de slag",
+    "slides": {
+      "flow": {
+        "title": "Plan maaltijden in plaats van boodschappenlijstjes te schrijven",
+        "description": "Sla recepten op, plan je week en krijg automatisch de bijpassende boodschappenlijst.",
+        "v1": "Recept",
+        "v2": "Weekmenu",
+        "v3": "Boodschappenlijst"
+      },
+      "import": {
+        "title": "Importeer recepten in seconden",
+        "description": "Plak gewoon een link naar een recept. Titel, afbeelding, ingrediënten en stappen worden automatisch overgenomen."
+      },
+      "plan": {
+        "title": "Plan je week",
+        "description": "Verdeel recepten over de dagen en houd het overzicht over komende maaltijden.",
+        "v1": "Ma – Pasta",
+        "v2": "Di – Curry",
+        "v3": "Wo – Soep"
+      },
+      "shop": {
+        "title": "Automatische boodschappenlijst",
+        "description": "De boodschappenlijst wordt direct samengesteld uit je weekmenu. Dubbele ingrediënten worden automatisch samengevoegd.",
+        "v1": "Melk",
+        "v2": "Tomaten",
+        "v3": "Pasta"
+      }
+    }
+  },
+  "auth": {
+    "login": "Inloggen",
+    "createAccount": "Account aanmaken",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "displayName": "Weergavenaam",
+    "displayNamePlaceholder": "Hoe je genoemd wilt worden",
+    "handlePlaceholder": "unieke, alleen letters & cijfers",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "noAccountRegister": "Nog geen account? Registreren",
+    "haveAccountLogin": "Heb je al een account? Inloggen",
+    "loginFailed": "Inloggen mislukt.",
+    "registerFailed": "Registratie mislukt.",
+    "enterEmailFirst": "Voer eerst je e-mailadres in.",
+    "enterDisplayName": "Voer een weergavenaam in.",
+    "handleRule": "@handle: alleen letters en cijfers (3–20 tekens).",
+    "emailSentTitle": "E-mail verzonden",
+    "emailSentBody": "Controleer je inbox voor de resetlink.",
+    "sendError": "Fout bij het verzenden van de e-mail.",
+    "almostDoneTitle": "Bijna klaar",
+    "almostDoneBody": "We hebben je een bevestigingsmail gestuurd. Bevestig deze om in te loggen.",
+    "profileVisibility": "Profielzichtbaarheid",
+    "publicDesc": "Gedeelde recepten zichtbaar voor iedereen",
+    "privateDesc": "Alleen bevestigde volgers"
+  },
+  "planner": {
+    "today": "Vandaag",
+    "personal": "Persoonlijk",
+    "addRecipe": "Recept toevoegen",
+    "servingsCount_one": "{{count}} portie",
+    "servingsCount_other": "{{count}} porties",
+    "viewRecipe": "Recept bekijken",
+    "changeServings": "Porties wijzigen",
+    "removeFromPlan": "Verwijderen uit menu",
+    "firstRun": {
+      "title": "Plan je week",
+      "description": "Tik op een vak om een recept toe te voegen.",
+      "action": "Weekmenu openen"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Mijn recepten",
+      "household": "Huishouden",
+      "saved": "Opgeslagen"
+    },
+    "sort": {
+      "recent": "Nieuwste",
+      "alpha": "A–Z",
+      "category": "Categorie"
+    },
+    "sortTitle": "Sorteren",
+    "addRecipe": "Recept toevoegen",
+    "importUrl": "URL importeren",
+    "createManual": "Handmatig aanmaken",
+    "scanImage": "Scannen vanaf foto of pdf",
+    "view": "Bekijken",
+    "allFolders": "Alle",
+    "householdEmpty": {
+      "title": "Samen koken en plannen",
+      "description": "Huishoudrecepten, een gedeeld weekmenu en een gedeelde boodschappenlijst — daarvoor heb je een huishouden nodig.",
+      "create": "Huishouden aanmaken",
+      "createAccount": "Account aanmaken",
+      "enterCode": "Uitnodigingscode invoeren"
+    },
+    "empty": {
+      "title": "Nog geen recepten",
+      "description": "Importeer recepten via een link of maak ze handmatig aan.",
+      "savedTitle": "Nog niets opgeslagen",
+      "savedDescription": "Recepten die je met het hartje markeert, verschijnen hier."
+    },
+    "folderMenu": {
+      "open": "Openen",
+      "assign": "Recepten toewijzen",
+      "rename": "Hernoemen",
+      "renameTitle": "Map hernoemen"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Recept niet gevonden",
+    "notFoundDescription": "Dit recept is mogelijk verwijderd.",
+    "deleteTitle": "Recept verwijderen?",
+    "deleteBody": "Het wordt verplaatst naar de prullenbak.",
+    "remixCreatedTitle": "Remix aangemaakt",
+    "remixCreatedBody": "Er is een kopie toegevoegd aan je bibliotheek.",
+    "byAuthor": "door @{{handle}}",
+    "base": "Basis: {{count}}",
+    "noIngredients": "Geen ingrediënten geregistreerd.",
+    "remixOf": "Remix van een ander recept",
+    "addToPlan": "Toevoegen aan weekmenu",
+    "shareLabel": "Delen: {{visibility}}",
+    "remix": "Remixen"
+  },
+  "recipeForm": {
+    "titleRequired": "Voer een titel in.",
+    "gallery": "Galerij",
+    "camera": "Camera",
+    "titleField": "Titel",
+    "titlePlaceholder": "bv. Pasta al Forno",
+    "description": "Beschrijving",
+    "descriptionPlaceholder": "Korte beschrijving (optioneel)",
+    "prepMin": "Voorbereiding (min)",
+    "cookMin": "Bereiding (min)",
+    "ingredientPlaceholder": "bv. 200 g bloem",
+    "stepPlaceholder": "Volgende stap…",
+    "saveIn": "Opslaan in",
+    "private": "Privé",
+    "household": "Huishouden",
+    "moveToSteps": "Verplaatsen naar bereiding",
+    "moveToIngredients": "Verplaatsen naar ingrediënten",
+    "headingPlaceholder": "bv. Voor de saus",
+    "toggleHeading": "Omzetten naar kop"
+  },
+  "recipeNew": {
+    "title": "Nieuw recept",
+    "submit": "Recept opslaan"
+  },
+  "recipeEdit": {
+    "title": "Recept bewerken",
+    "submit": "Wijzigingen opslaan"
+  },
+  "folderScreen": {
+    "fallbackName": "Map",
+    "editRecipes": "Recepten bewerken",
+    "noRecipesTitle": "Geen recepten",
+    "noRecipesDescription": "Maak eerst een paar recepten aan.",
+    "emptyTitle": "Map is leeg",
+    "emptyDescription": "Tik rechtsboven op het potlood om recepten toe te voegen."
+  },
+  "recipeImport": {
+    "title": "Recept importeren",
+    "import": "Importeren",
+    "noneDetected": "Er konden geen ingrediënten/stappen automatisch worden herkend — voeg ze handmatig toe.",
+    "failed": "Importeren mislukt.",
+    "failedManual": "Je kunt het recept handmatig aanmaken.",
+    "urlLabel": "Recept-URL",
+    "hint": "Plak een link naar een receptpagina, of deel een Instagram-bericht rechtstreeks vanuit de app. Titel, afbeelding, ingrediënten en stappen worden automatisch overgenomen.",
+    "loading": "Recept wordt geladen…",
+    "save": "Recept opslaan"
+  },
+  "recipeScan": {
+    "title": "Recept van foto of pdf",
+    "hint": "Kies een of meer screenshots van hetzelfde recept, of een pdf. De tekst wordt direct op je apparaat herkend — er wordt niets geüpload.",
+    "addFromGallery": "Uit galerij kiezen",
+    "takePhoto": "Foto maken",
+    "addFromPdf": "Pdf kiezen",
+    "preparingPdf": "Pdf wordt voorbereid…",
+    "pdfFailed": "Deze pdf kon niet worden gelezen. Je kunt het recept handmatig aanvullen.",
+    "pdfTruncated": "Alleen de eerste {{count}} pagina's zijn verwerkt.",
+    "scan": "Recept herkennen",
+    "removeImage": "Afbeelding verwijderen",
+    "loading": "Tekst wordt herkend…",
+    "noneDetected": "Er konden geen ingrediënten/stappen automatisch worden herkend — vul handmatig aan.",
+    "failed": "Tekstherkenning mislukt.",
+    "failedManual": "Je kunt het recept handmatig aanmaken.",
+    "save": "Recept opslaan"
+  },
+  "trash": {
+    "title": "Prullenbak",
+    "emptyAll": "Prullenbak legen",
+    "tabPrivate": "Privé",
+    "tabHousehold": "Huishouden",
+    "emptyTitle": "Prullenbak is leeg",
+    "emptyDescription": "Verwijderde recepten verschijnen hier.",
+    "restore": "Herstellen",
+    "deletedOn": "Verwijderd: {{date}}",
+    "deleteForever": "Definitief verwijderen",
+    "deleteOneTitle": "Definitief verwijderen?",
+    "deleteOneBody": "Dit recept wordt permanent verwijderd.",
+    "emptyAllTitle": "Prullenbak legen?",
+    "emptyAllBody": "Alle recepten worden permanent verwijderd."
+  }
+}

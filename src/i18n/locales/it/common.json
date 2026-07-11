@@ -1,0 +1,556 @@
+{
+  "unit": {
+    "mg": "mg",
+    "g": "g",
+    "kg": "kg",
+    "oz": "oz",
+    "lb": "lb",
+    "ml": "ml",
+    "cl": "cl",
+    "l": "l",
+    "floz": "fl oz",
+    "cup": "tazza",
+    "pint": "pt",
+    "quart": "qt",
+    "gallon": "gal",
+    "tbsp": "cucchiaio",
+    "tsp": "cucchiaino",
+    "piece_one": "pz.",
+    "piece_other": "pz.",
+    "bunch_one": "mazzo",
+    "bunch_other": "mazzi",
+    "pinch_one": "pizzico",
+    "pinch_other": "pizzichi",
+    "can_one": "lattina",
+    "can_other": "lattine",
+    "pack_one": "conf.",
+    "pack_other": "conf.",
+    "bag_one": "sacchetto",
+    "bag_other": "sacchetti",
+    "clove_one": "spicchio",
+    "clove_other": "spicchi",
+    "slice_one": "fetta",
+    "slice_other": "fette"
+  },
+  "categories": {
+    "ingredient": {
+      "produce": "Frutta & verdura",
+      "meat": "Carne & salumi",
+      "fish": "Pesce & frutti di mare",
+      "legumes": "Legumi & tofu",
+      "dairy": "Latticini & uova",
+      "fats": "Grassi & oli",
+      "bakery": "Pane & prodotti da forno",
+      "grains": "Pasta, riso & cereali",
+      "pantry": "Dispensa & conserve",
+      "spices": "Spezie & erbe",
+      "frozen": "Surgelati",
+      "drinks": "Bevande",
+      "other": "Altro"
+    },
+    "recipe": {
+      "meat": "Carne",
+      "seafood": "Pesce",
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano"
+    }
+  },
+  "mealSlots": {
+    "breakfast": "Colazione",
+    "lunch": "Pranzo",
+    "snack": "Spuntino",
+    "dinner": "Cena",
+    "snack2": "Spuntino 2"
+  },
+  "time": {
+    "minutesShort": "{{count}} min",
+    "hoursShort": "{{count}} h",
+    "hoursMinutesShort": "{{hours}} {{minutes}}",
+    "relative": {
+      "justNow": "proprio ora",
+      "minutesAgo": "{{count}} min fa",
+      "hoursAgo": "{{count}} h fa",
+      "daysAgo_one": "{{count}} giorno fa",
+      "daysAgo_other": "{{count}} giorni fa",
+      "weeksAgo": "{{count}} sett. fa"
+    }
+  },
+  "common": {
+    "cancel": "Annulla",
+    "save": "Salva",
+    "delete": "Elimina",
+    "done": "Fatto",
+    "back": "Indietro",
+    "next": "Avanti",
+    "ok": "OK",
+    "retry": "Riprova",
+    "edit": "Modifica",
+    "add": "Aggiungi",
+    "remove": "Rimuovi",
+    "close": "Chiudi",
+    "search": "Cerca",
+    "loading": "Caricamento …",
+    "error": "Errore",
+    "errorGeneric": "Qualcosa è andato storto."
+  },
+  "nav": {
+    "recipes": "Ricette",
+    "planner": "Piano pasti",
+    "activity": "Attività",
+    "profile": "Profilo"
+  },
+  "licenses": {
+    "intro": "alimonia utilizza i seguenti pacchetti open source. Un grande grazie ai loro autori."
+  },
+  "social": {
+    "unavailable": "Non più disponibile"
+  },
+  "profile": {
+    "followers": "Follower",
+    "following": "Seguiti",
+    "sharedRecipes": "Ricette condivise",
+    "searchUsers": "Cerca utenti",
+    "noShared": "Non hai ancora condiviso nessuna ricetta. Attiva «Condivisione» su una ricetta.",
+    "signedOut": {
+      "title": "Il tuo account, le tue ricette ovunque",
+      "description": "Crea un account per fare il backup delle tue ricette, sincronizzarle su più dispositivi e pianificare insieme.",
+      "register": "Registrati"
+    },
+    "comingSoon": {
+      "title": "Prossimamente",
+      "description": "Le funzioni opzionali di account e sincronizzazione multi-dispositivo, oltre alla condivisione delle ricette, sono attualmente in lavorazione."
+    }
+  },
+  "household": {
+    "accountRequired": "Account richiesto",
+    "accountRequiredDesc": "I nuclei famigliari richiedono un account.",
+    "createTitle": "Crea nucleo famigliare",
+    "createFailed": "Impossibile creare il nucleo famigliare.",
+    "namePlaceholder": "Nome del nucleo famigliare",
+    "joinWithCode": "Unisciti con un codice",
+    "join": "Unisciti",
+    "joinFailed": "Adesione non riuscita",
+    "inviteCode": "Codice d'invito",
+    "inviteMessage": "Unisciti al mio nucleo famigliare alimonia! Codice: {{code}}",
+    "inviteAction": "Invita",
+    "inviteMember": "Invita un membro",
+    "members": "MEMBRI",
+    "membersLoadError": "Impossibile caricare i membri.",
+    "noMembers": "Nessun membro trovato.",
+    "owner": "Proprietario",
+    "you": "Tu",
+    "member": "Membro",
+    "renameSection": "RINOMINA NUCLEO FAMIGLIARE",
+    "switchSection": "CAMBIA NUCLEO FAMIGLIARE ATTIVO",
+    "activeTag": "attivo",
+    "joinAnotherSection": "UNISCITI A UN ALTRO NUCLEO FAMIGLIARE",
+    "joinWithInviteCode": "Unisciti con un codice d'invito",
+    "leaveAction": "Lascia il nucleo famigliare",
+    "leaveTitle": "Lasciare il nucleo famigliare?",
+    "leaveBody": "Conserverai l'accesso in lettura alle ricette esistenti del nucleo famigliare.",
+    "leave": "Lascia",
+    "transferOwner": "Trasferisci proprietà",
+    "transferFailed": "Trasferimento non riuscito.",
+    "removeMember": "Rimuovi dal nucleo famigliare",
+    "removeConfirmTitle": "Rimuovere davvero?",
+    "removeConfirmBody": "{{name}} verrà rimosso dal nucleo famigliare.",
+    "removeFailed": "Rimozione non riuscita."
+  },
+  "profileEdit": {
+    "changeAvatar": "Cambia foto profilo",
+    "fromLibrary": "Scegli dalla libreria",
+    "handleRule": "@handle: solo lettere e numeri.",
+    "bioTooLong": "La bio può contenere al massimo 150 caratteri.",
+    "saveFailed": "Salvataggio non riuscito (l'handle potrebbe essere già in uso).",
+    "handleHint": "Cambiandolo, il vecchio handle resterà riservato per 7 giorni.",
+    "bio": "Bio",
+    "privateProfile": "Profilo privato",
+    "privateProfileHint": "I follower devono essere approvati."
+  },
+  "followList": {
+    "unfollow": "Smetti di seguire",
+    "empty": "Ancora nessuno qui."
+  },
+  "userSearch": {
+    "placeholder": "@handle o nome",
+    "noResults": "Nessun risultato."
+  },
+  "foreignProfile": {
+    "notFound": "Nessun profilo trovato",
+    "following": "Segui già",
+    "requested": "Richiesta inviata",
+    "follow": "Segui",
+    "more": "Altro",
+    "private": "Questo profilo è privato",
+    "noShared": "Ancora nessuna ricetta condivisa",
+    "block": "Blocca",
+    "report": "Segnala",
+    "reportReason": "Motivo della segnalazione",
+    "reportSpam": "Spam",
+    "reportInappropriate": "Contenuto inappropriato",
+    "reportFake": "Profilo falso",
+    "thanks": "Grazie",
+    "reportReceived": "La tua segnalazione è stata registrata e verrà esaminata."
+  },
+  "notifications": {
+    "follow": "@{{handle}} ora ti segue",
+    "followRequest": "@{{handle}} vuole seguirti",
+    "like": "A @{{handle}} piace la tua ricetta «{{title}}»",
+    "remix": "@{{handle}} ha remixato «{{title}}»",
+    "signInTitle": "Accedi",
+    "signInDescription": "Con un account riceverai notifiche su nuovi follower, mi piace e remix.",
+    "markAllRead": "Segna tutte come lette",
+    "requests": "RICHIESTE",
+    "accept": "Accetta",
+    "reject": "Rifiuta",
+    "emptyTitle": "Nessuna notifica",
+    "emptyDescription": "Qui vedrai cosa succede intorno alle tue ricette."
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "section": {
+      "account": "Account",
+      "household": "Nucleo famigliare",
+      "languageRegion": "Lingua e regione",
+      "appearance": "Aspetto",
+      "dataSync": "Dati e sincronizzazione",
+      "help": "Assistenza",
+      "about": "Informazioni",
+      "accountActions": "Account",
+      "dangerZone": "Zona pericolosa"
+    },
+    "editProfile": "Modifica profilo",
+    "household": {
+      "owner": "Sei il proprietario",
+      "member": "Membro",
+      "createOrJoin": "Crea o unisciti a un nucleo famigliare"
+    },
+    "language": {
+      "title": "Lingua",
+      "system": "Sistema",
+      "restartTitle": "Riavvio necessario",
+      "restartBody": "Riavvia l'app perché il senso di scrittura venga applicato completamente."
+    },
+    "measurement": {
+      "title": "Unità",
+      "system": "Sistema",
+      "metric": "Metrico",
+      "imperial": "Imperiale"
+    },
+    "appIcon": {
+      "title": "Icona dell'app",
+      "subtitle": "Scegli l'aspetto dell'icona di alimonia sulla schermata Home.",
+      "icon": "Predefinita",
+      "pride": "Pride"
+    },
+    "theme": {
+      "title": "Tema",
+      "system": "Sistema",
+      "light": "Chiaro",
+      "dark": "Scuro"
+    },
+    "mealSlots": {
+      "title": "Pasti",
+      "description": "Scegli quali pasti pianificare ogni giorno e dai loro un nome personalizzato.",
+      "rename": "Rinomina",
+      "renameTitle": "Rinomina pasto"
+    },
+    "sync": {
+      "status": "Stato sincronizzazione",
+      "errors": "{{count}} errori",
+      "pending": "{{count}} in attesa",
+      "synced": "Sincronizzato",
+      "retry": "Riprova sincronizzazione",
+      "discard": "Scarta non riusciti"
+    },
+    "trash": "Cestino",
+    "showOnboarding": "Mostra di nuovo l'introduzione",
+    "version": "Versione",
+    "licenses": "Licenze open source",
+    "logout": {
+      "title": "Disconnettersi?",
+      "body": "I dati locali restano su questo dispositivo.",
+      "action": "Disconnetti"
+    },
+    "wipe": {
+      "action": "Cancella tutta la memoria",
+      "subtitle": "Rimuove permanentemente tutti i dati locali",
+      "confirm1Title": "Cancellare tutta la memoria?",
+      "confirm1Body": "Tutte le ricette, i piani, le liste della spesa e le impostazioni verranno rimossi permanentemente da questo dispositivo. Le modifiche non sincronizzate verranno perse. Verrai inoltre disconnesso.",
+      "confirm2Title": "Cancellare davvero tutto?",
+      "confirm2Body": "Questo passaggio non può essere annullato.",
+      "confirmFinal": "Cancella definitivamente",
+      "failed": "Non è stato possibile cancellare completamente la memoria."
+    },
+    "discardSync": {
+      "title": "Scartare le modifiche non riuscite?",
+      "body": "Queste modifiche restano sul dispositivo, ma non verranno più sincronizzate con il cloud.",
+      "action": "Scarta"
+    }
+  },
+  "shopping": {
+    "title": "Lista della spesa",
+    "week": "Sett. {{n}}",
+    "composition": "Composizione",
+    "fromRecipes_one": "da {{count}} ricetta",
+    "fromRecipes_other": "da {{count}} ricette",
+    "manual": "manuale",
+    "addManual": "Aggiungi manualmente",
+    "changeCategory": "Cambia categoria",
+    "empty": {
+      "title": "Ancora niente da comprare",
+      "description": "Pianifica le ricette per questa settimana — gli ingredienti appariranno qui automaticamente."
+    }
+  },
+  "a11y": {
+    "decrease": "Diminuisci",
+    "increase": "Aumenta"
+  },
+  "manualItem": {
+    "title": "Aggiungi elemento",
+    "name": "Nome",
+    "namePlaceholder": "es. olio d'oliva",
+    "quantity": "Quantità",
+    "optional": "opzionale",
+    "unit": "Unità",
+    "unitPlaceholder": "es. ml",
+    "category": "Categoria"
+  },
+  "addToPlan": {
+    "title": "Aggiungi al piano pasti",
+    "day": "Giorno",
+    "meal": "Pasto"
+  },
+  "recipePicker": {
+    "titleFor": "Ricetta per {{meal}}",
+    "schedule": "Pianifica",
+    "copyToHousehold": "Copia nel nucleo famigliare",
+    "noRecipes": "Nessuna ricetta trovata."
+  },
+  "visibility": {
+    "title": "Visibilità",
+    "message": "Chi può vedere questa ricetta?",
+    "private": "Privata (solo io)",
+    "followers": "Solo follower",
+    "public": "Pubblica"
+  },
+  "folder": {
+    "newTitle": "Nuova cartella",
+    "namePlaceholderLabel": "Nome cartella",
+    "namePlaceholder": "es. Preferiti",
+    "color": "Colore",
+    "icon": "Icona",
+    "create": "Crea",
+    "inFolder": "Aggiungi a cartella",
+    "none": "Ancora nessuna cartella.",
+    "createNew": "Crea nuova cartella"
+  },
+  "recipe": {
+    "servings": "Porzioni",
+    "ingredients": "Ingredienti",
+    "steps": "Preparazione"
+  },
+  "onboarding": {
+    "skip": "Salta",
+    "start": "Iniziamo",
+    "slides": {
+      "flow": {
+        "title": "Pianifica i pasti invece di scrivere liste della spesa",
+        "description": "Salva le ricette, pianifica la tua settimana e ottieni automaticamente la lista della spesa corrispondente.",
+        "v1": "Ricetta",
+        "v2": "Piano pasti",
+        "v3": "Lista della spesa"
+      },
+      "import": {
+        "title": "Importa ricette in pochi secondi",
+        "description": "Basta incollare il link di una ricetta. Titolo, immagine, ingredienti e passaggi vengono importati automaticamente."
+      },
+      "plan": {
+        "title": "Pianifica la tua settimana",
+        "description": "Distribuisci le ricette nei singoli giorni e tieni traccia dei pasti in arrivo.",
+        "v1": "Lun – Pasta",
+        "v2": "Mar – Curry",
+        "v3": "Mer – Zuppa"
+      },
+      "shop": {
+        "title": "Lista della spesa automatica",
+        "description": "La lista della spesa viene creata direttamente dal tuo piano pasti. Gli ingredienti duplicati vengono uniti automaticamente.",
+        "v1": "Latte",
+        "v2": "Pomodori",
+        "v3": "Pasta"
+      }
+    }
+  },
+  "auth": {
+    "login": "Accedi",
+    "createAccount": "Crea account",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Nome visualizzato",
+    "displayNamePlaceholder": "Come vuoi essere chiamato",
+    "handlePlaceholder": "univoco, solo lettere e numeri",
+    "forgotPassword": "Password dimenticata?",
+    "noAccountRegister": "Non hai un account? Registrati",
+    "haveAccountLogin": "Hai già un account? Accedi",
+    "loginFailed": "Accesso non riuscito.",
+    "registerFailed": "Registrazione non riuscita.",
+    "enterEmailFirst": "Inserisci prima il tuo indirizzo email.",
+    "enterDisplayName": "Inserisci un nome visualizzato.",
+    "handleRule": "@handle: solo lettere e numeri (3–20 caratteri).",
+    "emailSentTitle": "Email inviata",
+    "emailSentBody": "Controlla la tua casella di posta per il link di reimpostazione.",
+    "sendError": "Errore durante l'invio dell'email.",
+    "almostDoneTitle": "Quasi fatto",
+    "almostDoneBody": "Ti abbiamo inviato un'email di conferma. Confermala per accedere.",
+    "profileVisibility": "Visibilità del profilo",
+    "publicDesc": "Ricette condivise visibili a tutti",
+    "privateDesc": "Solo follower confermati"
+  },
+  "planner": {
+    "today": "Oggi",
+    "personal": "Personale",
+    "addRecipe": "Aggiungi ricetta",
+    "servingsCount_one": "{{count}} porzione",
+    "servingsCount_other": "{{count}} porzioni",
+    "viewRecipe": "Visualizza ricetta",
+    "changeServings": "Cambia porzioni",
+    "removeFromPlan": "Rimuovi dal piano",
+    "firstRun": {
+      "title": "Pianifica la tua settimana",
+      "description": "Tocca uno slot per aggiungere una ricetta.",
+      "action": "Apri piano pasti"
+    }
+  },
+  "recipes": {
+    "tabs": {
+      "private": "Mie",
+      "household": "Nucleo famigliare",
+      "saved": "Salvate"
+    },
+    "sort": {
+      "recent": "Più recenti",
+      "alpha": "A–Z",
+      "category": "Categoria"
+    },
+    "sortTitle": "Ordina",
+    "addRecipe": "Aggiungi ricetta",
+    "importUrl": "Importa URL",
+    "createManual": "Crea manualmente",
+    "scanImage": "Scansiona foto o PDF",
+    "view": "Visualizza",
+    "allFolders": "Tutte",
+    "householdEmpty": {
+      "title": "Cucinate e pianificate insieme",
+      "description": "Ricette del nucleo famigliare, piano pasti condiviso e lista della spesa condivisa — per questo serve un nucleo famigliare.",
+      "create": "Crea nucleo famigliare",
+      "createAccount": "Crea account",
+      "enterCode": "Inserisci codice d'invito"
+    },
+    "empty": {
+      "title": "Ancora nessuna ricetta",
+      "description": "Importa ricette tramite link o creale manualmente.",
+      "savedTitle": "Ancora niente di salvato",
+      "savedDescription": "Le ricette che contrassegni con il cuore appariranno qui."
+    },
+    "folderMenu": {
+      "open": "Apri",
+      "assign": "Assegna ricette",
+      "rename": "Rinomina",
+      "renameTitle": "Rinomina cartella"
+    }
+  },
+  "recipeDetail": {
+    "notFoundTitle": "Ricetta non trovata",
+    "notFoundDescription": "Questa ricetta potrebbe essere stata eliminata.",
+    "deleteTitle": "Eliminare la ricetta?",
+    "deleteBody": "Verrà spostata nel cestino.",
+    "remixCreatedTitle": "Remix creato",
+    "remixCreatedBody": "Una copia è stata aggiunta alla tua libreria.",
+    "byAuthor": "di @{{handle}}",
+    "base": "Base: {{count}}",
+    "noIngredients": "Nessun ingrediente registrato.",
+    "remixOf": "Remix di un'altra ricetta",
+    "addToPlan": "Aggiungi al piano pasti",
+    "shareLabel": "Condivisione: {{visibility}}",
+    "remix": "Remixa"
+  },
+  "recipeForm": {
+    "titleRequired": "Inserisci un titolo.",
+    "gallery": "Galleria",
+    "camera": "Fotocamera",
+    "titleField": "Titolo",
+    "titlePlaceholder": "es. Pasta al Forno",
+    "description": "Descrizione",
+    "descriptionPlaceholder": "Breve descrizione (opzionale)",
+    "prepMin": "Preparazione (min)",
+    "cookMin": "Cottura (min)",
+    "ingredientPlaceholder": "es. 200 g di farina",
+    "stepPlaceholder": "Passaggio successivo…",
+    "saveIn": "Salva in",
+    "private": "Privata",
+    "household": "Nucleo famigliare",
+    "moveToSteps": "Sposta nella preparazione",
+    "moveToIngredients": "Sposta negli ingredienti",
+    "headingPlaceholder": "es. Per la salsa",
+    "toggleHeading": "Trasforma in titolo"
+  },
+  "recipeNew": {
+    "title": "Nuova ricetta",
+    "submit": "Salva ricetta"
+  },
+  "recipeEdit": {
+    "title": "Modifica ricetta",
+    "submit": "Salva modifiche"
+  },
+  "folderScreen": {
+    "fallbackName": "Cartella",
+    "editRecipes": "Modifica ricette",
+    "noRecipesTitle": "Nessuna ricetta",
+    "noRecipesDescription": "Crea prima alcune ricette.",
+    "emptyTitle": "La cartella è vuota",
+    "emptyDescription": "Tocca la matita in alto a destra per aggiungere ricette."
+  },
+  "recipeImport": {
+    "title": "Importa ricetta",
+    "import": "Importa",
+    "noneDetected": "Non è stato possibile rilevare automaticamente ingredienti/passaggi — aggiungili manualmente.",
+    "failed": "Importazione non riuscita.",
+    "failedManual": "Puoi creare la ricetta manualmente.",
+    "urlLabel": "URL della ricetta",
+    "hint": "Incolla un link da una pagina di ricette, oppure condividi un post di Instagram direttamente dall'app. Titolo, immagine, ingredienti e passaggi vengono importati automaticamente.",
+    "loading": "Caricamento ricetta…",
+    "save": "Salva ricetta"
+  },
+  "recipeScan": {
+    "title": "Ricetta da foto o PDF",
+    "hint": "Scegli uno o più screenshot della stessa ricetta, oppure un PDF. Il testo viene riconosciuto direttamente sul tuo dispositivo — non viene caricato nulla.",
+    "addFromGallery": "Scegli dalla galleria",
+    "takePhoto": "Scatta una foto",
+    "addFromPdf": "Scegli PDF",
+    "preparingPdf": "Preparazione del PDF…",
+    "pdfFailed": "Non è stato possibile leggere questo PDF. Puoi completare la ricetta manualmente.",
+    "pdfTruncated": "Sono state elaborate solo le prime {{count}} pagine.",
+    "scan": "Riconosci ricetta",
+    "removeImage": "Rimuovi immagine",
+    "loading": "Riconoscimento del testo…",
+    "noneDetected": "Non è stato possibile rilevare automaticamente ingredienti/passaggi — completa manualmente.",
+    "failed": "Riconoscimento del testo non riuscito.",
+    "failedManual": "Puoi creare la ricetta manualmente.",
+    "save": "Salva ricetta"
+  },
+  "trash": {
+    "title": "Cestino",
+    "emptyAll": "Vuota cestino",
+    "tabPrivate": "Private",
+    "tabHousehold": "Nucleo famigliare",
+    "emptyTitle": "Il cestino è vuoto",
+    "emptyDescription": "Le ricette eliminate appaiono qui.",
+    "restore": "Ripristina",
+    "deletedOn": "Eliminata il: {{date}}",
+    "deleteForever": "Elimina definitivamente",
+    "deleteOneTitle": "Eliminare definitivamente?",
+    "deleteOneBody": "Questa ricetta verrà rimossa permanentemente.",
+    "emptyAllTitle": "Vuotare il cestino?",
+    "emptyAllBody": "Tutte le ricette verranno eliminate permanentemente."
+  }
+}
