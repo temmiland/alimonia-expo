@@ -1,0 +1,47 @@
+name: Sync public to Gitea
+
+# Other half of the bidirectional mirror for the `public` branch, pulling
+# translator contributions merged here on GitHub back into the private
+# Gitea repo (temmiland/alimonia-app) that `main` lives on.
+#
+# The other half lives on Gitea: .gitea/workflows/sync-public-to-github.yml
+#
+# Loop safety: see the comment in that file — this only fast-forward-pushes
+# (no --force), so an already-in-sync branch produces a no-op push and no
+# further trigger.
+#
+# This repo is public, so its Actions logs are public too — the Gitea
+# host has no DNS name and is only reachable by IP, so both the host and
+# the token are kept in secrets (never written literally into this file)
+# so GitHub redacts them from the logs wherever they'd appear.
+#
+# Requires two secrets:
+#   GITEA_HOST  — host[:port] of the Gitea instance, e.g. "203.0.113.5:3000"
+#                 (no scheme, no path)
+#   GITEA_TOKEN — a Gitea personal access token with write access to
+#                 temmiland/alimonia-app
+
+on:
+  push:
+    branches:
+      - public
+
+concurrency:
+  group: sync-public-to-gitea
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public
+        uses: actions/checkout@v4
+        with:
+          ref: public
+          fetch-depth: 0
+
+      - name: Push public to Gitea
+        env:
+          GITEA_HOST: ${{ secrets.GITEA_HOST }}
+          GITEA_TOKEN: ${{ secrets.GITEA_TOKEN }}
+        run: git push "https://${GITEA_TOKEN}@${GITEA_HOST}/temmiland/alimonia-app.git" public:public

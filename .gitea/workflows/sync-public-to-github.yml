@@ -1,0 +1,42 @@
+name: Sync public to GitHub
+
+# One half of a bidirectional mirror for the `public` branch between this
+# (private) Gitea repo and github.com/temmiland/alimonia-expo, where
+# external translators actually have access.
+#
+# The other half lives on GitHub: .github/workflows/sync-public-to-gitea.yml
+#
+# Loop safety: this only ever fast-forward-pushes (no --force). If the
+# target is already at the same commit the push is a no-op and produces no
+# new push event on the other side, so the two workflows settle after at
+# most one round-trip instead of ping-ponging forever. If the branches have
+# diverged (rare — simultaneous pushes on both sides), the push fails and
+# the job errors out for a human to resolve manually instead of silently
+# force-overwriting someone's commits.
+#
+# Requires a secret GH_PAT: a GitHub personal access token (classic or
+# fine-grained) with contents:write on temmiland/alimonia-expo.
+
+on:
+  push:
+    branches:
+      - public
+
+concurrency:
+  group: sync-public-to-github
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public
+        uses: actions/checkout@v4
+        with:
+          ref: public
+          fetch-depth: 0
+
+      - name: Push public to GitHub
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: git push "https://x-access-token:${GH_PAT}@github.com/temmiland/alimonia-expo.git" public:public
