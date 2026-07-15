@@ -21,7 +21,7 @@ developed app.
 <a href="https://apps.apple.com/app/alimonia/id6781319686"><img src="assets/badges/app-store-badge.svg" alt="Download on the App Store" width="150"></a><br/>
 <a href="https://play.google.com/store/apps/details?id=land.temmi.alimonia"><img src="assets/badges/google-play-badge.png" alt="Get it on Google Play" width="150"></a>
 
-More about the app: [temmi.land/project/alimonia](https://temmi.land/project/alimonia)
+More about the app: [temmi.land/projects/alimonia](https://temmi.land/projects/alimonia)
 
 ## About this branch (`public`)
 
