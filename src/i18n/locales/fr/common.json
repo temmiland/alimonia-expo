@@ -472,7 +472,11 @@
     "remixOf": "Remix d'une autre recette",
     "addToPlan": "Ajouter au planning",
     "shareLabel": "Partage : {{visibility}}",
-    "remix": "Remixer"
+    "remix": "Remixer",
+    "copyToHousehold": "Copier dans le foyer",
+    "copyToHouseholdPickTitle": "Choisir un foyer",
+    "copyToHouseholdCreatedTitle": "Copié dans le foyer",
+    "copyToHouseholdCreatedBody": "Une copie a été ajoutée comme recette du foyer. L'original privé reste inchangé."
   },
   "recipeForm": {
     "titleRequired": "Merci de saisir un titre.",

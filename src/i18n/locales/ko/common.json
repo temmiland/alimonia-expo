@@ -472,7 +472,11 @@
     "remixOf": "다른 레시피의 리믹스",
     "addToPlan": "식단표에 추가",
     "shareLabel": "공유: {{visibility}}",
-    "remix": "리믹스"
+    "remix": "리믹스",
+    "copyToHousehold": "가구로 복사",
+    "copyToHouseholdPickTitle": "가구 선택",
+    "copyToHouseholdCreatedTitle": "가구로 복사됐어요",
+    "copyToHouseholdCreatedBody": "가구 레시피로 복사본이 추가됐어요. 원본 개인 레시피는 그대로 유지돼요."
   },
   "recipeForm": {
     "titleRequired": "제목을 입력해 주세요.",

@@ -472,7 +472,11 @@
     "remixOf": "Remix từ một công thức khác",
     "addToPlan": "Thêm vào kế hoạch ăn",
     "shareLabel": "Chia sẻ: {{visibility}}",
-    "remix": "Remix"
+    "remix": "Remix",
+    "copyToHousehold": "Sao chép vào hộ gia đình",
+    "copyToHouseholdPickTitle": "Chọn hộ gia đình",
+    "copyToHouseholdCreatedTitle": "Đã sao chép vào hộ gia đình",
+    "copyToHouseholdCreatedBody": "Một bản sao đã được thêm dưới dạng công thức của hộ gia đình. Bản gốc riêng tư vẫn giữ nguyên."
   },
   "recipeForm": {
     "titleRequired": "Vui lòng nhập tiêu đề.",

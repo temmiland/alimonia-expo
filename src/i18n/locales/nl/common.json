@@ -472,7 +472,11 @@
     "remixOf": "Remix van een ander recept",
     "addToPlan": "Toevoegen aan weekmenu",
     "shareLabel": "Delen: {{visibility}}",
-    "remix": "Remixen"
+    "remix": "Remixen",
+    "copyToHousehold": "Kopiëren naar huishouden",
+    "copyToHouseholdPickTitle": "Huishouden kiezen",
+    "copyToHouseholdCreatedTitle": "Gekopieerd naar huishouden",
+    "copyToHouseholdCreatedBody": "Er is een kopie toegevoegd als huishoudrecept. Het privé-origineel blijft ongewijzigd."
   },
   "recipeForm": {
     "titleRequired": "Voer een titel in.",

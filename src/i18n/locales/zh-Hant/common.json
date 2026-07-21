@@ -472,7 +472,11 @@
     "remixOf": "改編自其他食譜",
     "addToPlan": "加入餐點計畫",
     "shareLabel": "分享範圍：{{visibility}}",
-    "remix": "改編"
+    "remix": "改編",
+    "copyToHousehold": "複製到家庭",
+    "copyToHouseholdPickTitle": "選擇家庭",
+    "copyToHouseholdCreatedTitle": "已複製到家庭",
+    "copyToHouseholdCreatedBody": "已新增一份副本作為家庭食譜。私人原始食譜保持不變。"
   },
   "recipeForm": {
     "titleRequired": "請輸入標題。",

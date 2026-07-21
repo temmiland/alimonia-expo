@@ -479,7 +479,11 @@
     "remixOf": "Remezcla de otra receta",
     "addToPlan": "Añadir al menú semanal",
     "shareLabel": "Compartir: {{visibility}}",
-    "remix": "Remezclar"
+    "remix": "Remezclar",
+    "copyToHousehold": "Copiar al hogar",
+    "copyToHouseholdPickTitle": "Elegir hogar",
+    "copyToHouseholdCreatedTitle": "Copiado al hogar",
+    "copyToHouseholdCreatedBody": "Se ha añadido una copia como receta del hogar. El original privado permanece sin cambios."
   },
   "recipeForm": {
     "titleRequired": "Introduce un título.",

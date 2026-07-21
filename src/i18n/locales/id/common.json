@@ -472,7 +472,11 @@
     "remixOf": "Remix dari resep lain",
     "addToPlan": "Tambah ke rencana makan",
     "shareLabel": "Berbagi: {{visibility}}",
-    "remix": "Remix"
+    "remix": "Remix",
+    "copyToHousehold": "Salin ke household",
+    "copyToHouseholdPickTitle": "Pilih household",
+    "copyToHouseholdCreatedTitle": "Disalin ke household",
+    "copyToHouseholdCreatedBody": "Salinan telah ditambahkan sebagai resep household. Resep pribadi asli tidak berubah."
   },
   "recipeForm": {
     "titleRequired": "Silakan masukkan judul.",

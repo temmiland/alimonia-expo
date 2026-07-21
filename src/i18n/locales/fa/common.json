@@ -472,7 +472,11 @@
     "remixOf": "بازآفرینی از دستورپز دیگری",
     "addToPlan": "افزودن به برنامه غذایی",
     "shareLabel": "اشتراک‌گذاری: {{visibility}}",
-    "remix": "بازآفرینی"
+    "remix": "بازآفرینی",
+    "copyToHousehold": "کپی به خانوار",
+    "copyToHouseholdPickTitle": "انتخاب خانوار",
+    "copyToHouseholdCreatedTitle": "به خانوار کپی شد",
+    "copyToHouseholdCreatedBody": "یک نسخه به‌عنوان دستورپز خانوار افزوده شد. نسخهٔ خصوصی اصلی بدون تغییر باقی می‌ماند."
   },
   "recipeForm": {
     "titleRequired": "لطفاً یک عنوان وارد کن.",

@@ -472,7 +472,11 @@
     "remixOf": "Başka bir tarifin remixi",
     "addToPlan": "Yemek planına ekle",
     "shareLabel": "Paylaşım: {{visibility}}",
-    "remix": "Remixle"
+    "remix": "Remixle",
+    "copyToHousehold": "Haneye kopyala",
+    "copyToHouseholdPickTitle": "Hane seç",
+    "copyToHouseholdCreatedTitle": "Haneye kopyalandı",
+    "copyToHouseholdCreatedBody": "Bir kopya hane tarifi olarak eklendi. Özel orijinal değişmeden kalır."
   },
   "recipeForm": {
     "titleRequired": "Lütfen bir başlık gir.",

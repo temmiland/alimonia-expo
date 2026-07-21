@@ -472,7 +472,11 @@
     "remixOf": "Remistura de outra receita",
     "addToPlan": "Adicionar ao planejamento",
     "shareLabel": "Partilha: {{visibility}}",
-    "remix": "Remisturar"
+    "remix": "Remisturar",
+    "copyToHousehold": "Copiar para a casa",
+    "copyToHouseholdPickTitle": "Escolher casa",
+    "copyToHouseholdCreatedTitle": "Copiado para a casa",
+    "copyToHouseholdCreatedBody": "Foi adicionada uma cópia como receita da casa. O original privado permanece inalterado."
   },
   "recipeForm": {
     "titleRequired": "Indica um título.",

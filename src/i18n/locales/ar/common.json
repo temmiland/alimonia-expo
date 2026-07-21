@@ -472,7 +472,11 @@
     "remixOf": "إعادة تركيب لوصفة أخرى",
     "addToPlan": "إضافة إلى خطة الوجبات",
     "shareLabel": "المشاركة: {{visibility}}",
-    "remix": "إعادة تركيب"
+    "remix": "إعادة تركيب",
+    "copyToHousehold": "نسخ إلى المنزل",
+    "copyToHouseholdPickTitle": "اختر المنزل",
+    "copyToHouseholdCreatedTitle": "تم النسخ إلى المنزل",
+    "copyToHouseholdCreatedBody": "تمت إضافة نسخة كوصفة للمنزل. تبقى النسخة الخاصة الأصلية دون تغيير."
   },
   "recipeForm": {
     "titleRequired": "يرجى إدخال عنوان.",

@@ -479,7 +479,11 @@
     "remixOf": "Remix eines anderen Rezepts",
     "addToPlan": "Zu Wochenplan hinzufügen",
     "shareLabel": "Teilen: {{visibility}}",
-    "remix": "Remixen"
+    "remix": "Remixen",
+    "copyToHousehold": "In Haushalt kopieren",
+    "copyToHouseholdPickTitle": "Haushalt wählen",
+    "copyToHouseholdCreatedTitle": "In Haushalt kopiert",
+    "copyToHouseholdCreatedBody": "Eine Kopie wurde als Haushaltsrezept angelegt. Das private Original bleibt unverändert."
   },
   "recipeForm": {
     "titleRequired": "Bitte gib einen Titel ein.",

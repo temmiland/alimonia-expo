@@ -472,7 +472,11 @@
     "remixOf": "改编自其他食谱",
     "addToPlan": "添加到膳食计划",
     "shareLabel": "分享范围：{{visibility}}",
-    "remix": "改编"
+    "remix": "改编",
+    "copyToHousehold": "复制到家庭组",
+    "copyToHouseholdPickTitle": "选择家庭组",
+    "copyToHouseholdCreatedTitle": "已复制到家庭组",
+    "copyToHouseholdCreatedBody": "已添加一份副本作为家庭组食谱。私人原始食谱保持不变。"
   },
   "recipeForm": {
     "titleRequired": "请输入标题。",

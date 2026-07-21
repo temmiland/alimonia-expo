@@ -472,7 +472,11 @@
     "remixOf": "Remix di un'altra ricetta",
     "addToPlan": "Aggiungi al piano pasti",
     "shareLabel": "Condivisione: {{visibility}}",
-    "remix": "Remixa"
+    "remix": "Remixa",
+    "copyToHousehold": "Copia nel nucleo famigliare",
+    "copyToHouseholdPickTitle": "Scegli nucleo famigliare",
+    "copyToHouseholdCreatedTitle": "Copiata nel nucleo famigliare",
+    "copyToHouseholdCreatedBody": "È stata aggiunta una copia come ricetta del nucleo famigliare. L'originale privata resta invariata."
   },
   "recipeForm": {
     "titleRequired": "Inserisci un titolo.",

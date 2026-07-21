@@ -472,7 +472,11 @@
     "remixOf": "Remiks innego przepisu",
     "addToPlan": "Dodaj do planu posiłków",
     "shareLabel": "Udostępnianie: {{visibility}}",
-    "remix": "Remiksuj"
+    "remix": "Remiksuj",
+    "copyToHousehold": "Kopiuj do gospodarstwa domowego",
+    "copyToHouseholdPickTitle": "Wybierz gospodarstwo domowe",
+    "copyToHouseholdCreatedTitle": "Skopiowano do gospodarstwa domowego",
+    "copyToHouseholdCreatedBody": "Kopia została dodana jako przepis gospodarstwa domowego. Prywatny oryginał pozostaje bez zmian."
   },
   "recipeForm": {
     "titleRequired": "Podaj tytuł.",

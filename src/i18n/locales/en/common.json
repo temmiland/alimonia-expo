@@ -479,7 +479,11 @@
     "remixOf": "Remix of another recipe",
     "addToPlan": "Add to meal plan",
     "shareLabel": "Sharing: {{visibility}}",
-    "remix": "Remix"
+    "remix": "Remix",
+    "copyToHousehold": "Copy to household",
+    "copyToHouseholdPickTitle": "Choose household",
+    "copyToHouseholdCreatedTitle": "Copied to household",
+    "copyToHouseholdCreatedBody": "A copy has been added as a household recipe. The private original stays unchanged."
   },
   "recipeForm": {
     "titleRequired": "Please enter a title.",

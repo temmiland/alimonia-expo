@@ -472,7 +472,11 @@
     "remixOf": "他のレシピのリミックス",
     "addToPlan": "献立に追加",
     "shareLabel": "共有設定: {{visibility}}",
-    "remix": "リミックス"
+    "remix": "リミックス",
+    "copyToHousehold": "世帯にコピー",
+    "copyToHouseholdPickTitle": "世帯を選択",
+    "copyToHouseholdCreatedTitle": "世帯にコピーしました",
+    "copyToHouseholdCreatedBody": "世帯のレシピとしてコピーが追加されました。プライベートの元のレシピはそのまま残ります。"
   },
   "recipeForm": {
     "titleRequired": "タイトルを入力してください。",

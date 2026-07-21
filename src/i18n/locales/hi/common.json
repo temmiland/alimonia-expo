@@ -472,7 +472,11 @@
     "remixOf": "किसी और रेसिपी का रीमिक्स",
     "addToPlan": "मील प्लान में जोड़ें",
     "shareLabel": "शेयरिंग: {{visibility}}",
-    "remix": "रीमिक्स करें"
+    "remix": "रीमिक्स करें",
+    "copyToHousehold": "हाउसहोल्ड में कॉपी करें",
+    "copyToHouseholdPickTitle": "हाउसहोल्ड चुनें",
+    "copyToHouseholdCreatedTitle": "हाउसहोल्ड में कॉपी हो गई",
+    "copyToHouseholdCreatedBody": "एक कॉपी हाउसहोल्ड रेसिपी के रूप में जोड़ दी गई है। निजी ओरिजिनल में कोई बदलाव नहीं हुआ है।"
   },
   "recipeForm": {
     "titleRequired": "कृपया एक टाइटल डालें।",

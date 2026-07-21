@@ -472,7 +472,11 @@
     "remixOf": "Ремікс іншого рецепта",
     "addToPlan": "Додати до плану",
     "shareLabel": "Доступ: {{visibility}}",
-    "remix": "Зробити ремікс"
+    "remix": "Зробити ремікс",
+    "copyToHousehold": "Копіювати в домогосподарство",
+    "copyToHouseholdPickTitle": "Вибрати домогосподарство",
+    "copyToHouseholdCreatedTitle": "Скопійовано в домогосподарство",
+    "copyToHouseholdCreatedBody": "Копію додано як рецепт домогосподарства. Приватний оригінал залишається без змін."
   },
   "recipeForm": {
     "titleRequired": "Введи назву.",

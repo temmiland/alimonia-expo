@@ -472,7 +472,11 @@
     "remixOf": "รีมิกซ์จากสูตรอาหารอื่น",
     "addToPlan": "เพิ่มลงแผนมื้ออาหาร",
     "shareLabel": "การแชร์: {{visibility}}",
-    "remix": "รีมิกซ์"
+    "remix": "รีมิกซ์",
+    "copyToHousehold": "คัดลอกไปยังครัวเรือน",
+    "copyToHouseholdPickTitle": "เลือกครัวเรือน",
+    "copyToHouseholdCreatedTitle": "คัดลอกไปยังครัวเรือนแล้ว",
+    "copyToHouseholdCreatedBody": "เพิ่มสำเนาเป็นสูตรอาหารของครัวเรือนแล้ว ต้นฉบับส่วนตัวยังคงไม่เปลี่ยนแปลง"
   },
   "recipeForm": {
     "titleRequired": "กรุณากรอกชื่อ",
